@@ -75,6 +75,15 @@ a {
 
 }
 
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/HelveticaNeue/HelveticaNeue.eot');
+    src: url('../font/HelveticaNeue/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+         url('../font/HelveticaNeue/HelveticaNeue.ttf')  format('truetype'),
+         url('../font/HelveticaNeue/HelveticaNeue.svg#svgFontName') format('svg');
+
+}
+
 body {
     background: #ecf0f1;
     font-family: "Montserrat", "HelveticaNeueLight", Helvetica, Arial, sans-serif;
