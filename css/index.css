@@ -238,21 +238,21 @@ body {
 }
 
 .flo {
-    background: url("../images/projects/flo/flo_preview.png");
+    background: url("../portfolio/flo/flo_preview.png");
     background-size: 200px 150px;
 }
 
 .redesign-wikipedia {
-    background: url("../images/projects/redesigns/wikipedia/wikipedia_preview.png");
+    background: url("../portfolio/wikipedia/wikipedia_preview.png");
     background-size: 200px 150px;
 }
 
 .redesign-offthewallmedia {
-    background: url("../images/projects/redesigns/offthewallmedia/offthewallmedia_preview.png");
+    background: url("../portfolio/offthewallmedia/offthewallmedia_preview.png");
     background-size: 200px 150px;
 }
 
 .branding-botscrape {
-    background: url("../images/projects/branding/botscrape/botscrape_preview.png");
+    background: url("../portfolio/botscrape/botscrape_preview.png");
     background-size: 200px 150px;
 }
