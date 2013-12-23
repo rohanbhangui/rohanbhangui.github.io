@@ -52,35 +52,35 @@ a {
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../font/Montserrat/Montserrat.eot');
-    src: url('../font/Montserrat/Montserrat.eot?#iefix') format('embedded-opentype'),
-         url('../font/Montserrat/Montserrat.ttf')  format('truetype'),
-         url('../font/Montserrat/Montserrat.svg#svgFontName') format('svg');
+    src: url('/font/Montserrat/Montserrat.eot');
+    src: url('/font/Montserrat/Montserrat.eot?#iefix') format('embedded-opentype'),
+         url('/font/Montserrat/Montserrat.ttf')  format('truetype'),
+         url('/font/Montserrat/Montserrat.svg#svgFontName') format('svg');
 }
 
 @font-face {
     font-family: 'MontserratBold';
-    src: url('../font/MontserratBold/MontserratBold.eot');
-    src: url('../font/MontserratBold/MontserratBold.eot?#iefix') format('embedded-opentype'),
-         url('../font/MontserratBold/MontserratBold.ttf')  format('truetype'),
-         url('../font/MontserratBold/MontserratBold.svg#svgFontName') format('svg');
+    src: url('/font/MontserratBold/MontserratBold.eot');
+    src: url('/font/MontserratBold/MontserratBold.eot?#iefix') format('embedded-opentype'),
+         url('/font/MontserratBold/MontserratBold.ttf')  format('truetype'),
+         url('/font/MontserratBold/MontserratBold.svg#svgFontName') format('svg');
 }
 
 @font-face {
     font-family: 'HelveticaNeueLight';
-    src: url('../font/HelveticaNeueLight/HelveticaNeueLight.eot');
-    src: url('../font/HelveticaNeueLight/HelveticaNeueLight.eot?#iefix') format('embedded-opentype'),
-         url('../font/HelveticaNeueLight/HelveticaNeueLight.ttf')  format('truetype'),
-         url('../font/HelveticaNeueLight/HelveticaNeueLight.svg#svgFontName') format('svg');
+    src: url('/font/HelveticaNeueLight/HelveticaNeueLight.eot');
+    src: url('/font/HelveticaNeueLight/HelveticaNeueLight.eot?#iefix') format('embedded-opentype'),
+         url('/font/HelveticaNeueLight/HelveticaNeueLight.ttf')  format('truetype'),
+         url('/font/HelveticaNeueLight/HelveticaNeueLight.svg#svgFontName') format('svg');
 
 }
 
 @font-face {
     font-family: 'HelveticaNeue';
-    src: url('../font/HelveticaNeue/HelveticaNeue.eot');
-    src: url('../font/HelveticaNeue/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
-         url('../font/HelveticaNeue/HelveticaNeue.ttf')  format('truetype'),
-         url('../font/HelveticaNeue/HelveticaNeue.svg#svgFontName') format('svg');
+    src: url('/font/HelveticaNeue/HelveticaNeue.eot');
+    src: url('/font/HelveticaNeue/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+         url('/font/HelveticaNeue/HelveticaNeue.ttf')  format('truetype'),
+         url('/font/HelveticaNeue/HelveticaNeue.svg#svgFontName') format('svg');
 
 }
 
@@ -248,21 +248,21 @@ body {
 }
 
 .flo {
-    background: url("../portfolio/flo/flo_preview.png");
+    background: url("/portfolio/flo/flo_preview.png");
     background-size: 200px 150px;
 }
 
 .redesign-wikipedia {
-    background: url("../portfolio/wikipedia/wikipedia_preview.png");
+    background: url("/portfolio/wikipedia/wikipedia_preview.png");
     background-size: 200px 150px;
 }
 
 .redesign-offthewallmedia {
-    background: url("../portfolio/offthewallmedia/offthewallmedia_preview.png");
+    background: url("/portfolio/offthewallmedia/offthewallmedia_preview.png");
     background-size: 200px 150px;
 }
 
 .branding-botscrape {
-    background: url("../portfolio/botscrape/botscrape_preview.png");
+    background: url("/portfolio/botscrape/botscrape_preview.png");
     background-size: 200px 150px;
 }
