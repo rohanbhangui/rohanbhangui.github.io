@@ -85,7 +85,7 @@ a {
 }
 
 body {
-    background: #ecf0f1;
+    background: #fff;
     font-family: "Montserrat", "HelveticaNeueLight", Helvetica, Arial, sans-serif;
     display: -webkit-box;
     display: -moz-box;
@@ -263,11 +263,29 @@ body {
     background-size: 200px 150px;
 }
 
+h1.project-title {
+    font-size: 1.5em;
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.shots-container {
+    width: 800px;
+    margin: auto;
+}
+
 .shots {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .shots > img {
     margin: auto;
+    width: 800px;
+    text-align: center;
+}
+
+.shots > p {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    text-align: center;
 }
