@@ -218,7 +218,7 @@ body {
 }
 
 .overlay {
-    background: rgba(255 ,255 ,255 ,.8);
+    background: rgba(255 ,255 ,255 ,.9);
     opacity: 0;
     -webkit-transition: opacity ease-out 0.4s;
     -moz-transition: opacity ease-out 0.4s;
