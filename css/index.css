@@ -265,7 +265,7 @@ body {
 
 .shots {
     margin: auto;
-    width: 100%;
+    border: 1px solid #ff0000;
 }
 
 .shots > img {
