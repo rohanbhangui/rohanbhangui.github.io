@@ -265,6 +265,8 @@ body {
 
 .shots {
     border: 1px solid #ff0000;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .shots > img {
