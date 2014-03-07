@@ -265,4 +265,5 @@ body {
 
 .shots {
     margin: auto;
+    float: left;
 }
