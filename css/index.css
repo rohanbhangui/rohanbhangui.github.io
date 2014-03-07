@@ -265,5 +265,9 @@ body {
 
 .shots {
     margin: auto;
-    float: left;
+    width: 100%;
+}
+
+.shots > img {
+    margin: auto;
 }
