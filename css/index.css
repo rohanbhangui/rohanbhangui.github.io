@@ -221,11 +221,7 @@ body {
 
 .text {
     font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-stroke: 0px;
     font-size: 0.75em;
-    padding: 10px;
 }
 
 .text > em {
@@ -266,3 +262,4 @@ body {
     background: url("/portfolio/botscrape/botscrape_preview.png");
     background-size: 200px 150px;
 }
+
