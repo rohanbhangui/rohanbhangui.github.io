@@ -85,7 +85,7 @@ a {
 }
 
 body {
-    background: #fff;
+    background: #f0f0f0;
     font-family: "Montserrat", "HelveticaNeueLight", Helvetica, Arial, sans-serif;
     display: -webkit-box;
     display: -moz-box;
@@ -200,7 +200,7 @@ body {
     width: 200px;
     height: 150px;
     border: 7px solid #fff;
-/*    box-shadow: 2px 2px 4px rgba(150, 150, 150, 0.71), inset 1px 1px 2px rgba(150, 150, 150, 0.2);*/
+    box-shadow: 2px 2px 6px rgba(150, 150, 150, 0.2), inset 1px 1px 2px rgba(150, 150, 150, 0.2);
     margin: 10px 20px 0 0;
     float: left;
     -webkit-transition: box-shadow ease-out 0.4s;
@@ -216,7 +216,8 @@ body {
     -moz-transition: opacity ease-out 0.4s;
     -o-transition: opacity ease-out 0.4s;
     transition: opacity ease-out 0.4s;
-    height: 150px;
+    height: 136px;
+    padding: 7px;
 }
 
 .text {
