@@ -275,6 +275,11 @@ body {
     background-size: 200px 150px;
 }
 
+.gethighered {
+    background: url("/portfolio/gethighered/gethighered_preview.png");
+    background-size: 200px 150px;
+}
+
 .redesign-wikipedia {
     background: url("/portfolio/wikipedia/wikipedia_preview.png");
     background-size: 200px 150px;
