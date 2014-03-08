@@ -229,6 +229,7 @@ body {
     box-shadow: 2px 2px 6px rgba(150, 150, 150, 0.2), inset 1px 1px 2px rgba(150, 150, 150, 0.2);
     margin: 10px 20px 0 0;
     float: left;
+    -webkit-text-stroke: 0.35px;
     -webkit-transition: box-shadow ease-out 0.4s;
     -moz-transition: box-shadow ease-out 0.4s;
     -o-transition: box-shadow ease-out 0.4s;
@@ -249,11 +250,11 @@ body {
 .text {
     font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
     font-size: 0.75em;
+    -webkit-text-stroke: 0.25px;
 }
 
 .text > em {
-    font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.15em;
     color: #707373;
 }
 
