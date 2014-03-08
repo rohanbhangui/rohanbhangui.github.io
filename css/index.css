@@ -102,6 +102,8 @@ a {
   }
 }
 
+/* Landing Page CSS */
+
 body {
     background: #f5f5f5;
     font-family: "Montserrat", "HelveticaNeueLight", Helvetica, Arial, sans-serif;
@@ -255,7 +257,7 @@ body {
 }
 
 .text > em {
-    font-size: 1.15em;
+    font-size: 1.3em;
     color: #707373;
 }
 
@@ -297,6 +299,13 @@ body {
     background-size: 200px 150px;
 }
 
+.branding-robido {
+    background: url("/portfolio/robido/robido_preview.png");
+    background-size: 200px 150px;
+}
+
+/* Project Pages */
+
 h1.project-title {
     font-size: 1.5em;
     font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
@@ -324,6 +333,7 @@ h1.project-title {
     text-align: center;
 }
 
+/* For business cards */
 .otwm .shot-5 > img, .otwm .shot-6 > img {
     width: 300px;
     margin-left: 250px;
