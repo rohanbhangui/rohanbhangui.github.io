@@ -175,6 +175,7 @@ body {
     margin-top: 20px;
     font-size: 1.7em;
     margin-bottom: 10px;
+    -webkit-text-stroke: 0.35px;
 }
 
 .side-title a {
@@ -276,7 +277,7 @@ body {
     background-size: 200px 150px;
 }
 
-.gethighered {
+.redesign-gethighered {
     background: url("/portfolio/gethighered/gethighered_preview.png");
     background-size: 200px 150px;
 }
