@@ -304,6 +304,11 @@ body {
     background-size: 200px 150px;
 }
 
+.redesign-closettheory {
+    background: url("/portfolio/closet-theory/closet-theory_preview.png");
+    background-size: 200px 150px;
+}
+
 /* Project Pages */
 
 h1.project-title {
@@ -337,4 +342,9 @@ h1.project-title {
 .otwm .shot-5 > img, .otwm .shot-6 > img {
     width: 300px;
     margin-left: 250px;
+}
+
+.CT .shot-1 > img {
+    width: 1400px;
+    margin-left: -290px;
 }
