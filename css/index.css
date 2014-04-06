@@ -309,6 +309,11 @@ body {
     background-size: 200px 150px;
 }
 
+.design-veloria {
+    background: url("/portfolio/veloria/veloria_preview.png");
+    background-size: 200px 150px;
+}
+
 /* Project Pages */
 
 h1.project-title {
