@@ -334,7 +334,7 @@ h1.project-title {
 }
 
 .shots > img {
-    margin: auto;
+    margin: 10px auto auto auto;
     width: 800px;
     text-align: center;
 }
@@ -342,6 +342,7 @@ h1.project-title {
 .shots > p {
     font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
     text-align: center;
+    margin-top: 15px;
 }
 
 /* For business cards */
