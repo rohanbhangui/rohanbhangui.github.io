@@ -323,7 +323,7 @@ h1.project-title {
     text-align: center;
 }
 
-.shots-container {
+.shots-container, .about-content {
     width: 800px;
     margin: auto;
 }
@@ -354,4 +354,27 @@ h1.project-title {
 .CT .shot-1 > img {
     width: 1400px;
     margin-left: -290px;
+}
+
+.about-content {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+
+.about-content h1 {
+    margin-left: 220px;
+    font-size: 16pt;
+}
+
+.about-content p {
+    margin-left: 220px;
+    line-height: 125%;
+}
+
+.about-content img {
+    float: left;
+    width: 200px;
+}
+
+.about-content a {
+    color: #0000ff;
 }
