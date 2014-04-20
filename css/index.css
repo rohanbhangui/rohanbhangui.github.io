@@ -52,62 +52,30 @@ a {
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/font/Montserrat/Montserrat.eot');
-    src: url('/font/Montserrat/Montserrat.eot?#iefix') format('embedded-opentype'),
-         url('/font/Montserrat/Montserrat.ttf')  format('truetype'),
-         url('/font/Montserrat/Montserrat.svg#svgFontName') format('svg');
-}
-
-@font-face {
-    font-family: 'MontserratBold';
-    src: url('/font/MontserratBold/MontserratBold.eot');
-    src: url('/font/MontserratBold/MontserratBold.eot?#iefix') format('embedded-opentype'),
-         url('/font/MontserratBold/MontserratBold.ttf')  format('truetype'),
-         url('/font/MontserratBold/MontserratBold.svg#svgFontName') format('svg');
-}
-
-@font-face {
-    font-family: 'HelveticaNeueLight';
-    src: url('/font/HelveticaNeueLight/HelveticaNeueLight.eot');
-    src: url('/font/HelveticaNeueLight/HelveticaNeueLight.eot?#iefix') format('embedded-opentype'),
-         url('/font/HelveticaNeueLight/HelveticaNeueLight.ttf')  format('truetype'),
-         url('/font/HelveticaNeueLight/HelveticaNeueLight.svg#svgFontName') format('svg');
+    font-family: 'OpenSansRegularLight';
+    src: url('/font/OpenSansRegularLight/OpenSansRegularLight.eot');
+    src: url('/font/OpenSansRegularLight/OpenSansRegularLight.eot?#iefix') format('embedded-opentype'),
+         url('/font/OpenSansRegularLight/OpenSansRegularLight.ttf')  format('truetype'),
+         url('/font/OpenSansRegularLight/OpenSansRegularLight.svg#svgFontName') format('svg');
 
 }
 
 @font-face {
-    font-family: 'HelveticaNeue';
-    src: url('/font/HelveticaNeue/HelveticaNeue.eot');
-    src: url('/font/HelveticaNeue/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
-         url('/font/HelveticaNeue/HelveticaNeue.woff') format('woff'),
-         url('/font/HelveticaNeue/HelveticaNeue.ttf')  format('truetype'),
-         url('/font/HelveticaNeue/HelveticaNeue.svg#HelveticaNeue') format('svg');
+    font-family: 'OpenSansRegular';
+    src: url('/font/OpenSansRegular/OpenSansRegular.eot');
+    src: url('/font/OpenSansRegular/OpenSansRegular.eot?#iefix') format('embedded-opentype'),
+         url('/font/OpenSansRegular/OpenSansRegular.woff') format('woff'),
+         url('/font/OpenSansRegular/OpenSansRegular.ttf')  format('truetype'),
+         url('/font/OpenSansRegular/OpenSansRegular.svg#OpenSansRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-  font-family: "HelveticaNeue";
-  src: url('/font/HelveticaNeue/HelveticaNeue.svg#HelveticaNeue') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@-moz-document url-prefix() {
-
-  @font-face {
-    font-family: 'HelveticaNeue';
-    src: url('../font/HelveticaNeue/HelveticaNeue.ttf') format('truetype');
-  }
-}
-
-/* Landing Page CSS */
+/* Portfolio Page CSS */
 
 body {
     height: 100%;
     background: #f5f5f5;
-    font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+    font-family: "OpenSansRegularLight", Helvetica, Arial, sans-serif;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -177,7 +145,7 @@ body {
     color: #bdc3c7;
     margin-top: 20px;
     font-size: 1.7em;
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     margin-bottom: 10px;
     -webkit-text-stroke: 0.35px;
 }
@@ -191,7 +159,7 @@ body {
 .side-item {
     text-transform: uppercase;
     font-size: 1.1em;
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     margin-top: 7px;
 }
 
@@ -213,7 +181,7 @@ body {
 }
 
 .nav-portfolio {
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     font-size: 0.85em;
     text-transform: uppercase;
     border-bottom: 1px solid #bdc3c7;
@@ -253,7 +221,7 @@ body {
 }
 
 .text {
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     font-size: 0.75em;
     -webkit-text-stroke: 0.25px;
 }
@@ -320,7 +288,7 @@ body {
 
 h1.project-title {
     font-size: 1.5em;
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
@@ -345,7 +313,7 @@ h1.project-title {
 }
 
 .shots > p {
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     text-align: center;
     margin-top: 15px;
 }
@@ -357,7 +325,7 @@ h1.project-title {
 }
 
 .about-content {
-    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
 }
 
 .about-content h1 {
