@@ -57,7 +57,6 @@ a {
     src: url('/font/OpenSansRegularLight/OpenSansRegularLight.eot?#iefix') format('embedded-opentype'),
          url('/font/OpenSansRegularLight/OpenSansRegularLight.ttf')  format('truetype'),
          url('/font/OpenSansRegularLight/OpenSansRegularLight.svg#svgFontName') format('svg');
-
 }
 
 @font-face {
@@ -67,15 +66,16 @@ a {
          url('/font/OpenSansRegular/OpenSansRegular.woff') format('woff'),
          url('/font/OpenSansRegular/OpenSansRegular.ttf')  format('truetype'),
          url('/font/OpenSansRegular/OpenSansRegular.svg#OpenSansRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 /* Portfolio Page CSS */
+
+* {
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+}
 
 body {
     height: 100%;
     background: #f5f5f5;
-    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -145,7 +145,6 @@ body {
     color: #bdc3c7;
     margin-top: 20px;
     font-size: 1.7em;
-    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     margin-bottom: 10px;
 }
 
@@ -158,7 +157,6 @@ body {
 .side-item {
     text-transform: uppercase;
     font-size: 1.1em;
-    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     margin-top: 7px;
 }
 
@@ -180,7 +178,6 @@ body {
 }
 
 .nav-portfolio {
-    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     font-size: 0.85em;
     text-transform: uppercase;
     border-bottom: 1px solid #bdc3c7;
@@ -220,7 +217,6 @@ body {
 }
 
 .text {
-    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     font-size: 0.75em;
     -webkit-text-stroke: 0.25px;
 }
@@ -287,7 +283,6 @@ body {
 
 h1.project-title {
     font-size: 1.5em;
-    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
@@ -312,7 +307,6 @@ h1.project-title {
 }
 
 .shots > p {
-    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
     text-align: center;
     margin-top: 15px;
 }
