@@ -337,6 +337,7 @@ h1.project-title {
     margin: 10px auto auto auto;
     width: 800px;
     text-align: center;
+    cursor: pointer;
 }
 
 .shots > p {
@@ -376,3 +377,19 @@ h1.project-title {
 
 /* for modal */
 
+.modal-container {
+    display: none;
+    width: 100%;
+    background: rgba(0,0,0, 0.5);
+    z-index: 100;
+    position: absolute;
+}
+
+.modal-container > img {
+    margin-top: 50px;
+    left: 50%;
+    margin-left: -700px;
+    width: 1400px;
+    z-index: 110;
+    position: relative;
+}
