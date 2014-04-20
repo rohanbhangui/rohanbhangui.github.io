@@ -1,26 +1,10 @@
-
-@font-face {
-    font-family: 'OpenSansRegularLight';
-    src: url('/font/OpenSansRegularLight/OpenSansRegularLight.eot');
-    src: url('/font/OpenSansRegularLight/OpenSansRegularLight.eot?#iefix') format('embedded-opentype'),
-         url('/font/OpenSansRegularLight/OpenSansRegularLight.ttf')  format('truetype'),
-         url('/font/OpenSansRegularLight/OpenSansRegularLight.svg#svgFontName') format('svg');
-}
-
-@font-face {
-    font-family: 'OpenSansRegular';
-    src: url('/font/OpenSansRegular/OpenSansRegular.eot');
-    src: url('/font/OpenSansRegular/OpenSansRegular.eot?#iefix') format('embedded-opentype'),
-         url('/font/OpenSansRegular/OpenSansRegular.woff') format('woff'),
-         url('/font/OpenSansRegular/OpenSansRegular.ttf')  format('truetype'),
-         url('/font/OpenSansRegular/OpenSansRegular.svg#OpenSansRegular') format('svg');
-}
-
 * {
     margin: 0;
     padding: 0;
-    font-family: 'OpenSansRegular', sans-serif;
+    font-family: Arial, sans-serif;
     font-style: normal;
+    color: #666;
+    font-weight: 400;
 }
 
 a {
@@ -99,30 +83,21 @@ body {
 .side-title {
 /*    color: rgba(150, 150, 150, 0.4);*/
     margin-left: 25px;
-    color: #bdc3c7;
     margin-top: 20px;
     font-size: 1.7em;
     margin-bottom: 10px;
 }
 
-.side-title a {
-/*    color: #fff;
-    text-shadow: 2px 2px 4px rgba(150, 150, 150, 0.71);*/
-    color: #bdc3c7;
-}
-
 .side-item {
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     font-size: 1.1em;
     margin-top: 7px;
 }
 
 .side-item a {
-    color: #bdc3c7;
     border-left: 5px solid rgba(0, 0, 0, 0);
     padding-left: 25px;
     padding: 2px 10px 2px 22px;
-    -webkit-text-stroke: 0.5px;
     -webkit-transition: all ease-out 0.4s;
     -moz-transition: all ease-out 0.4s;
     -o-transition: all ease-out 0.4s;
@@ -131,7 +106,6 @@ body {
 
 .side-item a:hover, .side-item.active > a {
     border-left: 5px solid #bdc3c7;
-    -webkit-text-stroke: 0.5px;
 }
 
 .nav-portfolio {
@@ -241,6 +215,7 @@ body {
 h1.project-title {
     font-size: 1.5em;
     text-align: center;
+    font-weight: normal;
 }
 
 .shots-container, .about-content {
@@ -265,17 +240,13 @@ h1.project-title {
 
 .shots > p {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 /* For business cards */
 .otwm .shot-5 > img, .otwm .shot-6 > img {
     width: 300px;
     margin-left: 250px;
-}
-
-.about-content {
-    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
 }
 
 .about-content h1 {
