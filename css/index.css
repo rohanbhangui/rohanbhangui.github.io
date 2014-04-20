@@ -351,11 +351,6 @@ h1.project-title {
     margin-left: 250px;
 }
 
-.CT .shot-1 > img {
-    width: 1400px;
-    margin-left: -290px;
-}
-
 .about-content {
     font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
 }
@@ -378,3 +373,6 @@ h1.project-title {
 .about-content a {
     color: #0000ff;
 }
+
+/* for modal */
+
