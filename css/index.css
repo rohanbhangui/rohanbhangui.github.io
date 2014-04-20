@@ -105,6 +105,7 @@ a {
 /* Landing Page CSS */
 
 body {
+    height: 100%;
     background: #f5f5f5;
     font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
     display: -webkit-box;
@@ -383,17 +384,18 @@ h1.project-title {
 .modal-container {
     display: none;
     width: 100%;
-    background: rgba(0,0,0, 0.5);
+    background: rgba(0,0,0, 0.8);
     z-index: 100;
-    position: absolute;
+    position: fixed;
+    height: inherit;
 }
 
 .modal-container > img {
     margin-top: 50px;
+    margin-bottom: 50px;
     left: 50%;
     margin-left: -700px;
     width: 1400px;
     z-index: 110;
     position: relative;
-    margin-bottom: 50px;
 }
