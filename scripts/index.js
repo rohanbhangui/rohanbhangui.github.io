@@ -8,7 +8,7 @@ $(document).ready(function () {
     $(".modal-container").css("overflow", "auto");
     $(".modal-container").fadeIn();
   });
-
+  
   $("body").on('click','.modal-container', function(e) {
     if (!$(e.target).is('img')) {
       $(".modal-container").css("overflow", "hidden");
