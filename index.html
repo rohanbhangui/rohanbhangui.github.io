@@ -6,105 +6,132 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Rohan Bhangui</title>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" media="screen" type="text/css" href="/css/index.css">
+  <link rel="stylesheet" media="screen" type="text/css" href="css/index.css">
   <link rel="shortcut icon" href="favicon.ico">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="/scripts/blur.js"></script>
+  <script type="text/javascript" src="/scripts/index.js"></script>
 
 </head>
 <body>
-  <section class="side side-static">
-  	<div class="side-title"><a href="/">Rohan Bhangui</a></div>
-    <nav class="nav-side">
-      <ul class="nav-bar">
-        <li class="side-item active"><a href="/">Portfolio</a></li>
-        <li class="side-item"><a href="/about/">About</a></li>
-        <li class="side-item"><address><a href="mailto:bhanguirohan@gmail.com">Contact</a></address></li>
-      </ul>
-    </nav>
-  </section>
-  <section class="main">
-    <div class="portfolio-projects">
-      <div class="project flo">
-        <a href="/frontend/">
-          <div class="overlay">
-            <div class="text">
-              <em>Flo UI Frontend Framework</em>
-              <p class="content">Co-authored a frontend framework designed for fast prototyping of flat web design</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="project redesign-gethighered">
-        <a href="http://gethighered.ca">
-          <div class="overlay">
-            <div class="text">
-              <em>Get Highered Redesign</em>
-              <p class="content">A Canadian student jobs startup that needed a site redesign. I was incharge of design and front end development</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="project redesign-wikipedia">
-        <a href="/portfolio/wikipedia/">
-          <div class="overlay">
-            <div class="text">
-              <em>Wikipedia Redesign</em>
-              <p class="content">Concept redesign for some of wikipedia's visual assets and certain parts of their site</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="project redesign-offthewallmedia">
-        <a href="/portfolio/offthewallmedia">
-          <div class="overlay">
-            <div class="text">
-              <em>OffTheWall Media Redesign</em>
-              <p class="content">My process for a concept redesign for some of visual assets of OffTheWall Media</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="project branding-botscrape">
-        <a href="/portfolio/botscrape/">
-          <div class="overlay">
-            <div class="text">
-              <em>Botscrape Branding</em>
-              <p class="content">Concept branding for a prototype webapp that can be programmed to scrape through webpages and other data</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="project branding-robido">
-        <a href="/portfolio/robido/">
-          <div class="overlay">
-            <div class="text">
-              <em>Robido Branding</em>
-              <p class="content">Creating a logo for a web design and development consultancy that I co-founded</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="project redesign-closettheory">
-        <a href="/portfolio/closet-theory/">
-          <div class="overlay">
-            <div class="text">
-              <em>Closet Theory Redesign</em>
-              <p class="content">A client required a ground up redesign of their site for their closet organizing consultancy</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="project design-veloria">
-        <a href="/portfolio/veloria/">
-          <div class="overlay">
-            <div class="text">
-              <em>Veloria Design</em>
-              <p class="content">A design for a client for a concert/party planning business</p>
-            </div>
-          </div>
-        </a>
-      </div>
+  <div class="modal">
+    <div class="modal-backbutton">
+      &#xf060;
     </div>
-  </section>
+    <div class="modal-content">
+    </div>
+  </div>
+  <div class="slidedown bounce">
+    &#xf078;
+  </div>
+  <main class="main">
+    <section id="splash">
+    </section>
+    <section id="about">
+      <div class="about-container">
+        <h1 class="title">About Me</h1>
+        <div class="about-content">
+          <div class="about-profilepicture"></div>
+          <p>Hi, my name is Rohan Bhangui and I am a 19 year old UX/UI designer and developer from Toronto, Canada. As I pursue a degree in Computer Science at Ryerson University, in parallel, I work on creating great user interfaces and crafting functionality-first user experiences. Although I do a lot of freelance work for clients from all around the world, I am currently a co-founder and lead designer at a small web design and development consultancy called Robido. In my spare time I like to read and play a lot of sports.
+            <br><br>
+            Feel free to take a look at my <a href="/files/resume.pdf" target="_blank">resume</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <h1 class="title">Portfolio</h1>
+      <div class="projects">
+        <div class="project flo">
+          <a href="/frontend/">
+            <div class="overlay">
+              <div class="text">
+                <em>Flo UI Frontend<br>Framework</em>
+                <p class="content">Co-authored a frontend framework designed for fast prototyping of flat web design</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project redesign-gethighered">
+          <a href="http://gethighered.ca">
+            <div class="overlay">
+              <div class="text">
+                <em>Get Highered<br>Redesign</em>
+                <p class="content">A Canadian student jobs startup that needed a site redesign. I was incharge of design and front end development</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project redesign-wikipedia">
+          <a href="/portfolio/wikipedia/">
+            <div class="overlay">
+              <div class="text">
+                <em>Wikipedia Redesign</em>
+                <p class="content">Concept redesign for some of wikipedia's visual assets and certain parts of their site</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project redesign-offthewallmedia">
+          <a href="/portfolio/offthewallmedia/">
+            <div class="overlay">
+              <div class="text">
+                <em>OffTheWall Media<br>Redesign</em>
+                <p class="content">My process for a concept redesign for some of visual assets of OffTheWall Media</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project branding-botscrape">
+          <a href="/portfolio/botscrape/">
+            <div class="overlay">
+              <div class="text">
+                <em>Botscrape Branding</em>
+                <p class="content">Concept branding for a prototype webapp that can be programmed to scrape through webpages and other data</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project branding-robido">
+          <a href="/portfolio/robido/">
+            <div class="overlay">
+              <div class="text">
+                <em>Robido Branding</em>
+                <p class="content">Creating a logo for a web design and development consultancy that I co-founded</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project redesign-closettheory">
+          <a href="/portfolio/closet-theory/">
+            <div class="overlay">
+              <div class="text">
+                <em>Closet Theory Redesign</em>
+                <p class="content">A client required a ground up redesign of their site for their closet organizing consultancy</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project design-veloria">
+          <a href="/portfolio/veloria/">
+            <div class="overlay">
+              <div class="text">
+                <em>Veloria Design</em>
+                <p class="content">A design for a client for a concert/party planning business</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project break"></div>
+        <div class="project break"></div>
+        <div class="project break"></div>
+        <div class="project break"></div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact</h1>
+    </section>
+  </main>
 </body>
 </html>
