@@ -29,7 +29,6 @@ $(document).ready(function () {
     var name = $(this).attr("href").replace("/portfolio/","").replace("/","");
 
     var pathToContent = $(this).attr("href");
-    console.log(pathToContent);
 
     deepLink(id, name, pathToContent);
 
