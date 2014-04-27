@@ -33,16 +33,6 @@ $(document).ready(function () {
 
 
   $(window).scroll(function() {
-
-    //if portfolio page is reached
-    if($(window).scrollTop() >= $(window).height() && $(window).scrollTop() < $(document).height()- $(window).height())
-    {
-      $("body").css("background-image", "url('/images/image-blurred.jpg')");
-    }
-    else
-    {
-      $("body").css("background-image", "url('/images/image.jpg')");
-    }
     
     //for the slidedown button
     if($(window).scrollTop() == 0)
