@@ -6,7 +6,7 @@ $(document).ready(function () {
     $(".slidedown").fadeIn();
   });
 
-  function deepLink(id, name, content) {
+/*  function deepLink(id, name, content) {
     history.pushState( {
       link_id: 1,
       link: name
@@ -14,7 +14,7 @@ $(document).ready(function () {
 
     $(".modal .modal-content").load(content);
   }
-
+*/
 /*  $('#portfolio').blurjs({
     source: 'body',
     radius: 7,
@@ -30,7 +30,8 @@ $(document).ready(function () {
 
     var pathToContent = $(this).attr("href");
 
-    deepLink(id, name, pathToContent);
+    //deepLink(id, name, pathToContent);
+    $(".modal .modal-content").load(pathToContent);
 
     $("body").css("overflow", "hidden");
     $(".modal").css("overflow", "auto");
