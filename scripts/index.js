@@ -39,7 +39,7 @@ $(document).ready(function () {
   });
   
   $(".modal-backbutton").on("click", function(e) {
-    deepLink(0, "mainpage", "/");
+    //deepLink(0, "mainpage", "/");
     $(".modal").css("overflow", "hidden");
     $("body").css("overflow", "auto");
     $(".modal").fadeOut();
