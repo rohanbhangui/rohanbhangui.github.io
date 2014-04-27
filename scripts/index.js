@@ -6,20 +6,32 @@ $(document).ready(function () {
     $(".slidedown").fadeIn();
   });
 
+  function deepLink(id, name, content) {
+    history.pushState( {
+      link_id: 1,
+      link: name
+    }, null, content);
+
+    $(".modal .modal-content").load(content);
+  }
+
 /*  $('#portfolio').blurjs({
     source: 'body',
     radius: 7,
     overlay: 'rgba(255,255,255,0.4)'
   });*/
 
-  $(".project a[href*='portfolio']").on("click", function (e) {
+  $(".projects .project a[href*='portfolio']").on("click", function (e) {
     e.preventDefault();
 
-    console.log($(this).attr("href"));
+    var id = $(this).parent().index() + 1;
+
+    var name = $(this).attr("href").replace("/portfolio/","").replace("/","");
 
     var pathToContent = $(this).attr("href") + "main.html .main";
 
-    $(".modal .modal-content").load(pathToContent);
+    deepLink(id, name, pathToContent);
+
     $("body").css("overflow", "hidden");
     $(".modal").css("overflow", "auto");
     $(".modal").fadeIn();
