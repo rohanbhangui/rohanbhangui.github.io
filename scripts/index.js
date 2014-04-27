@@ -35,7 +35,7 @@ $(document).ready(function () {
 
     $("body").css("overflow", "hidden");
     $(".modal").css("overflow", "auto");
-    $(".modal").fadeIn();
+    $(".modal").fadeIn("slow");
   });
   
   $(".modal-backbutton").on("click", function(e) {
