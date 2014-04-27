@@ -10,24 +10,6 @@
 }
 
 @font-face {
-    font-family: 'SourceSansProExtraLight';
-    src: url('/font/SourceSansProExtraLight/SourceSansProExtraLight.eot');
-    src: url('/font/SourceSansProExtraLight/SourceSansProExtraLight.eot?#iefix') format('embedded-opentype'),
-    url('/font/SourceSansProExtraLight/SourceSansProExtraLight.woff') format('woff'),
-    url('/font/SourceSansProExtraLight/SourceSansProExtraLight.ttf')  format('truetype'),
-    url('/font/SourceSansProExtraLight/SourceSansProExtraLight.svg#SourceSansProExtraLight') format('svg');
-}
-
-@font-face {
-    font-family: 'HelveticaNeueUltraLight';
-    src: url('/font/HelveticaNeueUltraLight/HelveticaNeueUltraLight.eot');
-    src: url('/font/HelveticaNeueUltraLight/HelveticaNeueUltraLight.eot?#iefix') format('embedded-opentype'),
-    url('/font/HelveticaNeueUltraLight/HelveticaNeueUltraLight.woff') format('woff'),
-    url('/font/HelveticaNeueUltraLight/HelveticaNeueUltraLight.ttf')  format('truetype'),
-    url('/font/HelveticaNeueUltraLight/HelveticaNeueUltraLight.svg#HelveticaNeueUltraLight') format('svg');
-}
-
-@font-face {
     font-family: 'OpenSansLight';
     src: url('/font/OpenSansLight/OpenSansLight.eot');
     src: url('/font/OpenSansLight/OpenSansLight.eot?#iefix') format('embedded-opentype'),
@@ -412,7 +394,6 @@ h1.project-title {
     height: 0;
 }
 
-
 @media all and (max-width:2000px) {.project {width:250px; height:250px;-webkit-border-radius: 125px;-moz-border-radius: 125px;border-radius: 125px;}}
 @media all and (max-width:1660px) {.project {width:300px; height:300px;margin: 20px 2px 0px 2px;-webkit-border-radius: 150px;-moz-border-radius: 150px;border-radius: 150px;}}
 @media all and (max-width:1480px) {.project {width:260px; height:260px;-webkit-border-radius: 130px;-moz-border-radius: 130px;border-radius: 130px;}}
@@ -426,35 +407,35 @@ h1.project-title {
 @media all and (max-width:480px) {.project {width:250px; height:250px;-webkit-border-radius: 125px;-moz-border-radius: 125px;border-radius: 125px;}}
 
 .flo {
-    background-image: url("/portfolio/flo/flo_preview2.png");
+    background-image: url("/portfolio/flo/flo_preview.png");
 }
 
 .redesign-gethighered {
-    background-image: url("/portfolio/gethighered/gethighered_preview2.png");
+    background-image: url("/portfolio/gethighered/gethighered_preview.png");
 }
 
 .redesign-wikipedia {
-    background-image: url("/portfolio/wikipedia/wikipedia_preview2.png");
+    background-image: url("/portfolio/wikipedia/wikipedia_preview.png");
 }
 
 .redesign-offthewallmedia {
-    background-image: url("/portfolio/offthewallmedia/offthewallmedia_preview2.png");
+    background-image: url("/portfolio/offthewallmedia/offthewallmedia_preview.png");
 }
 
 .branding-botscrape {
-    background-image: url("/portfolio/botscrape/botscrape_preview2.png");
+    background-image: url("/portfolio/botscrape/botscrape_preview.png");
 }
 
 .branding-robido {
-    background-image: url("/portfolio/robido/robido_preview2.png");
+    background-image: url("/portfolio/robido/robido_preview.png");
 }
 
 .redesign-closettheory {
-    background-image: url("/portfolio/closet-theory/closet-theory_preview2.png");
+    background-image: url("/portfolio/closet-theory/closet-theory_preview.png");
 }
 
 .design-veloria {
-    background-image: url("/portfolio/veloria/veloria_preview2.png");
+    background-image: url("/portfolio/veloria/veloria_preview.png");
 }
 
 .project a {
