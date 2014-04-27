@@ -250,7 +250,9 @@ h1.project-title {
     margin-left: -23px;
     text-align: center;
     z-index: 1000;
-    padding: 11px 12px;
+    padding-top: 11px;
+    width: 46px;
+    height: 35px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
