@@ -287,7 +287,7 @@ h1.project-title {
     z-index: -1000;
 }
 
-#about {
+#about, #contact {
     background: #fff;
 }
 
@@ -300,10 +300,6 @@ h1.project-title {
     -o-background-size: cover;
     background-size: cover;
     padding-top: 50px;
-}
-
-#contact {
-    background: #3498db;
 }
 
 .title {
@@ -330,7 +326,7 @@ h1.project-title {
 }
 
 
-#about .title {
+#about .title, #contact .title {
     margin: auto auto 5px auto;
     color: #3498db;
 /*    color: #7DC8FA;*/
@@ -508,6 +504,22 @@ h1.project-title {
 .overlay .content {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+/* contact page */
+
+.contact-container {
+    border: 1px solid #ff0000;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+}
+
+.info-line {
+    vertical-align: middle;
+}
+
+.social-icons {
+    font-family: "FontAwesome";
+    font-size: 24px;
 }
 
 
