@@ -542,19 +542,19 @@ h1.project-title {
 
 .contact-container a {
     color: rgba(0, 0, 0, 0.3);
-    -webkit-transition: 0.75s;
-    -moz-transition: 0.75s;
-    -ms-transition: 0.75s;
-    -o-transition: 0.75s;
-    transition: 0.75s;
+    -webkit-transition: 0.30s;
+    -moz-transition: 0.30s;
+    -ms-transition: 0.30s;
+    -o-transition: 0.30s;
+    transition: 0.30s;
 }
 
 .contact-container a:hover {
-    -webkit-transition: 0.75s;
-    -moz-transition: 0.75s;
-    -ms-transition: 0.75s;
-    -o-transition: 0.75s;
-    transition: 0.75s;
+    -webkit-transition: 0.30s;
+    -moz-transition: 0.30s;
+    -ms-transition: 0.30s;
+    -o-transition: 0.30s;
+    transition: 0.30s;
 }
 
 .contact-container a#dribbble:hover {
