@@ -568,3 +568,7 @@ h1.project-title {
 .contact-container a#twitter:hover {
     color: #55acee;
 }
+
+.contact-container a#linkedin:hover {
+    color: #007bb6;
+}
