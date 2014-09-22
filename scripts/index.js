@@ -45,6 +45,11 @@ $(document).ready(function () {
     $(".modal").fadeOut();
   });
 
+  $(window).on("mousewheel", function(event) {
+    console.log(event.deltaX, event.deltaY, event.deltaFactor);
+  });
+  
+
 
   $(window).scroll(function() {
     
