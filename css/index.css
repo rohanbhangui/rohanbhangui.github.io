@@ -455,6 +455,10 @@ h1.project-title {
     background-image: url("/portfolio/veloria/veloria_preview.png");
 }
 
+.design-line-icons {
+    background-image: url("/portfolio/line-icons/closet-theory_preview.png");
+}
+
 .project a {
     text-decoration: none;
     color: #222;
