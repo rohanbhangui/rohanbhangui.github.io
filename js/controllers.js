@@ -2,6 +2,7 @@ var portfolio = [
   {
     "id": '1',
     "name": "flo",
+    "colour": "#25b799",
     "permalink": "/frontend/",
     "target": "_blank",
     "title": "Flo UI Frontend Framework",
@@ -10,14 +11,16 @@ var portfolio = [
   {
     "id": '2',
     "name": "gethighered",
+    "colour": "#e9e9e8",
     "permalink": "http://gethighered.ca",
     "target": "_blank",
-    "title": "Get Highered Redesign",
-    "content": "A Canadian student jobs startup that needed a site redesign. I was incharge of design and front end development"
+    "title": "Get Highered",
+    "content": "A redesign project for a Canadian student jobs startup."
   },
   {
     "id": '3',
     "name": "line-icons",
+    "colour": "#52ba6e",
     "permalink": "/portfolio/line-icons/",
     "target": "_self",
     "title": "Line Icons",
@@ -26,14 +29,16 @@ var portfolio = [
   {
     "id": '4',
     "name": "wikipedia",
+    "colour": "#515151",
     "permalink": "/portfolio/wikipedia",
     "target": "_self",
-    "title": "Wikipedia Redesign",
+    "title": "Wikipedia",
     "content": "Concept redesign for some of wikipedia's visual assets and certain parts of their site"
   },
   {
     "id": '5',
     "name": "offthewallmedia",
+    "colour": "#c32026",
     "permalink": "/portfolio/offthewallmedia/",
     "target": "_self",
     "title": "OffTheWall Media Redesign",
@@ -42,6 +47,7 @@ var portfolio = [
   {
     "id": '6',
     "name": "closet-theory",
+    "colour": "#25b799",
     "permalink": "/portfolio/closet-theory/",
     "target": "_self",
     "title": "Closet Theory Redesign",
@@ -50,6 +56,7 @@ var portfolio = [
   {
     "id": '7',
     "name": "veloria",
+    "colour": "#25b799",
     "permalink": "/portfolio/veloria/",
     "target": "_self",
     "title": "Veloria Site Designs",
