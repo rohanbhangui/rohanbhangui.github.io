@@ -2,7 +2,7 @@ var portfolio = [
   {
     "id": '1',
     "name": "flo",
-    "colour": "#25b799",
+    "colour": "#25B799",
     "permalink": "/frontend/",
     "target": "_blank",
     "title": "Flo UI Frontend Framework",
@@ -20,7 +20,7 @@ var portfolio = [
   {
     "id": '3',
     "name": "line-icons",
-    "colour": "#52ba6e",
+    "colour": "#4CAF50",
     "permalink": "/portfolio/line-icons/",
     "target": "_self",
     "title": "Line Icons",
@@ -38,7 +38,7 @@ var portfolio = [
   {
     "id": '5',
     "name": "offthewallmedia",
-    "colour": "#c32026",
+    "colour": "#E53935",
     "permalink": "/portfolio/offthewallmedia/",
     "target": "_self",
     "title": "OffTheWall Media Redesign",
