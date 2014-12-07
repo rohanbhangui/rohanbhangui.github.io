@@ -1,3 +1,5 @@
+ 'use strict';
+
 var myApp = angular.module('myApp', [
   'ngRoute',
   'myControllers'
@@ -21,4 +23,5 @@ myApp.config(['$routeProvider',
       otherwise({
         redirectTo: '/portfolio'
       });
-  }]);
+  }
+]);
