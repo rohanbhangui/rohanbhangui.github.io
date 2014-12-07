@@ -53,7 +53,7 @@ var portfolio = [
 
 var myControllers = angular.module('myControllers', []);
 
-phonecatControllers.controller('PhoneListCtrl', ['$scope',
+phonecatControllers.controller('PortfolioCtrl', ['$scope',
   function ($scope) {
     $scope = portfolio;
 
