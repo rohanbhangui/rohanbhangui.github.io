@@ -10,7 +10,7 @@ myApp.config(['$routeProvider',
     $routeProvider.
       when('/portfolio', {
         templateUrl: 'partials/portfolio.html',
-        controller: 'PortfolioCtrl'
+        controller: 'ProjectLoadCtrl'
       }).
       when('/about', {
         templateUrl: 'partials/about.html',
@@ -21,7 +21,7 @@ myApp.config(['$routeProvider',
         controller: 'ContactCtrl'
       }).
       otherwise({
-        redirectTo: '/portfolio'
+        redirectTo: '/about'
       });
   }
 ]);

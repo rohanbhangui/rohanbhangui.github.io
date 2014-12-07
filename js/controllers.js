@@ -55,8 +55,21 @@ var myControllers = angular.module('myControllers', []);
 
 myControllers.controller('PortfolioCtrl', ['$scope',
   function ($scope) {
-    $scope = portfolio;
+    $scope.projects = portfolio;
+  }
+]);
 
-    $scope.orderProp = 'age';
+myControllers.controller('ProjectLoadCtrl', ['$scope',
+  function ($scope) {
+  }
+]);
+
+myControllers.controller('AboutCtrl', ['$scope',
+  function ($scope) {
+  }
+]);
+
+myControllers.controller('ContactCtrl', ['$scope',
+  function ($scope) {
   }
 ]);
