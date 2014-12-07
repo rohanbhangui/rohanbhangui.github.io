@@ -26,7 +26,7 @@
     <div class="portfolio-nav">
       <ul class="projects-container" ng-controller="PortfolioCtrl">
         <li ng-repeat="project in projects">
-          <a class="project-link" href="{{project.permalink}}">
+          <a class="project-link" href="{{project.permalink}}" ng-attr-target="{{project.target}}">
             <img class="project-image" src="/portfolio/{{project.name}}/{{project.name}}_preview.png" />
             <div class="project-title">{{project.title}}</div>
           </a>
