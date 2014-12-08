@@ -107,6 +107,51 @@ nav ul li a:active {
 
 /* About Section */
 
+.about-container {
+    border: 1px solid #ff0000;
+    position: absolute;
+    max-width: 800px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+
+#about .title, #contact .title {
+    margin: auto auto 5px auto;
+    color: #3498db;
+/*    color: #7DC8FA;*/
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+    color: #7f8c8d;
+}
+
+.about-content .about-profilepicture {
+    width: 190px;
+    height: 190px;
+    background-image: url("/images/profile.jpg");
+    background-size: 190px;
+    -webkit-border-radius: 95px;
+    -moz-border-radius: 95px;
+    border-radius: 95px;
+    position: absolute;
+}
+
+.about-content p {
+    margin-left: 220px;
+    line-height: 135%;
+}
+
+.about-content a:hover {
+    text-decoration: underline; 
+}
 
 
 
