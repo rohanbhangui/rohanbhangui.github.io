@@ -163,7 +163,7 @@ nav ul li a:active {
 }
 
 
-.project-link img {
+.project-image {
     width: 52px;
     height: 52px;
     -webkit-border-radius: 50px;
@@ -178,15 +178,16 @@ nav ul li a:active {
 
 }
 
-.project-link:hover img {
+.project-image:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
-.project-link:active img {
+.project-image:active {
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
-.project-link .project-title {
+.project-image ~ .project-title {
+    visibility: hidden;
     opacity: 0;
     position: absolute;
     left: 80px;
@@ -204,12 +205,13 @@ nav ul li a:active {
     transition: left linear .2s, opacity linear .1s;
 }
 
-.project-link:hover .project-title {
+.project-image:hover ~ .project-title {
+    visibility: visible;
     opacity: 1;
     left: 90px;
 }
 
-.project-link .arrow-left {
+.project-title .arrow-left {
     position: absolute;
     top: 6.5px;
     left: -7px;
