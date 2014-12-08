@@ -116,7 +116,7 @@ nav ul li a:hover {
     -moz-border-radius: 50px;
     border-radius: 50px;
     border: 0;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     -webkit-transition: box-shadow linear .2s;
     -moz-transition: box-shadow linear .2s;
     -o-transition: box-shadow linear .2s;
@@ -125,7 +125,11 @@ nav ul li a:hover {
 }
 
 .project-link:hover img {
-    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.76);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.project-link:active img {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 .project-link .project-title {
