@@ -28,7 +28,7 @@
         <li ng-repeat="project in projects">
           <a class="project-link" href="{{project.permalink}}" ng-attr-target="{{project.target}}">
             <img class="project-image" src="/portfolio/{{project.name}}/{{project.name}}_preview.png" style="background-color: {{project.colour}};"/>
-            <div class="project-title">{{project.title}}</div>
+            <div class="project-title"><div class="arrow-left"></div>{{project.title}}</div>
           </a>
         </li>
       </ul>
