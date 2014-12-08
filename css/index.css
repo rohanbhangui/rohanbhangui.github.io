@@ -187,7 +187,6 @@ nav ul li a:active {
 }
 
 .project-link .project-title {
-    display: block;
     opacity: 0;
     position: absolute;
     left: 80px;
@@ -218,7 +217,6 @@ nav ul li a:active {
     height: 0; 
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent; 
-    
     border-right: 7px solid rgba(0, 0, 0, 0.5); 
 }
 
