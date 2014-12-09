@@ -45,8 +45,8 @@ nav {
 
 nav .title {
     font-family: "Montserrat", 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 4em;
+    font-weight: 300;
+    font-size: 64px;
     margin-top: -5px;
     text-transform: uppercase;
 }
@@ -123,7 +123,7 @@ nav ul li a:hover {
 
 .project {
     text-align: center;
-    font-size: 2rem;
+    font-size: 32px;
     margin-top: 20px;
 }
 
@@ -141,5 +141,37 @@ nav ul li a:hover {
 
 .project a:hover {
     color: rgba(0, 0, 0, 0.4);
+}
+
+/* portfolio pages */
+
+#portfolio-item main {
+    margin-top: 0px;
+}
+
+#portfolio-item .project-jumbotron {
+    position: relative;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: right;
+    font-weight: 300;
+    font-size: 48px;
+    height: 400px;
+}
+
+#portfolio-item .project-jumbotron .project-title {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#portfolio-item .project-jumbotron .project-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
 }
 
