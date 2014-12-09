@@ -162,11 +162,12 @@ nav ul li a:hover {
     position: absolute;
     right: 20px;
     bottom: 20px;
+    max-width: 512px;
 }
 
 #portfolio-item .project-jumbotron .project-image {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     -moz-transform: translateY(-50%) translateX(-50%);
