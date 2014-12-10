@@ -38,8 +38,6 @@ main {
 nav {
     height: 75px;
     padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid #00ff00;
 }
 
 #restrict-container {
@@ -73,7 +71,7 @@ ul {
 
 nav ul {
     float: right;
-    margin-top: 30px;
+    margin-top: 33px;
 }
 
 nav ul li {
