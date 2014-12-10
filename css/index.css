@@ -37,9 +37,13 @@ main {
 
 nav {
     height: 75px;
-    margin: auto;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#restrict-container {
+    max-width: 1920px;
+    margin: auto;
 }
 
 nav .title {
@@ -126,6 +130,7 @@ nav ul li a:hover {
 }
 
 .project a {
+    font-weight: 300;
     color: rgba(0, 0, 0, 0.25);
     padding: 5px 15px;
     -webkit-border-radius: 3px;
@@ -157,10 +162,15 @@ nav ul li a:hover {
 }
 
 #portfolio-item .project-jumbotron .project-title {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
+    position: relative;
+    left: 100%;
+    top: 400px;
     max-width: 512px;
+    -webkit-transform: translateY(-110%) translateX(-103%);
+    -moz-transform: translateY(-110%) translateX(-103%);
+    -ms-transform: translateY(-110%) translateX(-103%);
+    -o-transform: translateY(-110%) translateX(-103%);
+    transform: translateY(-110%) translateX(-103%);
 }
 
 #portfolio-item .project-jumbotron .project-image {
@@ -198,16 +208,17 @@ nav ul li a:hover {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.otwm .shot-1 .old-logo, .otwm .shot-2 .new-logo {
-    width: 50%;
+.otwm .shot-1 .old-logo, .otwm .shot-2 .other-brands {
+    width: 33%;
     float: left;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
-.otwm .shot-1 .old-logo img, .otwm .shot-2 .new-logo img {
-    height: 55%;
-    width: 55%;
-    margin-left: 50%;
+.otwm .shot-1 .old-logo img, .otwm .shot-2 .other-brands img {
+    height: 70%;
+    width: 70%;
+    position: relative;
+    left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -215,13 +226,42 @@ nav ul li a:hover {
     transform: translateX(-50%);
 }
 
-.otwm .shot-1 .old-logo h4 {
+.otwm .shot-1 .old-logo h5, .otwm .shot-2 .other-brands h5 {
     margin-top: 5px;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.4);
 }
 
-.otwm .shot-2 .new-logo img {
-    height: 67%;
-    width: 67%;
+.otwm .shot-1 #old-logo-text {
+    margin-top: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 300;
 }
+
+.otwm .shot-2 .other-brands img {
+    height: 10%;
+    width: auto;
+}
+
+.otwm .shot-2 .other-brands ul li:before {
+    content: "-";
+    position: relative;
+    left: -5px;  
+}
+
+.otwm .shot-2 .other-brands ul {
+    margin-top: 50px;
+}
+
+.otwm .shot-2 .other-brands ul li {
+    text-indent: -5px;
+    margin-left: 20%;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+}
+
+
+
