@@ -195,7 +195,7 @@ nav ul li a:hover {
     margin-bottom: 50px;
 }
 
-.otwm .shot-1, .otwm .shot-2 {
+.otwm .shots {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -213,8 +213,7 @@ nav ul li a:hover {
     margin-top: 40px;
 }
 
-.otwm .shot-1 .old-logo img, .otwm .shot-2 .other-brands img {
-    height: 70%;
+.otwm .shot-1 .old-logo img {
     width: 70%;
     position: relative;
     left: 50%;
@@ -241,8 +240,14 @@ nav ul li a:hover {
 }
 
 .otwm .shot-2 .other-brands img {
-    height: 10%;
-    width: auto;
+    max-height: 10vw;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .otwm .shot-2 .other-brands ul li:before {
@@ -252,7 +257,7 @@ nav ul li a:hover {
 }
 
 .otwm .shot-2 .other-brands ul {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .otwm .shot-2 .other-brands ul li {
