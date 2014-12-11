@@ -65,6 +65,12 @@
 .bit-75 {
   width: 75%; }
 
+.bot-30 {
+  width: 30%; }
+
+.bot-70 {
+  width: 70%; }
+
 @media (max-width: 30em) {
   .bit-1 {
     width: 100%; }
@@ -306,53 +312,34 @@ nav {
       content: "-";
       position: relative;
       left: -5px; }
-.otwm .shot-1 .old-logo {
-  width: 33%;
-  float: left; }
-  .otwm .shot-1 .old-logo img {
-    width: 70%; }
-  .otwm .shot-1 .old-logo h5 {
-    font-size: 14px;
-    margin-top: 5px;
-    font-weight: normal;
-    color: rgba(0, 0, 0, 0.4); }
+.otwm .shot-1 .old-logo img {
+  width: 70%; }
+.otwm .shot-1 .old-logo h5 {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.4); }
 .otwm .shot-1 #old-logo-text {
-  margin-top: 150px; }
-.otwm .shot-2 .other-brands {
-  width: 33%;
-  float: left; }
-  .otwm .shot-2 .other-brands img {
-    max-height: 10vw; }
-  .otwm .shot-2 .other-brands h5 {
-    font-size: 14px;
-    margin-top: 5px;
-    font-weight: normal;
-    color: rgba(0, 0, 0, 0.4); }
-  .otwm .shot-2 .other-brands ul {
-    margin-top: 30px; }
-    .otwm .shot-2 .other-brands ul li {
-      margin-left: 20%; }
+  margin-top: 40px; }
+.otwm .shot-2 .other-brands img {
+  max-height: 10vw; }
+.otwm .shot-2 .other-brands h5 {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.4); }
+.otwm .shot-2 .other-brands ul {
+  margin-top: 30px; }
+  .otwm .shot-2 .other-brands ul li {
+    margin-left: 20%; }
 .otwm .shot-2 #other-brands-text {
-  margin-top: 280px; }
+  margin-top: 40px; }
 .otwm .shot-4 .initial-ideas {
   max-width: 960px;
-  margin: 65px auto;
-  border: 1px solid #0000ff; }
-  .otwm .shot-4 .initial-ideas img {
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 5px; }
-    .otwm .shot-4 .initial-ideas img.img-tall {
-      max-height: 50%;
-      margin-top: 15%; }
-  .otwm .shot-4 .initial-ideas:nth-child(3) > div {
-    width: 69%;
+  margin: 65px auto; }
+  .otwm .shot-4 .initial-ideas > div > div {
+    border: 1px solid #ff0000;
     display: inline-block;
-    vertical-align: bottom;
-    min-height: 135px;
-    border: 1px solid #00ff00; }
-    .otwm .shot-4 .initial-ideas:nth-child(3) > div:first-child {
-      width: 29%; }
+    vertical-align: bottom; }
 
 /*# sourceMappingURL=index.css.map */
