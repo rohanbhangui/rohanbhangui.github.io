@@ -185,7 +185,6 @@ nav ul li a:hover {
 }
 
 .otwm {
-    margin-top: 75px;
 }
 
 .otwm h1, .otwm h2, .otwm h3, .otwm h4, .otwm h5, .otwm h6 {
@@ -193,15 +192,17 @@ nav ul li a:hover {
 }
 
 .otwm .shots {
-    margin-bottom: 50px;
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 10px;
+}
+
+.otwm .dark-wrapper, .otwm .light-wrapper {
+    padding: 50px 0;
 }
 
 .otwm .dark-wrapper {
-    background: rgba(0, 0, 0, 0.05);
+    background: #f7f7f7;
 }
 
 .otwm .shots h2 {
@@ -214,8 +215,9 @@ nav ul li a:hover {
 .otwm .shots p {
     padding-left: 10%;
     padding-right: 10%;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.6);
     font-weight: 300;
+    line-height: 1.6;
 }
 
 .otwm .shots img {
@@ -236,8 +238,9 @@ nav ul li a:hover {
 
 .otwm .shots ul li {
     text-indent: -5px;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.6);
     font-weight: 300;
+    line-height: 1.6;
 }
 
 .otwm .shot-1 .old-logo, .otwm .shot-2 .other-brands {
@@ -250,6 +253,7 @@ nav ul li a:hover {
 }
 
 .otwm .shot-1 .old-logo h5, .otwm .shot-2 .other-brands h5 {
+    font-size: 14px;
     margin-top: 5px;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.4);
