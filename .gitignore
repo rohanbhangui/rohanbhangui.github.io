@@ -213,3 +213,12 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+
+##############
+## sass ignore
+##############
+
+/scss
+/.sass-cache
+/css/index.css.map
