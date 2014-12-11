@@ -38,6 +38,7 @@ main {
 nav {
     height: 75px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 #restrict-container {
