@@ -43,7 +43,7 @@
 .grid {
   list-style: none;
   margin-left: 0px; }
-  .grid > .grid__col--2-of-2, .grid > .grid__col--3-of-3, .grid > .grid__col--4-of-4, .grid > .grid__col--5-of-5, .grid > .grid__col--6-of-6, .grid > .grid__col--8-of-8, .grid > .grid__col--12-of-12 {
+  .grid > .grid__col--2-of-2, .grid > .grid__col--3-of-3, .grid > .grid__col--4-of-4, .grid > .grid__col--5-of-5, .grid > .grid__col--6-of-6, .grid > .grid__col--8-of-8, .grid > .grid__col--12-of-12, .grid > .grid__col--13-of-13 {
     width: 100%; }
   .grid > .grid__col--1-of-2, .grid > .grid__col--2-of-4, .grid > .grid__col--3-of-6, .grid > .grid__col--4-of-8, .grid > .grid__col--6-of-12 {
     width: 50%; }
@@ -55,7 +55,7 @@
     width: 25%; }
   .grid > .grid__col--3-of-4, .grid > .grid__col--6-of-8, .grid > .grid__col--9-of-12 {
     width: 75%; }
-  .grid > .grid__col--push-2-of-2, .grid > .grid__col--push-3-of-3, .grid > .grid__col--push-4-of-4, .grid > .grid__col--push-5-of-5, .grid > .grid__col--push-6-of-6, .grid > .grid__col--push-8-of-8, .grid > .grid__col--push-12-of-12 {
+  .grid > .grid__col--push-2-of-2, .grid > .grid__col--push-3-of-3, .grid > .grid__col--push-4-of-4, .grid > .grid__col--push-5-of-5, .grid > .grid__col--push-6-of-6, .grid > .grid__col--push-8-of-8, .grid > .grid__col--push-12-of-12, .grid > .grid__col--push-13-of-13 {
     margin-left: 100%; }
   .grid > .grid__col--push-1-of-2, .grid > .grid__col--push-2-of-4, .grid > .grid__col--push-3-of-6, .grid > .grid__col--push-4-of-8, .grid > .grid__col--push-6-of-12 {
     margin-left: 50%; }
@@ -67,7 +67,7 @@
     margin-left: 25%; }
   .grid > .grid__col--push-3-of-4, .grid > .grid__col--push-6-of-8, .grid > .grid__col--push-9-of-12 {
     margin-left: 75%; }
-  .grid > .grid__col--pull-2-of-2, .grid > .grid__col--pull-3-of-3, .grid > .grid__col--pull-4-of-4, .grid > .grid__col--pull-5-of-5, .grid > .grid__col--pull-6-of-6, .grid > .grid__col--pull-8-of-8, .grid > .grid__col--pull-12-of-12 {
+  .grid > .grid__col--pull-2-of-2, .grid > .grid__col--pull-3-of-3, .grid > .grid__col--pull-4-of-4, .grid > .grid__col--pull-5-of-5, .grid > .grid__col--pull-6-of-6, .grid > .grid__col--pull-8-of-8, .grid > .grid__col--pull-12-of-12, .grid > .grid__col--pull-13-of-13 {
     margin-left: -100%; }
   .grid > .grid__col--pull-1-of-2, .grid > .grid__col--pull-2-of-4, .grid > .grid__col--pull-3-of-6, .grid > .grid__col--pull-4-of-8, .grid > .grid__col--pull-6-of-12 {
     margin-left: -50%; }
@@ -175,6 +175,78 @@
     margin-left: 91.66667%; }
   .grid > .grid__col--pull-11-of-12 {
     margin-left: -91.66667%; }
+  .grid > .grid__col--1-of-13 {
+    width: 7.69231%; }
+  .grid > .grid__col--push-1-of-13 {
+    margin-left: 7.69231%; }
+  .grid > .grid__col--pull-1-of-13 {
+    margin-left: -7.69231%; }
+  .grid > .grid__col--2-of-13 {
+    width: 15.38462%; }
+  .grid > .grid__col--push-2-of-13 {
+    margin-left: 15.38462%; }
+  .grid > .grid__col--pull-2-of-13 {
+    margin-left: -15.38462%; }
+  .grid > .grid__col--3-of-13 {
+    width: 23.07692%; }
+  .grid > .grid__col--push-3-of-13 {
+    margin-left: 23.07692%; }
+  .grid > .grid__col--pull-3-of-13 {
+    margin-left: -23.07692%; }
+  .grid > .grid__col--4-of-13 {
+    width: 30.76923%; }
+  .grid > .grid__col--push-4-of-13 {
+    margin-left: 30.76923%; }
+  .grid > .grid__col--pull-4-of-13 {
+    margin-left: -30.76923%; }
+  .grid > .grid__col--5-of-13 {
+    width: 38.46154%; }
+  .grid > .grid__col--push-5-of-13 {
+    margin-left: 38.46154%; }
+  .grid > .grid__col--pull-5-of-13 {
+    margin-left: -38.46154%; }
+  .grid > .grid__col--6-of-13 {
+    width: 46.15385%; }
+  .grid > .grid__col--push-6-of-13 {
+    margin-left: 46.15385%; }
+  .grid > .grid__col--pull-6-of-13 {
+    margin-left: -46.15385%; }
+  .grid > .grid__col--7-of-13 {
+    width: 53.84615%; }
+  .grid > .grid__col--push-7-of-13 {
+    margin-left: 53.84615%; }
+  .grid > .grid__col--pull-7-of-13 {
+    margin-left: -53.84615%; }
+  .grid > .grid__col--8-of-13 {
+    width: 61.53846%; }
+  .grid > .grid__col--push-8-of-13 {
+    margin-left: 61.53846%; }
+  .grid > .grid__col--pull-8-of-13 {
+    margin-left: -61.53846%; }
+  .grid > .grid__col--9-of-13 {
+    width: 69.23077%; }
+  .grid > .grid__col--push-9-of-13 {
+    margin-left: 69.23077%; }
+  .grid > .grid__col--pull-9-of-13 {
+    margin-left: -69.23077%; }
+  .grid > .grid__col--10-of-13 {
+    width: 76.92308%; }
+  .grid > .grid__col--push-10-of-13 {
+    margin-left: 76.92308%; }
+  .grid > .grid__col--pull-10-of-13 {
+    margin-left: -76.92308%; }
+  .grid > .grid__col--11-of-13 {
+    width: 84.61538%; }
+  .grid > .grid__col--push-11-of-13 {
+    margin-left: 84.61538%; }
+  .grid > .grid__col--pull-11-of-13 {
+    margin-left: -84.61538%; }
+  .grid > .grid__col--12-of-13 {
+    width: 92.30769%; }
+  .grid > .grid__col--push-12-of-13 {
+    margin-left: 92.30769%; }
+  .grid > .grid__col--pull-12-of-13 {
+    margin-left: -92.30769%; }
   .grid .grid__col {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -399,7 +471,7 @@ nav {
     color: rgba(0, 0, 0, 0.6);
     font-weight: 300;
     line-height: 1.6; }
-  .otwm .shots > p {
+  .otwm .shots p:not(.grid-paragraph) {
     padding-left: 10%;
     padding-right: 10%; }
   .otwm .shots img {
@@ -442,8 +514,8 @@ nav {
 .otwm .shot-2 #other-brands-text {
   margin-top: 40px; }
 .otwm .shot-4 .initial-ideas {
-  max-width: 800px;
-  margin: 80px auto; }
+  max-width: 960px;
+  margin: 30px auto; }
   .otwm .shot-4 .initial-ideas img {
     width: 60%; }
   .otwm .shot-4 .initial-ideas > p {
@@ -451,7 +523,15 @@ nav {
   .otwm .shot-4 .initial-ideas:nth-child(3) > .frame div {
     border: 1px solid #ff0000;
     min-height: 112px; }
+  .otwm .shot-4 .initial-ideas:nth-child(3) p.grid-paragraph {
+    padding-right: 10%; }
   .otwm .shot-4 .initial-ideas:nth-child(3) img {
-    max-width: 248px; }
+    width: 50%; }
+
+@media (max-width: 700px) {
+  .otwm .shot-4 .initial-ideas:nth-child(3) p.grid-paragraph {
+    padding-left: 10%; }
+  .otwm .shot-4 .initial-ideas:nth-child(3) img {
+    width: 25%; } }
 
 /*# sourceMappingURL=index.css.map */
