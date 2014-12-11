@@ -71,11 +71,11 @@
 .bot-70 {
   width: 70%; }
 
-.bot-20 {
-  width: 20%; }
+.bot-17 {
+  width: 17%; }
 
-.bot-80 {
-  width: 80%; }
+.bot-83 {
+  width: 83%; }
 
 @media (max-width: 30em) {
   .bit-1 {
@@ -345,6 +345,10 @@ nav {
   margin: 50px auto; }
   .otwm .shot-4 .initial-ideas img {
     width: 50%; }
+  .otwm .shot-4 .initial-ideas > p {
+    margin-top: 30px; }
+  .otwm .shot-4 .initial-ideas:nth-child(3) > .frame div {
+    border: 1px solid #ff0000; }
   .otwm .shot-4 .initial-ideas:nth-child(3) img {
     width: 65%; }
 
