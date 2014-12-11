@@ -197,6 +197,11 @@ nav ul li a:hover {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px 10px;
+}
+
+.otwm .dark-wrapper {
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .otwm .shots h2 {
@@ -209,7 +214,6 @@ nav ul li a:hover {
 .otwm .shots p {
     padding-left: 10%;
     padding-right: 10%;
-    text-align: center;
     color: rgba(0, 0, 0, 0.4);
     font-weight: 300;
 }
@@ -282,8 +286,11 @@ nav ul li a:hover {
     margin-bottom: 5px;
 }
 
-.otwm .shot-4 #initial-ideas .image-tall {
-    max-height: 10vmax;
+.otwm .shot-4 #initial-ideas:nth-child(3) > div {
+    width: 50%;
+    float: left;
+    border: 1px solid #ff0000;
+    height: auto;
 }
 
 
