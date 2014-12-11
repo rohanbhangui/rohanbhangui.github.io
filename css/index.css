@@ -71,6 +71,12 @@
 .bot-70 {
   width: 70%; }
 
+.bot-20 {
+  width: 20%; }
+
+.bot-80 {
+  width: 80%; }
+
 @media (max-width: 30em) {
   .bit-1 {
     width: 100%; }
@@ -313,7 +319,7 @@ nav {
       position: relative;
       left: -5px; }
 .otwm .shot-1 .old-logo img {
-  width: 70%; }
+  width: 80%; }
 .otwm .shot-1 .old-logo h5 {
   font-size: 14px;
   margin-top: 5px;
@@ -322,7 +328,7 @@ nav {
 .otwm .shot-1 #old-logo-text {
   margin-top: 40px; }
 .otwm .shot-2 .other-brands img {
-  max-height: 10vw; }
+  height: 6%; }
 .otwm .shot-2 .other-brands h5 {
   font-size: 14px;
   margin-top: 5px;
@@ -331,15 +337,15 @@ nav {
 .otwm .shot-2 .other-brands ul {
   margin-top: 30px; }
   .otwm .shot-2 .other-brands ul li {
-    margin-left: 20%; }
+    margin-left: 15%; }
 .otwm .shot-2 #other-brands-text {
   margin-top: 40px; }
 .otwm .shot-4 .initial-ideas {
   max-width: 960px;
-  margin: 65px auto; }
-  .otwm .shot-4 .initial-ideas > div > div {
-    border: 1px solid #ff0000;
-    display: inline-block;
-    vertical-align: bottom; }
+  margin: 50px auto; }
+  .otwm .shot-4 .initial-ideas img {
+    width: 50%; }
+  .otwm .shot-4 .initial-ideas:nth-child(3) img {
+    width: 65%; }
 
 /*# sourceMappingURL=index.css.map */
