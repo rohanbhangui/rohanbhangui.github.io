@@ -213,6 +213,16 @@ nav ul li a:hover {
     font-weight: 300;
 }
 
+.otwm .shots img {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
 .otwm .shots ul li:before {
     content: "-";
     position: relative;
@@ -232,13 +242,6 @@ nav ul li a:hover {
 
 .otwm .shot-1 .old-logo img {
     width: 70%;
-    position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 
 .otwm .shot-1 .old-logo h5, .otwm .shot-2 .other-brands h5 {
@@ -253,13 +256,6 @@ nav ul li a:hover {
 
 .otwm .shot-2 .other-brands img {
     max-height: 10vw;
-    position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 
 .otwm .shot-2 .other-brands ul {
@@ -278,22 +274,15 @@ nav ul li a:hover {
     margin-bottom: 50px;
 }
 
-.otwm .shot-4 #initial-ideas img {
+.otwm .shot-4 #initial-ideas img:not(.image-tall) {
     max-height: 10vw;
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 5px;
-    position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 
 .otwm .shot-4 #initial-ideas .image-tall {
-    max-height: none;
+    max-height: 10vmax;
 }
 
 
