@@ -333,11 +333,24 @@ ul {
   list-style: none;
   list-style-position: inside; }
 
+h1, h2, h3, h4, h5, h6 {
+  text-align: center; }
+
+h5 {
+  font-size: 14px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.4); }
+
 body {
   background: #fff; }
 
 main {
   margin-top: 75px; }
+
+footer {
+  padding: 20px 0; }
+  footer h5 {
+    font-weight: 300; }
 
 nav {
   height: 75px;
@@ -453,8 +466,6 @@ nav {
     transform: translateY(-50%) translateX(-50%); }
 
 /* portfolio items */
-.otwm h1, .otwm h2, .otwm h3, .otwm h4, .otwm h5, .otwm h6 {
-  text-align: center; }
 .otwm .dark-wrapper, .otwm .light-wrapper {
   padding: 50px 0 15px 0; }
 .otwm .dark-wrapper {
@@ -474,6 +485,8 @@ nav {
     color: rgba(0, 0, 0, 0.6);
     margin-top: 50px;
     margin-bottom: 50px; }
+  .otwm .shots h5 {
+    margin-top: 5px; }
   .otwm .shots p {
     color: rgba(0, 0, 0, 0.6);
     font-weight: 300;
@@ -498,20 +511,10 @@ nav {
   margin-bottom: 30px; }
   .otwm .shot-1 .old-logo img {
     width: 80%; }
-  .otwm .shot-1 .old-logo h5 {
-    font-size: 14px;
-    margin-top: 5px;
-    font-weight: normal;
-    color: rgba(0, 0, 0, 0.4); }
 .otwm .shot-2 .other-brands {
   margin-bottom: 30px; }
   .otwm .shot-2 .other-brands img {
     height: 6%; }
-  .otwm .shot-2 .other-brands h5 {
-    font-size: 14px;
-    margin-top: 5px;
-    font-weight: normal;
-    color: rgba(0, 0, 0, 0.4); }
   .otwm .shot-2 .other-brands ul {
     margin-top: 10px; }
 .otwm .shot-2 #other-brands-text {
