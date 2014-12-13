@@ -326,8 +326,7 @@
 a {
   text-decoration: none;
   color: #000;
-  font-style: none;
-  font: inherit; }
+  font-style: none; }
 
 ul {
   list-style: none;
@@ -335,6 +334,13 @@ ul {
 
 h1, h2, h3, h4, h5, h6 {
   text-align: center; }
+
+.hidden {
+  display: none; }
+
+.restrict-container {
+  max-width: 1920px;
+  margin: auto; }
 
 h5 {
   font-size: 14px;
@@ -354,45 +360,41 @@ footer {
 
 nav {
   height: 75px;
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 40px;
+  padding-right: 40px; }
   nav .title {
-    font-weight: 300;
-    font-size: 64px;
-    margin-top: -5px;
     text-transform: uppercase; }
     nav .title a {
+      margin-top: 21px;
+      letter-spacing: 4px;
+      font-size: 24px;
       color: rgba(0, 0, 0, 0.25);
       float: left;
       -webkit-transition: color ease .25s;
       -moz-transition: color ease .25s;
       -o-transition: color ease .25s;
-      transition: color ease .25s; }
+      transition: color ease .25s;
+      font-weight: 400; }
       nav .title a:hover {
         color: rgba(0, 0, 0, 0.45); }
   nav ul {
     float: right;
-    margin-top: 33px; }
+    margin-top: 26px; }
     nav ul li {
       display: inline-block; }
       nav ul li a {
+        letter-spacing: 3px;
         padding: 12px 15px;
         text-transform: uppercase;
         color: rgba(0, 0, 0, 0.25);
         -webkit-transition: all ease .25s;
         -moz-transition: all ease .25s;
         -o-transition: all ease .25s;
-        transition: all ease .25s;
-        border: 2px solid transparent; }
+        transition: all ease .25s; }
+        nav ul li a.active {
+          color: rgba(0, 0, 0, 0.45); }
         nav ul li a:hover {
           color: rgba(0, 0, 0, 0.45); }
-        nav ul li a.active {
-          border: 2px solid rgba(0, 0, 0, 0.45);
-          color: rgba(0, 0, 0, 0.45); }
-
-#restrict-container {
-  max-width: 1920px;
-  margin: auto; }
 
 /* portfolio page */
 #project {
@@ -417,34 +419,50 @@ nav {
       color: rgba(0, 0, 0, 0.45); }
 
 /* portfolio item pages */
-#portfolio-item main {
+.portfolio-item main {
   margin-top: 0px; }
-#portfolio-item .project-jumbotron {
+.portfolio-item nav .title a {
+  color: #fff; }
+  .portfolio-item nav .title a:hover {
+    color: #fff; }
+.portfolio-item nav ul li a {
+  color: #fff; }
+  .portfolio-item nav ul li a.active {
+    color: #fff; }
+  .portfolio-item nav ul li a:hover {
+    color: #fff; }
+.portfolio-item .project-jumbotron {
   position: relative;
-  color: rgba(0, 0, 0, 0.45);
-  text-align: right;
-  font-weight: 300;
-  font-size: 48px;
-  height: 400px; }
-  #portfolio-item .project-jumbotron .project-title {
-    position: relative;
-    left: 100%;
-    top: 400px;
-    max-width: 512px;
-    -webkit-transform: translateY(-110%) translateX(-103%);
-    -moz-transform: translateY(-110%) translateX(-103%);
-    -ms-transform: translateY(-110%) translateX(-103%);
-    -o-transform: translateY(-110%) translateX(-103%);
-    transform: translateY(-110%) translateX(-103%); }
-  #portfolio-item .project-jumbotron .project-image {
+  background: #ff3a2b;
+  background: -moz-linear-gradient(top, rgba(255, 58, 43, 0.8) 0%, rgba(255, 58, 43, 0.8) 100%), url("/images/desk.jpeg") no-repeat center center fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 58, 43, 0.8)), color-stop(100%, rgba(255, 58, 43, 0.8))), url("/images/desk.jpeg") no-repeat center center fixed;
+  background: -webkit-linear-gradient(top, rgba(255, 58, 43, 0.8) 0%, rgba(255, 58, 43, 0.8) 100%), url("/images/desk.jpeg") no-repeat center center fixed;
+  background: -o-linear-gradient(top, rgba(255, 58, 43, 0.8) 0%, rgba(255, 58, 43, 0.8) 100%), url("/images/desk.jpeg") no-repeat center center fixed;
+  background: -ms-linear-gradient(top, rgba(255, 58, 43, 0.8) 0%, rgba(255, 58, 43, 0.8) 100%), url("/images/desk.jpeg") no-repeat center center fixed;
+  background: linear-gradient(to bottom, rgba(255, 58, 43, 0.8) 0%, rgba(255, 58, 43, 0.8) 100%), url("/images/desk.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+  .portfolio-item .project-jumbotron .project-title {
+    color: #fff;
+    text-align: left;
+    font-weight: 300;
+    font-size: 48px;
     position: absolute;
-    top: 37%;
-    left: 50%;
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    -moz-transform: translateY(-50%) translateX(-50%);
-    -ms-transform: translateY(-50%) translateX(-50%);
-    -o-transform: translateY(-50%) translateX(-50%);
-    transform: translateY(-50%) translateX(-50%); }
+    bottom: 30px;
+    left: 30px; }
+    .portfolio-item .project-jumbotron .project-title .project-subtitle {
+      background: #fff;
+      color: #ff3a2b;
+      font-size: 15px;
+      position: absolute;
+      padding: 5px 7px;
+      top: -40px;
+      letter-spacing: 3px;
+      font-weight: 500;
+      text-transform: uppercase; }
 
 /* portfolio items */
 .otwm .dark-wrapper, .otwm .light-wrapper {
