@@ -347,6 +347,9 @@ h5 {
   font-weight: normal;
   color: rgba(0, 0, 0, 0.4); }
 
+html, body {
+  width: 100%; }
+
 body {
   background: #fff; }
 
@@ -360,8 +363,9 @@ footer {
 
 nav {
   height: 75px;
-  padding-left: 40px;
-  padding-right: 40px; }
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 35px; }
   nav .title {
     text-transform: uppercase; }
     nav .title a {
@@ -383,8 +387,9 @@ nav {
     nav ul li {
       display: inline-block; }
       nav ul li a {
-        letter-spacing: 3px;
-        padding: 12px 15px;
+        letter-spacing: 4px;
+        padding: 12px 25px;
+        font-weight: 400;
         text-transform: uppercase;
         color: rgba(0, 0, 0, 0.25);
         -webkit-transition: all ease .25s;
@@ -397,8 +402,8 @@ nav {
           color: rgba(0, 0, 0, 0.45); }
 
 /* portfolio page */
-#project {
-  margin-top: 40px; }
+#projects {
+  margin-top: 100px; }
 
 .project {
   text-align: center;
@@ -419,13 +424,6 @@ nav {
       color: rgba(0, 0, 0, 0.45); }
 
 /* portfolio item pages */
-.portfolio-item#otwm-main .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(213, 0, 0, 0.8)), color-stop(100%, rgba(213, 0, 0, 0.8))), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat center center fixed;
-  background: -webkit-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed;
-  background: -o-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed;
-  background: linear-gradient(to bottom, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed; }
 .portfolio-item main {
   margin-top: 0px; }
 .portfolio-item nav .title a {
@@ -440,11 +438,13 @@ nav {
     color: #fff; }
 .portfolio-item .project-jumbotron {
   position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 600px; }
+  background: -moz-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(213, 0, 0, 0.8)), color-stop(100%, rgba(213, 0, 0, 0.8))), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed;
+  background: -o-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% ixed;
+  background: linear-gradient(to bottom, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 90% 0% fixed;
+  height: 700px; }
   .portfolio-item .project-jumbotron .project-title {
     color: #fff;
     text-align: left;
@@ -476,8 +476,8 @@ nav {
   max-width: 960px;
   margin: 10px auto; }
   .otwm .shots > *:not(h2) {
-    margin-top: 100px;
-    margin-bottom: 100px; }
+    margin-top: 75px;
+    margin-bottom: 75px; }
   .otwm .shots h2 {
     font-weight: 300;
     font-size: 32px;
