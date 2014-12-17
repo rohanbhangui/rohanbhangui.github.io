@@ -7,20 +7,102 @@
   <title>Rohan Bhangui</title>
   <link rel="stylesheet" media="screen" type="text/css" href="/css/index.css">
   <link rel="shortcut icon" href="/favicon.ico">
+
+  <link href="/headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+  <script src="/headsupgrid/jquery-1.6.2.min.js"></script>
+  <script src="/headsupgrid/hugrid.js"></script>
+  <script type="text/javascript">
+    definegrid = function() {
+      var browserWidth = $(window).width(); 
+      if (browserWidth >= 701) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 24;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      } 
+      if (browserWidth <= 700) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 6;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+      if (browserWidth <= 479) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 4;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+    }
+      $(document).ready(function() {
+      definegrid();
+      setgridonload();
+      });    
+      
+      $(window).resize(function() {
+      definegrid();
+          setgridonresize();
+      });
+  </script>
 </head>
 <body>
-  <nav>
-    <div id="restrict-container">
-      <h1 class="title"><a href="/">Rohan</a></h1>
-      <ul>
+  <div class="restrict-container">
+    <nav>
+      <h1 class="nav-title"><a href="/">Rohan</a></h1>
+      <ul class="nav-links">
         <li><a class="active" href="/portfolio/">Portfolio</a></li>
         <li><a href="/about/">About</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
-    </div>
-  </nav>
-  <main>
-    this is the root page
-  </main>
+    </nav>
+    <main>
+      <ul id="projects">
+        <li class="project">
+          <a href="/frontend/" target="_blank">Flo UI Frontend Framework</a>
+        </li>
+        <li class="project">
+          <a href="http://gethighered.ca/" target="_blank">Get Highered</a>
+        </li>
+        <li class="project">
+          <a href="/portfolio/line-icons/">Line Icons</a>
+        </li>
+        <li class="project">
+          <a href="/portfolio/offthewallmedia/">Off The Wall Media</a>
+        </li>
+        <li class="project">
+          <a href="/portfolio/closet-theory/">The Closet Theory</a>
+        </li>
+        <li class="project">
+          <a href="/portfolio/tethys-geologic/">Tethyl Geologic</a>
+        </li>
+        <li class="project">
+          <a href="/portfolio/basch/">Basch Interior Design</a>
+        </li>
+        <li class="project">
+          <a href="/portfolio/wikipedia/">Wikipedia</a>
+        </li>
+      </ul>
+    </main>
+  </div>
 </body>
 </html>
