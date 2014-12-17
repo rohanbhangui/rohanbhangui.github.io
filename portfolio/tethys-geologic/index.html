@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rohan Bhangui</title>
+  <link rel="stylesheet" media="screen" type="text/css" href="/css/index.css">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <link href="/headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+  <script src="/headsupgrid/jquery-1.6.2.min.js"></script>
+  <script src="/headsupgrid/hugrid.js"></script>
+  <script type="text/javascript">
+    definegrid = function() {
+      var browserWidth = $(window).width(); 
+      if (browserWidth >= 701) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 24;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      } 
+      if (browserWidth <= 700) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 6;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+      if (browserWidth <= 479) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 4;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+    }
+      $(document).ready(function() {
+      definegrid();
+      setgridonload();
+      });    
+      
+      $(window).resize(function() {
+      definegrid();
+          setgridonresize();
+      });
+  </script>
+</head>
+<body class="portfolio-item tethys-geologic">
+  <main>
+    <div class="project-jumbotron">
+      <div class="restrict-container">
+        <nav>
+          <h1 class="nav-title"><a href="/">Rohan</a></h1>
+          <ul class="nav-links">
+            <li><a class="active" href="/portfolio/">Portfolio</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="project-title">
+          Tethys Geologic
+        </div>
+        <div class="project-subtitle">Client Brand Design</div>
+      </div>
+    </div>
+
+    <div class="restrict-container shots-container">
+      <div class="shot dark-wrapper" id="shot-1">
+        <div class="content">
+          <h2>Back Story</h2>
+          <div class="grid">
+            <div class="grid__col grid__col--5-of-7 grid__col--centered">
+              <p>So I was introduced to this client through a mutual friend. The company is a geologic consulting firm in oil and gas industry with specific expertise in terrain analysis which they in turn provide to drilling companies.</p>
+              <br>
+              <p>The name 'Tethys' made reference to the Tethys Ocean which existed during the Mesozoic era. This in turn, led me to what sort of logo mark the client wanted: a placoderm, specifically a Dunkleosteus, which is a kind of prehistoric predator fish.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shot light-wrapper" id="shot-2">
+        <div class="content">
+          <h2>References</h2>
+          <div class="grid">
+            <div class="grid__col grid__col--1-of-3 grid__col--ab">
+              <img src="/portfolio/tethys-geologic/tethys-geologic-2-1.png" />
+            </div>
+            <div class="grid__col grid__col--1-of-3 grid__col--ab">
+              <img src="/portfolio/tethys-geologic/tethys-geologic-2-2.png" />
+            </div>
+            <div class="grid__col grid__col--1-of-3 grid__col--ab">
+              <img src="/portfolio/tethys-geologic/tethys-geologic-2-3.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shot dark-wrapper" id="shot-3">
+        <div class="content">
+          <h2>Other Brands</h2>
+          <div class="grid">
+            <div class="other-brands grid__col grid__col--1-of-3 grid__col--ab">
+              <img src="/portfolio/tethys-geologic/tethys-geologic-3-1.png" />
+              <h5>AIPC</h5>
+              <ul>
+                <li>Abstract logo</li>
+                <li>Use of reflection and fade</li>
+                <li>Simple colors</li>
+              </ul>
+            </div>
+            <div class="other-brands grid__col grid__col--1-of-3 grid__col--ab">
+              <img src="/portfolio/tethys-geologic/tethys-geologic-3-2.png" />
+              <h5>Brara Geologic Consulting</h5>
+              <ul>
+                <li>Simple colors</li>
+                <li>Reference to industry</li>
+                <li>Simplistic shadows</li>
+              </ul>
+            </div>
+            <div class="other-brands grid__col grid__col--1-of-3 grid__col--ab">
+              <img src="/portfolio/tethys-geologic/tethys-geologic-3-3.png" />
+              <h5>Dolan Integration Group</h5>
+              <ul>
+                <li>Reference to compass</li>
+                <li>Dull colors</li>
+                <li>Refers to digging</li>
+              </ul>
+            </div>
+            <div class="grid">
+              <div class="grid__col grid__col--5-of-7 grid__col--centered">
+                <p>The problem with most of these logos, is that they are simple and unimaginative. They suggest big companies with lots of people of little energy. They don't evoke emotion that suggests agility and youth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shot light-wrapper" id="shot-4">
+        <div class="content">
+          <h2><span class="project-color">Energizing</span> the Existing</h2>
+          <div class="grid">
+            <div class="grid__col grid__col--5-of-7 grid__col--centered">
+              <p>In order to attract attention, this Tethys Geologic's logo must be grab by not referencing stereoypical shapes associated with the oil and gas industry or geology. Instead, the logo must show the values they stand for: small, agile group who provide tier one worthy information.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shot dark-wrapper" id="shot-5">
+        <div class="content">
+          <h2>Initial Ideas</h2>
+          <div class="initial-ideas">
+            <div class="grid">
+              <div class="grid__col grid__col--1-of-2 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-1.png" />
+              </div>
+              <div class="grid__col grid__col--1-of-2 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-2.png" />
+              </div>
+              <div class="grid__col grid__col--1-of-2 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-3.png" />
+              </div>
+              <div class="grid__col grid__col--1-of-2 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-4.png" />
+              </div>
+              <div class="grid__col grid__col--1-of-2 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-5.png" />
+              </div>
+              <div class="grid__col grid__col--1-of-2 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-6.png" />
+              </div>
+              <div class="grid__col grid__col--5-of-7 grid__col--centered">
+                <p>At first I tried using 'Tethys' to show various text-clipped images associated with the earth plus 2 solid color options.</p>
+              </div>
+            </div>
+          </div>
+          <div class="initial-ideas">
+            <div class="grid">
+              <div class="grid__col grid__col--1-of-4 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-7.png" />
+              </div>
+              <div class="grid__col grid__col--1-of-4 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-8.png" />
+              </div>
+              <div class="grid__col grid__col--1-of-4 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-9.png" />
+              </div>
+              <div class="grid__col grid__col--1-of-4 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-4-10.png" />
+              </div>
+              <div class="grid__col grid__col--5-of-7 grid__col--centered">
+                <p>Moving away from image clipped text, I looked towards placoderms and their heads. Here is the evolution of the art I came up with.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shot light-wrapper" id="shot-6">
+        <div class="content">
+          <h2>Final Result</h2>
+          <div class="final-result">
+            <div class="grid">
+              <div class="grid__col grid__col--3-of-5 grid__col--centered">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-6-1.png" />
+              </div>
+            </div>
+          </div>
+          <div class="final-result">
+            <div class="grid">
+              <div class="grid__col grid__col--1-of-3 grid__col--push-1-of-12 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-6-2.png" />
+              </div>
+              <div class="grid__col grid__col--1-of-3 grid__col--push-1-of-6 grid__col--am">
+                <img src="/portfolio/tethys-geologic/tethys-geologic-6-3.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h5>Copyright © 2014 Rohan Bhangui</h5>
+  </footer>
+</body>
+</html>
