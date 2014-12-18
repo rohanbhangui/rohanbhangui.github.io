@@ -2587,37 +2587,42 @@ nav {
   -moz-transition: all ease .25s;
   -o-transition: all ease .25s;
   transition: all ease .25s; }
-/* line 406, ../scss/index.scss */
+/* line 407, ../scss/index.scss */
+.portfolio-item.tethys-geologic #shot-3 h2 {
+  margin-bottom: 16px; }
+/* line 411, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 img {
   max-height: 100px;
   width: auto;
-  margin-bottom: 10px; }
-/* line 412, ../scss/index.scss */
+  margin-bottom: 10px;
+  margin-top: 80px; }
+/* line 418, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 ul {
   margin-top: 32px; }
-/* line 416, ../scss/index.scss */
+/* line 422, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 p {
   margin-top: 96px; }
-/* line 422, ../scss/index.scss */
+/* line 428, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-5 .initial-ideas {
   margin-top: 96px; }
-  /* line 425, ../scss/index.scss */
+  /* line 431, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-5 .initial-ideas p {
     margin-top: 32px; }
-  /* line 429, ../scss/index.scss */
+  /* line 435, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-5 .initial-ideas img {
     margin-bottom: 32px;
-    padding: 16px; }
-/* line 438, ../scss/index.scss */
+    padding: 16px;
+    max-width: 300px; }
+/* line 445, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-6 .final-result {
   margin-top: 96px; }
-  /* line 444, ../scss/index.scss */
+  /* line 451, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-6 .final-result:nth-child(3) img {
     border: 1px solid #ccc; }
-/* line 454, ../scss/index.scss */
+/* line 461, ../scss/index.scss */
 .portfolio-item.line-icons .project-color {
   color: #52b96e; }
-/* line 458, ../scss/index.scss */
+/* line 465, ../scss/index.scss */
 .portfolio-item.line-icons .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(82, 185, 110, 0.8)), color-stop(100%, rgba(82, 185, 110, 0.8))), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
@@ -2625,35 +2630,35 @@ nav {
   background: -o-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed; }
-  /* line 461, ../scss/index.scss */
+  /* line 468, ../scss/index.scss */
   .portfolio-item.line-icons .project-jumbotron .project-subtitle {
     color: #52b96e; }
-/* line 467, ../scss/index.scss */
+/* line 474, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 img {
   max-width: 480px;
   padding: 64px;
   margin-bottom: 10px; }
-/* line 473, ../scss/index.scss */
+/* line 480, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 p {
   margin-top: 96px; }
-/* line 477, ../scss/index.scss */
+/* line 484, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 h2:nth-child(4) {
   margin-top: 80px; }
-/* line 481, ../scss/index.scss */
+/* line 488, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 h2 {
   margin-bottom: 48px; }
-/* line 486, ../scss/index.scss */
+/* line 493, ../scss/index.scss */
 .portfolio-item.line-icons .button-container {
   text-align: center; }
-  /* line 490, ../scss/index.scss */
+  /* line 497, ../scss/index.scss */
   .portfolio-item.line-icons .button-container .button {
     padding: 15px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 7.5px;
+    -moz-border-radius: 7.5px;
+    border-radius: 7.5px;
     background: #52b96e;
     color: #fff; }
-/* line 501, ../scss/index.scss */
+/* line 508, ../scss/index.scss */
 .portfolio-item .project-jumbotron {
   position: relative;
   width: inherit;
@@ -2673,7 +2678,7 @@ nav {
     /* line 32, ../scss/index.scss */
     .portfolio-item .project-jumbotron nav ul li a:hover {
       color: #fff; }
-  /* line 510, ../scss/index.scss */
+  /* line 517, ../scss/index.scss */
   .portfolio-item .project-jumbotron .project-title {
     color: #fff;
     text-align: left;
@@ -2682,7 +2687,7 @@ nav {
     position: absolute;
     bottom: 54px;
     left: 4.16667%; }
-  /* line 520, ../scss/index.scss */
+  /* line 527, ../scss/index.scss */
   .portfolio-item .project-jumbotron .project-subtitle {
     background: #fff;
     color: tomato;
@@ -2694,24 +2699,24 @@ nav {
     letter-spacing: 6.5px;
     font-weight: 500;
     text-transform: uppercase; }
-/* line 534, ../scss/index.scss */
+/* line 541, ../scss/index.scss */
 .portfolio-item .shots-container {
   margin-top: 0; }
-  /* line 537, ../scss/index.scss */
+  /* line 544, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper, .portfolio-item .shots-container .light-wrapper {
     width: inherit; }
-  /* line 541, ../scss/index.scss */
+  /* line 548, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper {
     background: #f8f8f8;
     -webkit-box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2); }
-  /* line 550, ../scss/index.scss */
+  /* line 557, ../scss/index.scss */
   .portfolio-item .shots-container .shot > .content {
     max-width: 1200px;
     margin: 0px auto;
     padding: 97px 0; }
-  /* line 556, ../scss/index.scss */
+  /* line 563, ../scss/index.scss */
   .portfolio-item .shots-container .shot h2 {
     color: rgba(0, 0, 0, 0.45);
     text-transform: uppercase;
@@ -2719,7 +2724,7 @@ nav {
     font-size: 20px;
     letter-spacing: 3px;
     margin-bottom: 80px; }
-  /* line 565, ../scss/index.scss */
+  /* line 572, ../scss/index.scss */
   .portfolio-item .shots-container .shot img {
     width: 100%;
     position: relative;
@@ -2732,7 +2737,7 @@ nav {
 
 /* media queries */
 @media (min-width: 700px) {
-  /* line 586, ../scss/index.scss */
+  /* line 593, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-2 .grid .grid__col:hover {
     position: relative;
     z-index: 1000;
