@@ -7,25 +7,161 @@
   <title>Rohan Bhangui</title>
   <link rel="stylesheet" media="screen" type="text/css" href="/css/index.css">
   <link rel="shortcut icon" href="/favicon.ico">
+
+  <link href="/headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+  <script src="/headsupgrid/jquery-1.6.2.min.js"></script>
+  <script src="/headsupgrid/hugrid.js"></script>
+  <script type="text/javascript">
+    definegrid = function() {
+      var browserWidth = $(window).width(); 
+      if (browserWidth >= 701) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 24;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      } 
+      if (browserWidth <= 700) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 6;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+      if (browserWidth <= 479) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 4;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+    }
+      $(document).ready(function() {
+      definegrid();
+      setgridonload();
+      });    
+      
+      $(window).resize(function() {
+      definegrid();
+          setgridonresize();
+      });
+  </script>
 </head>
-<body>
-  <nav>
-    <h1 class="title"><a href="/">Rohan</a></h1>
-    <ul>
-      <li><a href="/portfolio/">Portfolio</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><a href="/contact/">Contact</a></li>
-    </ul>
-  </nav>
+<body class="portfolio-item line-icons">
   <main>
-    <h1 class="project-title">Line Icon Font</h1>
-    <!-- <div class="lineicon shots-container">
-      <div class="shots shot-1">
-        <p>First I decided to experiment with some custom typography. Working with the images that come to mind when i say 'media' which are a play button and speech bubble.</p>
-        <img src="/portfolio/offthewallmedia/offthewallmedia-1.png" />
+    <div class="project-jumbotron">
+      <div class="restrict-container">
+        <nav>
+          <h1 class="nav-title"><a href="/">Rohan</a></h1>
+          <ul class="nav-links">
+            <li><a class="active" href="/portfolio/">Portfolio</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="project-title">
+          Line Icons
+        </div>
+        <div class="project-subtitle">Personal Project</div>
       </div>
-    </div> -->
-    <div class="moreToCome">More To Come. Check Back Later...</div>
+    </div>
+
+    <div class="restrict-container shots-container">
+      <div class="shot dark-wrapper" id="shot-1">
+        <div class="content">
+          <h2>Back Story</h2>
+          <div class="grid">
+            <div class="grid__col grid__col--5-of-7 grid__col--centered">
+              <p>One can find hundreds if not thousands of icon fonts available over the internet. The problem is any of them are inconsistent. Take Font Awesome for example: great font, lots of icons. But it has inconsistencies in weights and style not to mention size of icons.</p>
+              <br>
+              <p>As such, I set myself on a goal to come up with a line icon set which has consistent weight, size and style while not comprimising quality and most importantly built for all platforms, both web and mobile.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shot light-wrapper" id="shot-2">
+        <div class="content">
+          <h2>Other Icon Sets - Web</h2>
+          <div class="grid">
+            <div class="other-brands grid__col grid__col--1-of-3 grid__col--ab">
+              <img src="/portfolio/line-icons/line-icons-2-1.png" />
+              <h5>Font Awesome</h5>
+            </div>
+            <div class="other-brands grid__col grid__col--1-of-3 grid__col--ab">
+              <img src="/portfolio/line-icons/line-icons-2-2.png" />
+              <h5>Entypo</h5>
+            </div>
+            <div class="other-brands grid__col grid__col--1-of-3 grid__col--ab">
+              <img src="/portfolio/line-icons/line-icons-2-3.png" />
+              <h5>Octicons</h5>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="grid__col grid__col--5-of-7 grid__col--centered">
+              <p>These icons are all well designed and are built for small sizes. They are particularly good for quick protyping and especially when it comes to web app ui because of the sheer number of icons each set has.</p>
+            </div>
+          </div>
+          <h2>Other Icon Sets - Mobile</h2>
+          <div class="grid">
+            <div class="other-brands grid__col grid__col--1-of-2 grid__col--ab">
+              <img src="/portfolio/line-icons/line-icons-2-4.png" />
+              <h5>iOS Icons</h5>
+            </div>
+            <div class="other-brands grid__col grid__col--1-of-2 grid__col--ab">
+              <img src="/portfolio/line-icons/line-icons-2-5.png" />
+              <h5>Android Icons</h5>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="grid__col grid__col--5-of-7 grid__col--centered">
+              <p>The state of icons on mobile is much better as both design guides developed for iOS and Android are a lot stricter and there for icon consistency is much better than compared to the above examples</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shot dark-wrapper" id="shot-3">
+        <div class="content">
+          <h2>Finding the <span class="project-color">Middle</span> Ground</h2>
+          <div class="grid">
+            <div class="grid__col grid__col--5-of-7 grid__col--centered">
+              <p>As much as the icon sets on mobile are consistent and follow strict guidelines, the icons on web do not provide the same level of consistency available on the mobile.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shot light-wrapper" id="shot-5">
+        <div class="content">
+          <h2>Final Result</h2>
+          <div class="final-result">
+            <div class="button-container">
+              <a class="button" href="#" target="_blank">Visit the Line Icons</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
+  <footer>
+    <h5>Copyright © 2014 Rohan Bhangui</h5>
+  </footer>
 </body>
 </html>
