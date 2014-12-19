@@ -7,18 +7,88 @@
   <title>Rohan Bhangui</title>
   <link rel="stylesheet" media="screen" type="text/css" href="/css/index.css">
   <link rel="shortcut icon" href="/favicon.ico">
+
+  <link href="/headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+  <script src="/headsupgrid/jquery-1.6.2.min.js"></script>
+  <script src="/headsupgrid/hugrid.js"></script>
+  <script type="text/javascript">
+    definegrid = function() {
+      var browserWidth = $(window).width(); 
+      if (browserWidth >= 701) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 24;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      } 
+      if (browserWidth <= 700) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 6;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+      if (browserWidth <= 479) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 4;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+    }
+      $(document).ready(function() {
+      definegrid();
+      setgridonload();
+      });    
+      
+      $(window).resize(function() {
+      definegrid();
+          setgridonresize();
+      });
+  </script>
 </head>
 <body>
-  <nav>
-    <h1 class="title"><a href="/">Rohan</a></h1>
-    <ul>
-      <li><a href="/portfolio/">Portfolio</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><a href="/contact/">Contact</a></li>
-    </ul>
-  </nav>
-  <main>
-    this is the about page
-  </main>
+  <div class="restrict-container">
+    <nav>
+      <h1 class="nav-title"><a href="/">Rohan</a></h1>
+      <ul class="nav-links">
+        <li><a href="/portfolio/">Portfolio</a></li>
+        <li><a class="active" href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="content">
+        <h2 id="about-me-title">About Me</h2>
+        <div class="grid">
+          <div class="grid__col grid__col--5-of-7 grid__col--centered">
+            <p>Hi, my name is Rohan Bhangui and I am a 19 year old UX/UI designer and developer from Toronto, Canada. As I pursue a degree in Computer Science at Ryerson University, in parallel, I work on creating great user interfaces and crafting functionality-first user experiences. Although I do a lot of freelance work for clients from all around the world, I am currently a co-founder and lead designer at a small web design and development consultancy called Robido. In my spare time I like to read and play a lot of sports.</p>
+            <br><br>
+            <p>
+              Feel free to take a look at my <a href="/files/resume.pdf" target="_blank">resume</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
