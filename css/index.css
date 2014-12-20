@@ -2832,7 +2832,7 @@ a#linkedin:hover {
   margin-top: 0; }
   /* line 713, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper, .portfolio-item .shots-container .light-wrapper {
-    width: inherit; }
+    width: 100%; }
   /* line 717, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper {
     background: #f8f8f8;
