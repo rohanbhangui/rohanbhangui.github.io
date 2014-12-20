@@ -2314,7 +2314,11 @@
   .grid .grid__col--am {
     vertical-align: middle; }
 
-/* line 50, ../scss/index.scss */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/font/FontAwesome/FontAwesome.eot");
+  src: url("/font/FontAwesome/FontAwesome.eot?#iefix") format("embedded-opentype"), url("/font/FontAwesome/FontAwesome.woff") format("woff"), url("/font/FontAwesome/FontAwesome.ttf") format("truetype"), url("/font/FontAwesome/FontAwesome.svg#FontAwesome") format("svg"); }
+/* line 59, ../scss/index.scss */
 * {
   margin: 0;
   padding: 0;
@@ -2323,49 +2327,49 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased; }
 
-/* line 59, ../scss/index.scss */
+/* line 68, ../scss/index.scss */
 html, body {
   width: 100%;
   height: 100%; }
 
-/* line 64, ../scss/index.scss */
+/* line 73, ../scss/index.scss */
 a {
   cursor: pointer;
   text-decoration: none;
   color: #000;
   font-style: none; }
 
-/* line 71, ../scss/index.scss */
+/* line 80, ../scss/index.scss */
 ul {
   list-style: none;
   list-style-position: inside; }
-  /* line 75, ../scss/index.scss */
+  /* line 84, ../scss/index.scss */
   ul li {
     color: rgba(0, 0, 0, 0.6);
     font-weight: 300;
     line-height: 1.75;
     text-align: center; }
 
-/* line 83, ../scss/index.scss */
+/* line 92, ../scss/index.scss */
 h1, h2, h3, h4, h5, h6 {
   text-align: center; }
 
-/* line 87, ../scss/index.scss */
+/* line 96, ../scss/index.scss */
 .hidden {
   display: none; }
 
-/* line 91, ../scss/index.scss */
+/* line 100, ../scss/index.scss */
 .restrict-container {
   max-width: 1920px;
   margin: auto; }
 
-/* line 96, ../scss/index.scss */
+/* line 105, ../scss/index.scss */
 h5 {
   font-size: 14px;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.35); }
 
-/* line 102, ../scss/index.scss */
+/* line 111, ../scss/index.scss */
 h2 {
   color: rgba(0, 0, 0, 0.45);
   text-transform: uppercase;
@@ -2374,7 +2378,7 @@ h2 {
   letter-spacing: 3px;
   margin-bottom: 80px; }
 
-/* line 111, ../scss/index.scss */
+/* line 120, ../scss/index.scss */
 p {
   font-size: 16px;
   font-weight: 300;
@@ -2382,14 +2386,14 @@ p {
   line-height: 1.6;
   text-align: justify; }
 
-/* line 119, ../scss/index.scss */
+/* line 128, ../scss/index.scss */
 footer {
   padding: 20px 0; }
-  /* line 122, ../scss/index.scss */
+  /* line 131, ../scss/index.scss */
   footer h5 {
     font-weight: 300; }
 
-/* line 127, ../scss/index.scss */
+/* line 136, ../scss/index.scss */
 nav {
   padding-left: -webkit-calc((12.5%/3) - 23px);
   padding-left: -moz-calc((12.5%/3) - 23px);
@@ -2398,13 +2402,13 @@ nav {
   padding-right: -moz-calc((12.5%/3) - 19px);
   padding-right: calc((12.5%/3) - 19px);
   height: 128px; }
-  /* line 136, ../scss/index.scss */
+  /* line 145, ../scss/index.scss */
   nav .nav-title {
     font-weight: 300;
     float: left;
     text-align: left;
     margin-top: 47px; }
-    /* line 142, ../scss/index.scss */
+    /* line 151, ../scss/index.scss */
     nav .nav-title a {
       text-transform: uppercase;
       font-weight: 500;
@@ -2416,17 +2420,17 @@ nav {
       -moz-transition: color ease .25s;
       -o-transition: color ease .25s;
       transition: color ease .25s; }
-      /* line 153, ../scss/index.scss */
+      /* line 162, ../scss/index.scss */
       nav .nav-title a:hover {
         color: rgba(0, 0, 0, 0.45); }
-  /* line 160, ../scss/index.scss */
+  /* line 169, ../scss/index.scss */
   nav .nav-links {
     float: right;
     margin-top: 47px; }
-    /* line 164, ../scss/index.scss */
+    /* line 173, ../scss/index.scss */
     nav .nav-links li {
       display: inline-block; }
-      /* line 168, ../scss/index.scss */
+      /* line 177, ../scss/index.scss */
       nav .nav-links li a {
         text-transform: uppercase;
         font-weight: 500;
@@ -2442,24 +2446,24 @@ nav {
         -moz-transition: all ease .25s;
         -o-transition: all ease .25s;
         transition: all ease .25s; }
-        /* line 184, ../scss/index.scss */
+        /* line 193, ../scss/index.scss */
         nav .nav-links li a:hover {
           color: rgba(0, 0, 0, 0.45); }
-        /* line 188, ../scss/index.scss */
+        /* line 197, ../scss/index.scss */
         nav .nav-links li a.active {
           color: rgba(0, 0, 0, 0.45); }
 
 /* portfolio page */
-/* line 198, ../scss/index.scss */
+/* line 207, ../scss/index.scss */
 #projects {
   margin-top: 48px; }
 
-/* line 202, ../scss/index.scss */
+/* line 211, ../scss/index.scss */
 .project {
   text-align: center;
   font-size: 32px;
   margin-top: 20px; }
-  /* line 207, ../scss/index.scss */
+  /* line 216, ../scss/index.scss */
   .project a {
     font-weight: 300;
     color: rgba(0, 0, 0, 0.25);
@@ -2471,20 +2475,58 @@ nav {
     -moz-transition: all ease .25s;
     -o-transition: all ease .25s;
     transition: all ease .25s; }
-    /* line 219, ../scss/index.scss */
+    /* line 228, ../scss/index.scss */
     .project a:hover {
       color: rgba(0, 0, 0, 0.45); }
 
 /* about page */
-/* line 227, ../scss/index.scss */
-#about-me-title {
-  margin-top: 48px; }
+/* contact page */
+/* line 238, ../scss/index.scss */
+.info-line {
+  text-align: center; }
+
+/* line 242, ../scss/index.scss */
+.social-icons {
+  font-family: "FontAwesome";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all ease .25s;
+  -moz-transition: all ease .25s;
+  -o-transition: all ease .25s;
+  transition: all ease .25s; }
+
+/* line 263, ../scss/index.scss */
+a#dribbble:hover {
+  color: #ea4c89; }
+
+/* line 267, ../scss/index.scss */
+a#facebook:hover {
+  color: #3b5998; }
+
+/* line 271, ../scss/index.scss */
+a#twitter:hover {
+  color: #55acee; }
+
+/* line 275, ../scss/index.scss */
+a#linkedin:hover {
+  color: #007bb6; }
 
 /* portfolio item pages */
-/* line 240, ../scss/index.scss */
+/* line 288, ../scss/index.scss */
 .portfolio-item.otwm .project-color {
   color: #D50000; }
-/* line 244, ../scss/index.scss */
+/* line 292, ../scss/index.scss */
 .portfolio-item.otwm .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(213, 0, 0, 0.8)), color-stop(100%, rgba(213, 0, 0, 0.8))), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
@@ -2492,53 +2534,59 @@ nav {
   background: -o-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed; }
-  /* line 247, ../scss/index.scss */
+  /* line 295, ../scss/index.scss */
   .portfolio-item.otwm .project-jumbotron .project-subtitle {
     color: #D50000; }
-/* line 256, ../scss/index.scss */
+/* line 304, ../scss/index.scss */
 .portfolio-item.otwm #shot-1 .grid .grid__col {
   margin-bottom: 40px; }
-  /* line 259, ../scss/index.scss */
+  /* line 307, ../scss/index.scss */
   .portfolio-item.otwm #shot-1 .grid .grid__col img {
     max-width: 221px;
     margin-bottom: 10px; }
-/* line 266, ../scss/index.scss */
+/* line 314, ../scss/index.scss */
 .portfolio-item.otwm #shot-1 p {
   margin-top: 56px; }
-/* line 272, ../scss/index.scss */
+/* line 320, ../scss/index.scss */
 .portfolio-item.otwm #shot-2 img {
   max-height: 79px;
   width: auto;
   margin-bottom: 10px; }
-/* line 278, ../scss/index.scss */
+/* line 326, ../scss/index.scss */
 .portfolio-item.otwm #shot-2 ul {
   margin-top: 32px; }
-/* line 282, ../scss/index.scss */
+/* line 330, ../scss/index.scss */
 .portfolio-item.otwm #shot-2 p {
   margin-top: 96px; }
-/* line 288, ../scss/index.scss */
+/* line 336, ../scss/index.scss */
 .portfolio-item.otwm #shot-4 .initial-ideas {
   margin-top: 96px; }
-  /* line 293, ../scss/index.scss */
+  /* line 341, ../scss/index.scss */
   .portfolio-item.otwm #shot-4 .initial-ideas:nth-child(2) img {
     max-width: 600px; }
-  /* line 298, ../scss/index.scss */
+  /* line 346, ../scss/index.scss */
   .portfolio-item.otwm #shot-4 .initial-ideas p {
     margin-top: 32px; }
-  /* line 304, ../scss/index.scss */
+  /* line 352, ../scss/index.scss */
   .portfolio-item.otwm #shot-4 .initial-ideas:nth-child(3) img {
     max-height: none;
-    width: 100%; }
-/* line 314, ../scss/index.scss */
+    width: 100%;
+    max-width: 250px; }
+/* line 363, ../scss/index.scss */
 .portfolio-item.otwm #shot-5 .final-result {
   margin-top: 96px; }
-  /* line 320, ../scss/index.scss */
-  .portfolio-item.otwm #shot-5 .final-result:nth-child(3) img {
-    border: 1px solid #ccc; }
-/* line 330, ../scss/index.scss */
+  /* line 367, ../scss/index.scss */
+  .portfolio-item.otwm #shot-5 .final-result:nth-child(3) {
+    margin-top: 64px; }
+    /* line 371, ../scss/index.scss */
+    .portfolio-item.otwm #shot-5 .final-result:nth-child(3) img {
+      margin-top: 48px;
+      border: 1px solid #ccc;
+      max-width: 300px; }
+/* line 383, ../scss/index.scss */
 .portfolio-item.wikipedia .project-color {
   color: #424242; }
-/* line 334, ../scss/index.scss */
+/* line 387, ../scss/index.scss */
 .portfolio-item.wikipedia .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(66, 66, 66, 0.8)), color-stop(100%, rgba(66, 66, 66, 0.8))), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
@@ -2546,44 +2594,44 @@ nav {
   background: -o-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed; }
-  /* line 337, ../scss/index.scss */
+  /* line 390, ../scss/index.scss */
   .portfolio-item.wikipedia .project-jumbotron .project-subtitle {
     color: #424242; }
-/* line 345, ../scss/index.scss */
+/* line 398, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-1 .grid .grid__col {
   margin-bottom: 40px; }
-  /* line 348, ../scss/index.scss */
+  /* line 401, ../scss/index.scss */
   .portfolio-item.wikipedia #shot-1 .grid .grid__col img {
     max-height: 110px;
     width: auto;
     margin-bottom: 10px; }
-/* line 356, ../scss/index.scss */
+/* line 409, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-1 p {
   margin: 56px; }
-/* line 362, ../scss/index.scss */
+/* line 415, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-2 img {
   max-height: 79px;
   width: auto;
   margin-bottom: 10px; }
-/* line 368, ../scss/index.scss */
+/* line 421, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-2 ul {
   margin-top: 32px; }
-/* line 372, ../scss/index.scss */
+/* line 425, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-2 p {
   margin-top: 96px; }
-/* line 378, ../scss/index.scss */
+/* line 431, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-4 .initial-ideas {
   margin-top: 96px; }
-  /* line 383, ../scss/index.scss */
+  /* line 436, ../scss/index.scss */
   .portfolio-item.wikipedia #shot-4 .initial-ideas:nth-child(3) .grid .grid__col:nth-child(2) {
     margin-top: 56px; }
-  /* line 389, ../scss/index.scss */
+  /* line 442, ../scss/index.scss */
   .portfolio-item.wikipedia #shot-4 .initial-ideas p {
     margin-top: 32px; }
-/* line 397, ../scss/index.scss */
+/* line 450, ../scss/index.scss */
 .portfolio-item.tethys-geologic .project-color {
   color: #263238; }
-/* line 401, ../scss/index.scss */
+/* line 454, ../scss/index.scss */
 .portfolio-item.tethys-geologic .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(38, 50, 56, 0.8)), color-stop(100%, rgba(38, 50, 56, 0.8))), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
@@ -2591,53 +2639,53 @@ nav {
   background: -o-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed; }
-  /* line 404, ../scss/index.scss */
+  /* line 457, ../scss/index.scss */
   .portfolio-item.tethys-geologic .project-jumbotron .project-subtitle {
     color: #263238; }
-/* line 411, ../scss/index.scss */
+/* line 464, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-2 .grid .grid__col {
   padding: 15px 16.5px;
   -webkit-transition: all ease .25s;
   -moz-transition: all ease .25s;
   -o-transition: all ease .25s;
   transition: all ease .25s; }
-/* line 423, ../scss/index.scss */
+/* line 476, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 h2 {
   margin-bottom: 16px; }
-/* line 427, ../scss/index.scss */
+/* line 480, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 img {
   max-height: 100px;
   width: auto;
   margin-bottom: 10px;
   margin-top: 80px; }
-/* line 434, ../scss/index.scss */
+/* line 487, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 ul {
   margin-top: 32px; }
-/* line 438, ../scss/index.scss */
+/* line 491, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 p {
   margin-top: 96px; }
-/* line 444, ../scss/index.scss */
+/* line 497, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-5 .initial-ideas {
   margin-top: 96px; }
-  /* line 448, ../scss/index.scss */
+  /* line 501, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-5 .initial-ideas img {
     margin-bottom: 32px;
     padding: 16px;
     max-width: 250px; }
-  /* line 454, ../scss/index.scss */
+  /* line 507, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-5 .initial-ideas #text-idea {
     max-width: 450px; }
-/* line 462, ../scss/index.scss */
+/* line 515, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-6 .final-result {
   margin-top: 96px; }
-  /* line 468, ../scss/index.scss */
+  /* line 521, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-6 .final-result:nth-child(3) img {
     margin-top: 48px;
     border: 1px solid #ccc; }
-/* line 479, ../scss/index.scss */
+/* line 532, ../scss/index.scss */
 .portfolio-item.line-icons .project-color {
   color: #52b96e; }
-/* line 483, ../scss/index.scss */
+/* line 536, ../scss/index.scss */
 .portfolio-item.line-icons .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(82, 185, 110, 0.8)), color-stop(100%, rgba(82, 185, 110, 0.8))), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
@@ -2645,35 +2693,35 @@ nav {
   background: -o-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed; }
-  /* line 486, ../scss/index.scss */
+  /* line 539, ../scss/index.scss */
   .portfolio-item.line-icons .project-jumbotron .project-subtitle {
     color: #52b96e; }
-/* line 492, ../scss/index.scss */
+/* line 545, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 img {
   max-width: 480px;
   padding: 64px 64px 16px;
   margin-bottom: 10px; }
-/* line 498, ../scss/index.scss */
+/* line 551, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 p {
   margin-top: 96px; }
-/* line 502, ../scss/index.scss */
+/* line 555, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 h2:nth-child(4) {
   margin-top: 80px; }
-/* line 506, ../scss/index.scss */
+/* line 559, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 h2 {
   margin-bottom: 48px; }
-/* line 511, ../scss/index.scss */
+/* line 564, ../scss/index.scss */
 .portfolio-item.line-icons .button-container {
   text-align: center; }
-  /* line 515, ../scss/index.scss */
+  /* line 568, ../scss/index.scss */
   .portfolio-item.line-icons .button-container .button {
     padding: 12px 15px;
     background: #52b96e;
     color: #fff; }
-/* line 524, ../scss/index.scss */
+/* line 577, ../scss/index.scss */
 .portfolio-item.closet-theory .project-color {
   color: #757575; }
-/* line 528, ../scss/index.scss */
+/* line 581, ../scss/index.scss */
 .portfolio-item.closet-theory .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(117, 117, 117, 0.8)), color-stop(100%, rgba(117, 117, 117, 0.8))), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
@@ -2681,20 +2729,20 @@ nav {
   background: -o-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed; }
-  /* line 531, ../scss/index.scss */
+  /* line 584, ../scss/index.scss */
   .portfolio-item.closet-theory .project-jumbotron .project-subtitle {
     color: #757575; }
-/* line 538, ../scss/index.scss */
+/* line 591, ../scss/index.scss */
 .portfolio-item.closet-theory #shot-2 .grid .grid__col {
   padding: 15px 16.5px;
   -webkit-transition: all ease .25s;
   -moz-transition: all ease .25s;
   -o-transition: all ease .25s;
   transition: all ease .25s; }
-/* line 548, ../scss/index.scss */
+/* line 601, ../scss/index.scss */
 .portfolio-item.closet-theory .button-container {
   text-align: center; }
-  /* line 552, ../scss/index.scss */
+  /* line 605, ../scss/index.scss */
   .portfolio-item.closet-theory .button-container .button {
     padding: 15px;
     -webkit-border-radius: 7.5px;
@@ -2702,7 +2750,7 @@ nav {
     border-radius: 7.5px;
     background: #757575;
     color: #fff; }
-/* line 563, ../scss/index.scss */
+/* line 616, ../scss/index.scss */
 .portfolio-item .project-jumbotron {
   position: relative;
   width: inherit;
@@ -2722,7 +2770,7 @@ nav {
     /* line 33, ../scss/index.scss */
     .portfolio-item .project-jumbotron nav ul li a:hover {
       color: #ffffff; }
-  /* line 572, ../scss/index.scss */
+  /* line 625, ../scss/index.scss */
   .portfolio-item .project-jumbotron .project-title {
     color: #fff;
     text-align: left;
@@ -2731,7 +2779,7 @@ nav {
     position: absolute;
     bottom: 54px;
     left: 4.16667%; }
-  /* line 582, ../scss/index.scss */
+  /* line 635, ../scss/index.scss */
   .portfolio-item .project-jumbotron .project-subtitle {
     background: #fff;
     color: tomato;
@@ -2743,24 +2791,24 @@ nav {
     letter-spacing: 6.5px;
     font-weight: 500;
     text-transform: uppercase; }
-/* line 596, ../scss/index.scss */
+/* line 649, ../scss/index.scss */
 .portfolio-item .shots-container {
   margin-top: 0; }
-  /* line 599, ../scss/index.scss */
+  /* line 652, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper, .portfolio-item .shots-container .light-wrapper {
     width: inherit; }
-  /* line 603, ../scss/index.scss */
+  /* line 656, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper {
     background: #f8f8f8;
     -webkit-box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2); }
-  /* line 612, ../scss/index.scss */
+  /* line 665, ../scss/index.scss */
   .portfolio-item .shots-container .shot > .content {
     max-width: 1200px;
     margin: 0px auto;
     padding: 97px 0; }
-  /* line 618, ../scss/index.scss */
+  /* line 671, ../scss/index.scss */
   .portfolio-item .shots-container .shot img {
     width: 100%;
     position: relative;
@@ -2773,7 +2821,7 @@ nav {
 
 /* media queries */
 @media (min-width: 700px) {
-  /* line 639, ../scss/index.scss */
+  /* line 692, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-2 .grid .grid__col:hover, .portfolio-item.closet-theory #shot-2 .grid .grid__col:hover {
     position: relative;
     z-index: 1000;
