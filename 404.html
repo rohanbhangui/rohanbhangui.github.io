@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rohan Bhangui</title>
+  <link rel="stylesheet" media="screen" type="text/css" href="/css/index.css">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <link href="/headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+  <script src="/headsupgrid/jquery-1.6.2.min.js"></script>
+  <script src="/headsupgrid/hugrid.js"></script>
+  <script type="text/javascript">
+    definegrid = function() {
+      var browserWidth = $(window).width(); 
+      if (browserWidth >= 701) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 24;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      } 
+      if (browserWidth <= 700) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 6;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+      if (browserWidth <= 479) 
+      {
+              pageUnits = '%';
+              colUnits = '%';
+        pagewidth = 100;
+        columns = 4;
+        columnwidth = pagewidth/columns;
+        gutterwidth = 0;
+        pagetopmargin = 0;
+        rowheight = 16;
+        gridonload = 'off';
+        makehugrid();
+      }
+    }
+      $(document).ready(function() {
+      definegrid();
+      setgridonload();
+      });    
+      
+      $(window).resize(function() {
+      definegrid();
+          setgridonresize();
+      });
+  </script>
+</head>
+<body>
+  <div class="restrict-container">
+    <main>
+      <div id="error">
+        <h1>Oops. You broke the Internet.</h1>
+        <h2>Seems like the page you are trying to access doesnt exist.</h2>
+        <h2>Click to return to <a href="/portfolio">portfolio</a>.</h2>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
