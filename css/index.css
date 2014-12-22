@@ -2865,18 +2865,18 @@ a#linkedin:hover {
     color: #fff; }
 /* line 776, ../scss/index.scss */
 .portfolio-item.basch .project-color {
-  color: #FFCA28; }
+  color: #FFC107; }
 /* line 780, ../scss/index.scss */
 .portfolio-item.basch .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(255, 202, 40, 0.8) 0%, rgba(255, 202, 40, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 202, 40, 0.8)), color-stop(100%, rgba(255, 202, 40, 0.8))), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(255, 202, 40, 0.8) 0%, rgba(255, 202, 40, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(255, 202, 40, 0.8) 0%, rgba(255, 202, 40, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(255, 202, 40, 0.8) 0%, rgba(255, 202, 40, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(255, 202, 40, 0.8) 0%, rgba(255, 202, 40, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed; }
+  background: -moz-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 193, 7, 0.8)), color-stop(100%, rgba(255, 193, 7, 0.8))), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed; }
   /* line 783, ../scss/index.scss */
   .portfolio-item.basch .project-jumbotron .project-subtitle {
-    color: #FFCA28; }
+    color: #FFC107; }
 /* line 790, ../scss/index.scss */
 .portfolio-item.basch #shot-2 .grid .grid__col:not(.paragraph) {
   padding: 15px 16.5px;
