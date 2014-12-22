@@ -7,63 +7,6 @@
   <title>Rohan Bhangui</title>
   <link rel="stylesheet" media="screen" type="text/css" href="/css/index.css">
   <link rel="shortcut icon" href="/favicon.ico">
-
-  <link href="/headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
-  <script src="/headsupgrid/jquery-1.6.2.min.js"></script>
-  <script src="/headsupgrid/hugrid.js"></script>
-  <script type="text/javascript">
-    definegrid = function() {
-      var browserWidth = $(window).width(); 
-      if (browserWidth >= 701) 
-      {
-              pageUnits = '%';
-              colUnits = '%';
-        pagewidth = 100;
-        columns = 24;
-        columnwidth = pagewidth/columns;
-        gutterwidth = 0;
-        pagetopmargin = 0;
-        rowheight = 16;
-        gridonload = 'off';
-        makehugrid();
-      } 
-      if (browserWidth <= 700) 
-      {
-              pageUnits = '%';
-              colUnits = '%';
-        pagewidth = 100;
-        columns = 6;
-        columnwidth = pagewidth/columns;
-        gutterwidth = 0;
-        pagetopmargin = 0;
-        rowheight = 16;
-        gridonload = 'off';
-        makehugrid();
-      }
-      if (browserWidth <= 479) 
-      {
-              pageUnits = '%';
-              colUnits = '%';
-        pagewidth = 100;
-        columns = 4;
-        columnwidth = pagewidth/columns;
-        gutterwidth = 0;
-        pagetopmargin = 0;
-        rowheight = 16;
-        gridonload = 'off';
-        makehugrid();
-      }
-    }
-      $(document).ready(function() {
-      definegrid();
-      setgridonload();
-      });    
-      
-      $(window).resize(function() {
-      definegrid();
-          setgridonresize();
-      });
-  </script>
 </head>
 <body>
   <div class="restrict-container">
