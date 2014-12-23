@@ -2427,13 +2427,13 @@ nav {
   padding-left: 4.16%;
   padding-right: 4.16%;
   height: 128px; }
-  /* line 194, ../scss/index.scss */
+  /* line 188, ../scss/index.scss */
   nav .nav-title {
     font-weight: 300;
     float: left;
     text-align: left;
     margin-top: 47px; }
-    /* line 200, ../scss/index.scss */
+    /* line 194, ../scss/index.scss */
     nav .nav-title a {
       text-transform: uppercase;
       font-weight: 500;
@@ -2445,18 +2445,18 @@ nav {
       -moz-transition: color ease .25s;
       -o-transition: color ease .25s;
       transition: color ease .25s; }
-      /* line 211, ../scss/index.scss */
+      /* line 205, ../scss/index.scss */
       nav .nav-title a:hover {
         color: rgba(0, 0, 0, 0.45); }
-  /* line 218, ../scss/index.scss */
+  /* line 212, ../scss/index.scss */
   nav .nav-links {
     float: right;
     margin-top: 47px; }
-    /* line 222, ../scss/index.scss */
-    nav .nav-links li {
+    /* line 216, ../scss/index.scss */
+    nav .nav-links > li {
       display: inline-block; }
-      /* line 226, ../scss/index.scss */
-      nav .nav-links li a {
+      /* line 220, ../scss/index.scss */
+      nav .nav-links > li > a {
         text-transform: uppercase;
         font-weight: 500;
         font-size: 18px;
@@ -2471,15 +2471,15 @@ nav {
         -moz-transition: all ease .25s;
         -o-transition: all ease .25s;
         transition: all ease .25s; }
-        /* line 242, ../scss/index.scss */
-        nav .nav-links li a:hover {
+        /* line 236, ../scss/index.scss */
+        nav .nav-links > li > a:hover {
           color: rgba(0, 0, 0, 0.45); }
-        /* line 246, ../scss/index.scss */
-        nav .nav-links li a.active {
+        /* line 240, ../scss/index.scss */
+        nav .nav-links > li > a.active {
           color: rgba(0, 0, 0, 0.45); }
 
 /* 404 page */
-/* line 256, ../scss/index.scss */
+/* line 250, ../scss/index.scss */
 #error {
   position: absolute;
   top: 50%;
@@ -2489,18 +2489,18 @@ nav {
   -ms-transform: translateY(-50%) translateX(-50%);
   -o-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%); }
-  /* line 266, ../scss/index.scss */
+  /* line 260, ../scss/index.scss */
   #error h1, #error h2 {
     text-align: center; }
-  /* line 270, ../scss/index.scss */
+  /* line 264, ../scss/index.scss */
   #error h1 {
     font-weight: 500;
     margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.8); }
-  /* line 276, ../scss/index.scss */
+  /* line 270, ../scss/index.scss */
   #error h2 {
     margin-bottom: 0; }
-    /* line 279, ../scss/index.scss */
+    /* line 273, ../scss/index.scss */
     #error h2 a {
       color: rgba(0, 0, 0, 0.8);
       -webkit-transition: all ease .25s;
@@ -2508,21 +2508,21 @@ nav {
       -o-transition: all ease .25s;
       transition: all ease .25s;
       border-bottom: 2px solid transparent; }
-      /* line 287, ../scss/index.scss */
+      /* line 281, ../scss/index.scss */
       #error h2 a:hover {
         border-bottom: 2px solid rgba(0, 0, 0, 0.8); }
 
 /* portfolio page */
-/* line 296, ../scss/index.scss */
+/* line 290, ../scss/index.scss */
 #projects {
   margin-top: 48px; }
 
-/* line 300, ../scss/index.scss */
+/* line 294, ../scss/index.scss */
 .project {
   text-align: center;
   font-size: 32px;
   margin-top: 20px; }
-  /* line 305, ../scss/index.scss */
+  /* line 299, ../scss/index.scss */
   .project a {
     font-weight: 300;
     color: rgba(0, 0, 0, 0.25);
@@ -2534,16 +2534,16 @@ nav {
     -moz-transition: all ease .25s;
     -o-transition: all ease .25s;
     transition: all ease .25s; }
-    /* line 317, ../scss/index.scss */
+    /* line 311, ../scss/index.scss */
     .project a:hover {
       color: rgba(0, 0, 0, 0.45); }
 
 /* about page */
-/* line 325, ../scss/index.scss */
+/* line 319, ../scss/index.scss */
 #about-info {
   max-width: 1200px;
   margin: 96px auto 0 auto; }
-  /* line 329, ../scss/index.scss */
+  /* line 323, ../scss/index.scss */
   #about-info #profile-pic {
     margin-bottom: 48px;
     max-width: 256px;
@@ -2559,21 +2559,21 @@ nav {
     -webkit-border-radius: 256px;
     -moz-border-radius: 256px;
     border-radius: 256px; }
-  /* line 346, ../scss/index.scss */
+  /* line 340, ../scss/index.scss */
   #about-info a {
     -webkit-transition: all ease .25s;
     -moz-transition: all ease .25s;
     -o-transition: all ease .25s;
     transition: all ease .25s; }
-    /* line 352, ../scss/index.scss */
+    /* line 346, ../scss/index.scss */
     #about-info a:hover {
       color: #1E88E5; }
 
 /* contact page */
-/* line 360, ../scss/index.scss */
+/* line 354, ../scss/index.scss */
 #contact-info {
   margin-top: 160px; }
-  /* line 363, ../scss/index.scss */
+  /* line 357, ../scss/index.scss */
   #contact-info .info-line {
     text-align: center;
     font-size: 16px;
@@ -2581,10 +2581,10 @@ nav {
     color: rgba(0, 0, 0, 0.6);
     line-height: 1.6;
     vertical-align: middle; }
-    /* line 371, ../scss/index.scss */
+    /* line 365, ../scss/index.scss */
     #contact-info .info-line a {
       color: rgba(0, 0, 0, 0.6); }
-    /* line 375, ../scss/index.scss */
+    /* line 369, ../scss/index.scss */
     #contact-info .info-line .social-icons {
       font-family: "FontAwesome";
       font-size: 25px;
@@ -2602,27 +2602,27 @@ nav {
       -o-transition: all ease .25s;
       transition: all ease .25s; }
 
-/* line 395, ../scss/index.scss */
+/* line 389, ../scss/index.scss */
 a#dribbble:hover {
   color: #ea4c89; }
 
-/* line 399, ../scss/index.scss */
+/* line 393, ../scss/index.scss */
 a#facebook:hover {
   color: #3b5998; }
 
-/* line 403, ../scss/index.scss */
+/* line 397, ../scss/index.scss */
 a#twitter:hover {
   color: #55acee; }
 
-/* line 407, ../scss/index.scss */
+/* line 401, ../scss/index.scss */
 a#linkedin:hover {
   color: #007bb6; }
 
 /* portfolio item pages */
-/* line 420, ../scss/index.scss */
+/* line 414, ../scss/index.scss */
 .portfolio-item.otwm .project-color {
   color: #D50000; }
-/* line 424, ../scss/index.scss */
+/* line 418, ../scss/index.scss */
 .portfolio-item.otwm .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(213, 0, 0, 0.8)), color-stop(100%, rgba(213, 0, 0, 0.8))), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
@@ -2630,59 +2630,59 @@ a#linkedin:hover {
   background: -o-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed; }
-  /* line 427, ../scss/index.scss */
+  /* line 421, ../scss/index.scss */
   .portfolio-item.otwm .project-jumbotron .project-subtitle {
     color: #D50000; }
-/* line 436, ../scss/index.scss */
+/* line 430, ../scss/index.scss */
 .portfolio-item.otwm #shot-1 .grid .grid__col {
   margin-bottom: 40px; }
-  /* line 439, ../scss/index.scss */
+  /* line 433, ../scss/index.scss */
   .portfolio-item.otwm #shot-1 .grid .grid__col img {
     max-width: 221px;
     margin-bottom: 10px; }
-/* line 446, ../scss/index.scss */
+/* line 440, ../scss/index.scss */
 .portfolio-item.otwm #shot-1 p {
   margin-top: 56px; }
-/* line 452, ../scss/index.scss */
+/* line 446, ../scss/index.scss */
 .portfolio-item.otwm #shot-2 img {
   max-height: 79px;
   width: auto;
   margin-bottom: 10px; }
-/* line 458, ../scss/index.scss */
+/* line 452, ../scss/index.scss */
 .portfolio-item.otwm #shot-2 ul {
   margin-top: 32px; }
-/* line 462, ../scss/index.scss */
+/* line 456, ../scss/index.scss */
 .portfolio-item.otwm #shot-2 p {
   margin-top: 96px; }
-/* line 468, ../scss/index.scss */
+/* line 462, ../scss/index.scss */
 .portfolio-item.otwm #shot-4 .initial-ideas {
   margin-top: 96px; }
-  /* line 473, ../scss/index.scss */
+  /* line 467, ../scss/index.scss */
   .portfolio-item.otwm #shot-4 .initial-ideas:nth-child(2) img {
     max-width: 600px; }
-  /* line 478, ../scss/index.scss */
+  /* line 472, ../scss/index.scss */
   .portfolio-item.otwm #shot-4 .initial-ideas p {
     margin-top: 32px; }
-  /* line 484, ../scss/index.scss */
+  /* line 478, ../scss/index.scss */
   .portfolio-item.otwm #shot-4 .initial-ideas:nth-child(3) img {
     max-height: none;
     width: 100%;
     max-width: 250px; }
-/* line 495, ../scss/index.scss */
+/* line 489, ../scss/index.scss */
 .portfolio-item.otwm #shot-5 .final-result {
   margin-top: 96px; }
-  /* line 499, ../scss/index.scss */
+  /* line 493, ../scss/index.scss */
   .portfolio-item.otwm #shot-5 .final-result:nth-child(3) {
     margin-top: 64px; }
-    /* line 503, ../scss/index.scss */
+    /* line 497, ../scss/index.scss */
     .portfolio-item.otwm #shot-5 .final-result:nth-child(3) img {
       margin-top: 48px;
       border: 1px solid #ccc;
       max-width: 300px; }
-/* line 515, ../scss/index.scss */
+/* line 509, ../scss/index.scss */
 .portfolio-item.wikipedia .project-color {
   color: #424242; }
-/* line 519, ../scss/index.scss */
+/* line 513, ../scss/index.scss */
 .portfolio-item.wikipedia .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(66, 66, 66, 0.8)), color-stop(100%, rgba(66, 66, 66, 0.8))), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
@@ -2690,48 +2690,48 @@ a#linkedin:hover {
   background: -o-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed; }
-  /* line 522, ../scss/index.scss */
+  /* line 516, ../scss/index.scss */
   .portfolio-item.wikipedia .project-jumbotron .project-subtitle {
     color: #424242; }
-/* line 530, ../scss/index.scss */
+/* line 524, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-1 .grid .grid__col {
   margin-bottom: 40px; }
-  /* line 533, ../scss/index.scss */
+  /* line 527, ../scss/index.scss */
   .portfolio-item.wikipedia #shot-1 .grid .grid__col img {
     max-height: 110px;
     width: auto;
     margin-bottom: 10px; }
-/* line 541, ../scss/index.scss */
+/* line 535, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-1 p {
   margin: 56px; }
-/* line 548, ../scss/index.scss */
+/* line 542, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-2 h2 {
   margin-bottom: 16px; }
-/* line 552, ../scss/index.scss */
+/* line 546, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-2 img {
   max-height: 79px;
   width: auto;
   margin-bottom: 10px;
   margin-top: 80px; }
-/* line 559, ../scss/index.scss */
+/* line 553, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-2 ul {
   margin-top: 32px; }
-/* line 563, ../scss/index.scss */
+/* line 557, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-2 p {
   margin-top: 96px; }
-/* line 569, ../scss/index.scss */
+/* line 563, ../scss/index.scss */
 .portfolio-item.wikipedia #shot-4 .initial-ideas {
   margin-top: 96px; }
-  /* line 574, ../scss/index.scss */
+  /* line 568, ../scss/index.scss */
   .portfolio-item.wikipedia #shot-4 .initial-ideas:nth-child(3) .grid .grid__col:nth-child(2) {
     margin-top: 56px; }
-  /* line 580, ../scss/index.scss */
+  /* line 574, ../scss/index.scss */
   .portfolio-item.wikipedia #shot-4 .initial-ideas p {
     margin-top: 32px; }
-/* line 589, ../scss/index.scss */
+/* line 583, ../scss/index.scss */
 .portfolio-item.tethys-geologic .project-color {
   color: #263238; }
-/* line 593, ../scss/index.scss */
+/* line 587, ../scss/index.scss */
 .portfolio-item.tethys-geologic .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(38, 50, 56, 0.8)), color-stop(100%, rgba(38, 50, 56, 0.8))), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
@@ -2739,53 +2739,53 @@ a#linkedin:hover {
   background: -o-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed; }
-  /* line 596, ../scss/index.scss */
+  /* line 590, ../scss/index.scss */
   .portfolio-item.tethys-geologic .project-jumbotron .project-subtitle {
     color: #263238; }
-/* line 603, ../scss/index.scss */
+/* line 597, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-2 .grid .grid__col {
   padding: 15px 16.5px;
   -webkit-transition: all ease .25s;
   -moz-transition: all ease .25s;
   -o-transition: all ease .25s;
   transition: all ease .25s; }
-/* line 615, ../scss/index.scss */
+/* line 609, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 h2 {
   margin-bottom: 16px; }
-/* line 619, ../scss/index.scss */
+/* line 613, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 img {
   max-height: 100px;
   width: auto;
   margin-bottom: 10px;
   margin-top: 80px; }
-/* line 626, ../scss/index.scss */
+/* line 620, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 ul {
   margin-top: 32px; }
-/* line 630, ../scss/index.scss */
+/* line 624, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-3 p {
   margin-top: 96px; }
-/* line 636, ../scss/index.scss */
+/* line 630, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-5 .initial-ideas {
   margin-top: 96px; }
-  /* line 640, ../scss/index.scss */
+  /* line 634, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-5 .initial-ideas img {
     margin-bottom: 32px;
     padding: 16px;
     max-width: 250px; }
-  /* line 646, ../scss/index.scss */
+  /* line 640, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-5 .initial-ideas #text-idea {
     max-width: 450px; }
-/* line 654, ../scss/index.scss */
+/* line 648, ../scss/index.scss */
 .portfolio-item.tethys-geologic #shot-6 .final-result {
   margin-top: 96px; }
-  /* line 660, ../scss/index.scss */
+  /* line 654, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-6 .final-result:nth-child(3) img {
     margin-top: 48px;
     border: 1px solid #ccc; }
-/* line 671, ../scss/index.scss */
+/* line 665, ../scss/index.scss */
 .portfolio-item.line-icons .project-color {
   color: #52b96e; }
-/* line 675, ../scss/index.scss */
+/* line 669, ../scss/index.scss */
 .portfolio-item.line-icons .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(82, 185, 110, 0.8)), color-stop(100%, rgba(82, 185, 110, 0.8))), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
@@ -2793,35 +2793,35 @@ a#linkedin:hover {
   background: -o-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed; }
-  /* line 678, ../scss/index.scss */
+  /* line 672, ../scss/index.scss */
   .portfolio-item.line-icons .project-jumbotron .project-subtitle {
     color: #52b96e; }
-/* line 684, ../scss/index.scss */
+/* line 678, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 img {
   max-width: 480px;
   padding: 64px 64px 16px;
   margin-bottom: 10px; }
-/* line 690, ../scss/index.scss */
+/* line 684, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 p {
   margin-top: 96px; }
-/* line 694, ../scss/index.scss */
+/* line 688, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 h2:nth-child(4) {
   margin-top: 80px; }
-/* line 698, ../scss/index.scss */
+/* line 692, ../scss/index.scss */
 .portfolio-item.line-icons #shot-2 h2 {
   margin-bottom: 48px; }
-/* line 703, ../scss/index.scss */
+/* line 697, ../scss/index.scss */
 .portfolio-item.line-icons .button-container {
   text-align: center; }
-  /* line 707, ../scss/index.scss */
+  /* line 701, ../scss/index.scss */
   .portfolio-item.line-icons .button-container .button {
     padding: 12px 15px;
     background: #52b96e;
     color: #fff; }
-/* line 716, ../scss/index.scss */
+/* line 710, ../scss/index.scss */
 .portfolio-item.closet-theory .project-color {
   color: #757575; }
-/* line 720, ../scss/index.scss */
+/* line 714, ../scss/index.scss */
 .portfolio-item.closet-theory .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(117, 117, 117, 0.8)), color-stop(100%, rgba(117, 117, 117, 0.8))), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
@@ -2829,44 +2829,44 @@ a#linkedin:hover {
   background: -o-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed; }
-  /* line 723, ../scss/index.scss */
+  /* line 717, ../scss/index.scss */
   .portfolio-item.closet-theory .project-jumbotron .project-subtitle {
     color: #757575; }
-/* line 730, ../scss/index.scss */
+/* line 724, ../scss/index.scss */
 .portfolio-item.closet-theory #shot-2 .grid .grid__col:not(.paragraph), .portfolio-item.closet-theory #shot-3 .grid .grid__col:not(.paragraph) {
   padding: 15px 16.5px;
   -webkit-transition: all ease .25s;
   -moz-transition: all ease .25s;
   -o-transition: all ease .25s;
   transition: all ease .25s; }
-/* line 741, ../scss/index.scss */
+/* line 735, ../scss/index.scss */
 .portfolio-item.closet-theory #shot-3 img {
   border: 1px solid #eaeaea; }
-/* line 745, ../scss/index.scss */
+/* line 739, ../scss/index.scss */
 .portfolio-item.closet-theory #shot-3 p {
   margin-top: 96px; }
-/* line 750, ../scss/index.scss */
+/* line 744, ../scss/index.scss */
 .portfolio-item.closet-theory #shot-3 ul li {
   text-indent: 5px;
   text-align: left; }
-  /* line 754, ../scss/index.scss */
+  /* line 748, ../scss/index.scss */
   .portfolio-item.closet-theory #shot-3 ul li:before {
     content: "-";
     position: relative;
     left: -5px; }
-/* line 763, ../scss/index.scss */
+/* line 757, ../scss/index.scss */
 .portfolio-item.closet-theory .button-container {
   margin-top: 128px;
   text-align: center; }
-  /* line 767, ../scss/index.scss */
+  /* line 761, ../scss/index.scss */
   .portfolio-item.closet-theory .button-container .button {
     padding: 12px 15px;
     background: #757575;
     color: #fff; }
-/* line 776, ../scss/index.scss */
+/* line 770, ../scss/index.scss */
 .portfolio-item.basch .project-color {
   color: #FFC107; }
-/* line 780, ../scss/index.scss */
+/* line 774, ../scss/index.scss */
 .portfolio-item.basch .project-jumbotron {
   background: -moz-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 193, 7, 0.8)), color-stop(100%, rgba(255, 193, 7, 0.8))), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
@@ -2874,41 +2874,41 @@ a#linkedin:hover {
   background: -o-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
   background: -ms-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% ixed;
   background: linear-gradient(to bottom, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed; }
-  /* line 783, ../scss/index.scss */
+  /* line 777, ../scss/index.scss */
   .portfolio-item.basch .project-jumbotron .project-subtitle {
     color: #FFC107; }
-/* line 790, ../scss/index.scss */
+/* line 784, ../scss/index.scss */
 .portfolio-item.basch #shot-2 .grid .grid__col:not(.paragraph) {
   padding: 15px 16.5px;
   -webkit-transition: all ease .25s;
   -moz-transition: all ease .25s;
   -o-transition: all ease .25s;
   transition: all ease .25s; }
-/* line 799, ../scss/index.scss */
+/* line 793, ../scss/index.scss */
 .portfolio-item.basch #shot-2 p {
   margin-top: 96px; }
-/* line 805, ../scss/index.scss */
+/* line 799, ../scss/index.scss */
 .portfolio-item.basch #shot-4 .initial-ideas {
   margin-top: 96px; }
-  /* line 809, ../scss/index.scss */
+  /* line 803, ../scss/index.scss */
   .portfolio-item.basch #shot-4 .initial-ideas img {
     margin-bottom: 32px;
     padding: 16px;
     max-width: 650px; }
-  /* line 815, ../scss/index.scss */
+  /* line 809, ../scss/index.scss */
   .portfolio-item.basch #shot-4 .initial-ideas #text-idea {
     max-width: 450px; }
-/* line 820, ../scss/index.scss */
+/* line 814, ../scss/index.scss */
 .portfolio-item.basch #shot-4 p {
   margin-top: 80px; }
-/* line 827, ../scss/index.scss */
+/* line 821, ../scss/index.scss */
 .portfolio-item.basch #shot-5 .final-result {
   margin-top: 96px; }
-  /* line 833, ../scss/index.scss */
+  /* line 827, ../scss/index.scss */
   .portfolio-item.basch #shot-5 .final-result:nth-child(3) img {
     margin-top: 48px;
     border: 1px solid #ccc; }
-/* line 842, ../scss/index.scss */
+/* line 836, ../scss/index.scss */
 .portfolio-item .project-jumbotron {
   position: relative;
   width: inherit;
@@ -2920,15 +2920,15 @@ a#linkedin:hover {
     .portfolio-item .project-jumbotron nav .nav-title a:hover {
       color: #ffffff; }
   /* line 27, ../scss/index.scss */
-  .portfolio-item .project-jumbotron nav ul li a {
+  .portfolio-item .project-jumbotron nav .nav-links > li > a {
     color: #ffffff; }
     /* line 30, ../scss/index.scss */
-    .portfolio-item .project-jumbotron nav ul li a.active {
+    .portfolio-item .project-jumbotron nav .nav-links > li > a.active {
       color: #ffffff; }
     /* line 34, ../scss/index.scss */
-    .portfolio-item .project-jumbotron nav ul li a:hover {
+    .portfolio-item .project-jumbotron nav .nav-links > li > a:hover {
       color: #ffffff; }
-  /* line 851, ../scss/index.scss */
+  /* line 845, ../scss/index.scss */
   .portfolio-item .project-jumbotron .project-title {
     color: #fff;
     text-align: left;
@@ -2939,7 +2939,7 @@ a#linkedin:hover {
     left: 4.16%;
     margin-left: 15px;
     width: 91.66667%; }
-  /* line 863, ../scss/index.scss */
+  /* line 857, ../scss/index.scss */
   .portfolio-item .project-jumbotron .project-subtitle {
     background: #fff;
     color: tomato;
@@ -2953,24 +2953,24 @@ a#linkedin:hover {
     letter-spacing: 6.5px;
     font-weight: 500;
     text-transform: uppercase; }
-/* line 879, ../scss/index.scss */
+/* line 873, ../scss/index.scss */
 .portfolio-item .shots-container {
   margin-top: 0; }
-  /* line 882, ../scss/index.scss */
+  /* line 876, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper, .portfolio-item .shots-container .light-wrapper {
     width: 100%; }
-  /* line 886, ../scss/index.scss */
+  /* line 880, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper {
     background: #f8f8f8;
     -webkit-box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2); }
-  /* line 895, ../scss/index.scss */
+  /* line 889, ../scss/index.scss */
   .portfolio-item .shots-container .shot > .content {
     max-width: 1200px;
     margin: 0px auto;
     padding: 97px 0; }
-  /* line 901, ../scss/index.scss */
+  /* line 895, ../scss/index.scss */
   .portfolio-item .shots-container .shot img {
     width: 100%;
     position: relative;
@@ -2983,7 +2983,7 @@ a#linkedin:hover {
 
 /* media queries */
 @media (min-width: 700px) {
-  /* line 922, ../scss/index.scss */
+  /* line 916, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-2 .grid .grid__col:hover {
     position: relative;
     z-index: 1000;
@@ -2993,7 +2993,7 @@ a#linkedin:hover {
     -moz-transform: scale(1.25);
     transform: scale(1.25); }
 
-  /* line 938, ../scss/index.scss */
+  /* line 932, ../scss/index.scss */
   .portfolio-item.closet-theory #shot-2 .grid .grid__col:not(.paragraph):hover, .portfolio-item.closet-theory #shot-3 .grid .grid__col:not(.paragraph):hover {
     position: relative;
     z-index: 1000;
@@ -3003,7 +3003,7 @@ a#linkedin:hover {
     -moz-transform: scale(1.25);
     transform: scale(1.25); }
 
-  /* line 954, ../scss/index.scss */
+  /* line 948, ../scss/index.scss */
   .portfolio-item.basch #shot-2 .grid .grid__col:not(.paragraph):hover {
     position: relative;
     z-index: 1000;
@@ -3013,12 +3013,12 @@ a#linkedin:hover {
     -moz-transform: scale(1.25);
     transform: scale(1.25); } }
 @media (max-width: 700px) {
-  /* line 969, ../scss/index.scss */
+  /* line 963, ../scss/index.scss */
   p {
     padding-left: 10%;
     padding-right: 10%; }
 
-  /* line 977, ../scss/index.scss */
+  /* line 971, ../scss/index.scss */
   .portfolio-item.closet-theory #shot-3 .grid__col.paragraph ul {
     padding-left: 10%;
     padding-right: 10%; } }
