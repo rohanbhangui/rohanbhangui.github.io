@@ -2356,7 +2356,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: #000;
-  font-style: none; }
+  font-style: normal; }
 
 /* line 116, ../scss/index.scss */
 ul {
