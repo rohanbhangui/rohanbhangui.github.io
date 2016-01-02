@@ -2410,8 +2410,8 @@ footer {
   padding: 20px 0; }
   /* line 168, ../scss/index.scss */
   footer#custom {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    top: 30px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -2515,7 +2515,7 @@ nav {
 /* portfolio page */
 /* line 291, ../scss/index.scss */
 #projects {
-  margin-top: 48px; }
+  margin-top: 16px; }
 
 /* line 295, ../scss/index.scss */
 .project {
@@ -2542,7 +2542,7 @@ nav {
 /* line 320, ../scss/index.scss */
 #about-info {
   max-width: 1200px;
-  margin: 96px auto 0 auto; }
+  margin: 32px auto 0 auto; }
   /* line 324, ../scss/index.scss */
   #about-info #profile-pic {
     margin-bottom: 48px;
