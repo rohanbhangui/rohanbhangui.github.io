@@ -2665,314 +2665,14 @@ a#linkedin:hover {
   color: #007bb6; }
 
 /* portfolio item pages */
-/* line 466, ../scss/index.scss */
-.portfolio-item.otwm .project-color {
-  color: #D50000; }
-/* line 470, ../scss/index.scss */
-.portfolio-item.otwm .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(213, 0, 0, 0.8)), color-stop(100%, rgba(213, 0, 0, 0.8))), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed; }
-  /* line 473, ../scss/index.scss */
-  .portfolio-item.otwm .project-jumbotron .project-subtitle {
-    color: #D50000; }
-/* line 482, ../scss/index.scss */
-.portfolio-item.otwm #shot-1 .grid .grid__col {
-  margin-bottom: 40px; }
-  /* line 485, ../scss/index.scss */
-  .portfolio-item.otwm #shot-1 .grid .grid__col img {
-    max-width: 221px;
-    margin-bottom: 10px; }
-/* line 492, ../scss/index.scss */
-.portfolio-item.otwm #shot-1 p {
-  margin-top: 56px; }
-/* line 498, ../scss/index.scss */
-.portfolio-item.otwm #shot-2 img {
-  max-height: 79px;
-  width: auto;
-  margin-bottom: 10px; }
-/* line 504, ../scss/index.scss */
-.portfolio-item.otwm #shot-2 ul {
-  margin-top: 32px; }
-/* line 508, ../scss/index.scss */
-.portfolio-item.otwm #shot-2 p {
-  margin-top: 96px; }
-/* line 514, ../scss/index.scss */
-.portfolio-item.otwm #shot-4 .initial-ideas {
-  margin-top: 96px; }
-  /* line 519, ../scss/index.scss */
-  .portfolio-item.otwm #shot-4 .initial-ideas:nth-child(2) img {
-    max-width: 600px; }
-  /* line 524, ../scss/index.scss */
-  .portfolio-item.otwm #shot-4 .initial-ideas p {
-    margin-top: 32px; }
-  /* line 530, ../scss/index.scss */
-  .portfolio-item.otwm #shot-4 .initial-ideas:nth-child(3) img {
-    max-height: none;
-    width: 100%;
-    max-width: 250px; }
-/* line 541, ../scss/index.scss */
-.portfolio-item.otwm #shot-5 .final-result {
-  margin-top: 96px; }
-  /* line 545, ../scss/index.scss */
-  .portfolio-item.otwm #shot-5 .final-result:nth-child(3) {
-    margin-top: 64px; }
-    /* line 549, ../scss/index.scss */
-    .portfolio-item.otwm #shot-5 .final-result:nth-child(3) img {
-      margin-top: 48px;
-      border: 1px solid #ccc;
-      max-width: 300px; }
-/* line 561, ../scss/index.scss */
-.portfolio-item.wikipedia .project-color {
-  color: #424242; }
-/* line 565, ../scss/index.scss */
-.portfolio-item.wikipedia .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(66, 66, 66, 0.8)), color-stop(100%, rgba(66, 66, 66, 0.8))), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed; }
-  /* line 568, ../scss/index.scss */
-  .portfolio-item.wikipedia .project-jumbotron .project-subtitle {
-    color: #424242; }
-/* line 576, ../scss/index.scss */
-.portfolio-item.wikipedia #shot-1 .grid .grid__col {
-  margin-bottom: 40px; }
-  /* line 579, ../scss/index.scss */
-  .portfolio-item.wikipedia #shot-1 .grid .grid__col img {
-    max-height: 110px;
-    width: auto;
-    margin-bottom: 10px; }
-/* line 587, ../scss/index.scss */
-.portfolio-item.wikipedia #shot-1 p {
-  margin: 56px; }
-/* line 594, ../scss/index.scss */
-.portfolio-item.wikipedia #shot-2 h2 {
-  margin-bottom: 16px; }
-/* line 598, ../scss/index.scss */
-.portfolio-item.wikipedia #shot-2 img {
-  max-height: 79px;
-  width: auto;
-  margin-bottom: 10px;
-  margin-top: 80px; }
-/* line 605, ../scss/index.scss */
-.portfolio-item.wikipedia #shot-2 ul {
-  margin-top: 32px; }
-/* line 609, ../scss/index.scss */
-.portfolio-item.wikipedia #shot-2 p {
-  margin-top: 96px; }
-/* line 615, ../scss/index.scss */
-.portfolio-item.wikipedia #shot-4 .initial-ideas {
-  margin-top: 96px; }
-  /* line 620, ../scss/index.scss */
-  .portfolio-item.wikipedia #shot-4 .initial-ideas:nth-child(3) .grid .grid__col:nth-child(2) {
-    margin-top: 56px; }
-  /* line 626, ../scss/index.scss */
-  .portfolio-item.wikipedia #shot-4 .initial-ideas p {
-    margin-top: 32px; }
-/* line 635, ../scss/index.scss */
-.portfolio-item.tethys-geologic .project-color {
-  color: #263238; }
-/* line 639, ../scss/index.scss */
-.portfolio-item.tethys-geologic .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(38, 50, 56, 0.8)), color-stop(100%, rgba(38, 50, 56, 0.8))), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed; }
-  /* line 642, ../scss/index.scss */
-  .portfolio-item.tethys-geologic .project-jumbotron .project-subtitle {
-    color: #263238; }
-/* line 649, ../scss/index.scss */
-.portfolio-item.tethys-geologic #shot-2 .grid .grid__col {
-  padding: 15px 16.5px;
-  -webkit-transition: all ease .25s;
-  -moz-transition: all ease .25s;
-  -o-transition: all ease .25s;
-  transition: all ease .25s; }
-/* line 661, ../scss/index.scss */
-.portfolio-item.tethys-geologic #shot-3 h2 {
-  margin-bottom: 16px; }
-/* line 665, ../scss/index.scss */
-.portfolio-item.tethys-geologic #shot-3 img {
-  max-height: 100px;
-  width: auto;
-  margin-bottom: 10px;
-  margin-top: 80px; }
-/* line 672, ../scss/index.scss */
-.portfolio-item.tethys-geologic #shot-3 ul {
-  margin-top: 32px; }
-/* line 676, ../scss/index.scss */
-.portfolio-item.tethys-geologic #shot-3 p {
-  margin-top: 96px; }
-/* line 682, ../scss/index.scss */
-.portfolio-item.tethys-geologic #shot-5 .initial-ideas {
-  margin-top: 96px; }
-  /* line 686, ../scss/index.scss */
-  .portfolio-item.tethys-geologic #shot-5 .initial-ideas img {
-    margin-bottom: 32px;
-    padding: 16px;
-    max-width: 250px; }
-  /* line 692, ../scss/index.scss */
-  .portfolio-item.tethys-geologic #shot-5 .initial-ideas #text-idea {
-    max-width: 450px; }
-/* line 700, ../scss/index.scss */
-.portfolio-item.tethys-geologic #shot-6 .final-result {
-  margin-top: 96px; }
-  /* line 706, ../scss/index.scss */
-  .portfolio-item.tethys-geologic #shot-6 .final-result:nth-child(3) img {
-    margin-top: 48px;
-    border: 1px solid #ccc; }
-/* line 717, ../scss/index.scss */
-.portfolio-item.line-icons .project-color {
-  color: #52b96e; }
-/* line 721, ../scss/index.scss */
-.portfolio-item.line-icons .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(82, 185, 110, 0.8)), color-stop(100%, rgba(82, 185, 110, 0.8))), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed; }
-  /* line 724, ../scss/index.scss */
-  .portfolio-item.line-icons .project-jumbotron .project-subtitle {
-    color: #52b96e; }
-/* line 730, ../scss/index.scss */
-.portfolio-item.line-icons #shot-2 img {
-  max-width: 480px;
-  padding: 64px 64px 16px;
-  margin-bottom: 10px; }
-/* line 736, ../scss/index.scss */
-.portfolio-item.line-icons #shot-2 p {
-  margin-top: 96px; }
-/* line 740, ../scss/index.scss */
-.portfolio-item.line-icons #shot-2 h2:nth-child(4) {
-  margin-top: 80px; }
-/* line 744, ../scss/index.scss */
-.portfolio-item.line-icons #shot-2 h2 {
-  margin-bottom: 48px; }
-/* line 749, ../scss/index.scss */
-.portfolio-item.line-icons .button-container {
-  text-align: center; }
-  /* line 753, ../scss/index.scss */
-  .portfolio-item.line-icons .button-container .button {
-    padding: 12px 15px;
-    background: #52b96e;
-    color: #fff; }
-/* line 762, ../scss/index.scss */
-.portfolio-item.closet-theory .project-color {
-  color: #757575; }
-/* line 766, ../scss/index.scss */
-.portfolio-item.closet-theory .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(117, 117, 117, 0.8)), color-stop(100%, rgba(117, 117, 117, 0.8))), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed; }
-  /* line 769, ../scss/index.scss */
-  .portfolio-item.closet-theory .project-jumbotron .project-subtitle {
-    color: #757575; }
-/* line 776, ../scss/index.scss */
-.portfolio-item.closet-theory #shot-2 .grid .grid__col:not(.paragraph), .portfolio-item.closet-theory #shot-3 .grid .grid__col:not(.paragraph) {
-  padding: 15px 16.5px;
-  -webkit-transition: all ease .25s;
-  -moz-transition: all ease .25s;
-  -o-transition: all ease .25s;
-  transition: all ease .25s; }
-/* line 787, ../scss/index.scss */
-.portfolio-item.closet-theory #shot-3 img {
-  border: 1px solid #eaeaea; }
-/* line 791, ../scss/index.scss */
-.portfolio-item.closet-theory #shot-3 p {
-  margin-top: 96px; }
-/* line 796, ../scss/index.scss */
-.portfolio-item.closet-theory #shot-3 ul li {
-  text-indent: 5px;
-  text-align: left; }
-  /* line 800, ../scss/index.scss */
-  .portfolio-item.closet-theory #shot-3 ul li:before {
-    content: "-";
-    position: relative;
-    left: -5px; }
-/* line 809, ../scss/index.scss */
-.portfolio-item.closet-theory .button-container {
-  margin-top: 128px;
-  text-align: center; }
-  /* line 813, ../scss/index.scss */
-  .portfolio-item.closet-theory .button-container .button {
-    padding: 12px 15px;
-    background: #757575;
-    color: #fff; }
-/* line 822, ../scss/index.scss */
-.portfolio-item.basch .project-color {
-  color: #FFC107; }
-/* line 826, ../scss/index.scss */
-.portfolio-item.basch .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 193, 7, 0.8)), color-stop(100%, rgba(255, 193, 7, 0.8))), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed; }
-  /* line 829, ../scss/index.scss */
-  .portfolio-item.basch .project-jumbotron .project-subtitle {
-    color: #FFC107; }
-/* line 836, ../scss/index.scss */
-.portfolio-item.basch #shot-2 .grid .grid__col:not(.paragraph) {
-  padding: 15px 16.5px;
-  -webkit-transition: all ease .25s;
-  -moz-transition: all ease .25s;
-  -o-transition: all ease .25s;
-  transition: all ease .25s; }
-/* line 845, ../scss/index.scss */
-.portfolio-item.basch #shot-2 p {
-  margin-top: 96px; }
-/* line 851, ../scss/index.scss */
-.portfolio-item.basch #shot-4 .initial-ideas {
-  margin-top: 96px; }
-  /* line 855, ../scss/index.scss */
-  .portfolio-item.basch #shot-4 .initial-ideas img {
-    margin-bottom: 32px;
-    padding: 16px;
-    max-width: 650px; }
-  /* line 861, ../scss/index.scss */
-  .portfolio-item.basch #shot-4 .initial-ideas #text-idea {
-    max-width: 450px; }
-/* line 866, ../scss/index.scss */
-.portfolio-item.basch #shot-4 p {
-  margin-top: 80px; }
-/* line 873, ../scss/index.scss */
-.portfolio-item.basch #shot-5 .final-result {
-  margin-top: 96px; }
-  /* line 879, ../scss/index.scss */
-  .portfolio-item.basch #shot-5 .final-result:nth-child(3) img {
-    margin-top: 48px;
-    border: 1px solid #ccc; }
-/* line 889, ../scss/index.scss */
-.portfolio-item.pyrohead .project-color {
-  color: #FF3D00; }
-/* line 893, ../scss/index.scss */
-.portfolio-item.pyrohead .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 61, 0, 0.8)), color-stop(100%, rgba(255, 61, 0, 0.8))), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed; }
-  /* line 896, ../scss/index.scss */
-  .portfolio-item.pyrohead .project-jumbotron .project-subtitle {
-    color: #FF3D00; }
-/* line 902, ../scss/index.scss */
+/* line 464, ../scss/index.scss */
 .portfolio-item .project-jumbotron {
   position: relative;
   width: inherit;
   height: 704px; }
+  /* line 469, ../scss/index.scss */
+  .portfolio-item .project-jumbotron > .restrict-container {
+    height: 704px; }
   /* line 21, ../scss/index.scss */
   .portfolio-item .project-jumbotron nav .nav-title a {
     color: #ffffff; }
@@ -2988,49 +2688,354 @@ a#linkedin:hover {
     /* line 39, ../scss/index.scss */
     .portfolio-item .project-jumbotron nav .nav-links > li > a:hover {
       color: #ffffff; }
-  /* line 911, ../scss/index.scss */
+  /* line 505, ../scss/index.scss */
   .portfolio-item .project-jumbotron .project-title {
     color: #fff;
     text-align: left;
     font-weight: 300;
     font-size: 56px;
-    position: relative;
-    top: 456px;
+    position: absolute;
+    bottom: 50px;
     left: 4.16%;
     margin-left: 15px;
     width: 91.66667%; }
-  /* line 923, ../scss/index.scss */
-  .portfolio-item .project-jumbotron .project-subtitle {
-    background: #fff;
-    color: tomato;
-    font-size: 15px;
-    display: inline-block;
+    /* line 516, ../scss/index.scss */
+    .portfolio-item .project-jumbotron .project-title .project-subtitle {
+      background: #fff;
+      color: tomato;
+      font-size: 15px;
+      display: inline-block;
+      position: absolute;
+      display: block;
+      padding: 7px 10px;
+      top: -40px;
+      letter-spacing: 6.5px;
+      font-weight: 500;
+      text-transform: uppercase;
+      width: auto;
+      word-wrap: break-word;
+      white-space: pre-line; }
+/* line 537, ../scss/index.scss */
+.portfolio-item.otwm .project-color {
+  color: #D50000; }
+/* line 541, ../scss/index.scss */
+.portfolio-item.otwm .project-jumbotron {
+  background: -moz-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(213, 0, 0, 0.8)), color-stop(100%, rgba(213, 0, 0, 0.8))), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(213, 0, 0, 0.8) 0%, rgba(213, 0, 0, 0.8) 100%), url("/portfolio/offthewallmedia/offthewallmedia_preview.png") no-repeat 66% 0% fixed; }
+  /* line 544, ../scss/index.scss */
+  .portfolio-item.otwm .project-jumbotron .project-subtitle {
+    color: #D50000; }
+/* line 553, ../scss/index.scss */
+.portfolio-item.otwm #shot-1 .grid .grid__col {
+  margin-bottom: 40px; }
+  /* line 556, ../scss/index.scss */
+  .portfolio-item.otwm #shot-1 .grid .grid__col img {
+    max-width: 221px;
+    margin-bottom: 10px; }
+/* line 563, ../scss/index.scss */
+.portfolio-item.otwm #shot-1 p {
+  margin-top: 56px; }
+/* line 569, ../scss/index.scss */
+.portfolio-item.otwm #shot-2 img {
+  max-height: 79px;
+  width: auto;
+  margin-bottom: 10px; }
+/* line 575, ../scss/index.scss */
+.portfolio-item.otwm #shot-2 ul {
+  margin-top: 32px; }
+/* line 579, ../scss/index.scss */
+.portfolio-item.otwm #shot-2 p {
+  margin-top: 96px; }
+/* line 585, ../scss/index.scss */
+.portfolio-item.otwm #shot-4 .initial-ideas {
+  margin-top: 96px; }
+  /* line 590, ../scss/index.scss */
+  .portfolio-item.otwm #shot-4 .initial-ideas:nth-child(2) img {
+    max-width: 600px; }
+  /* line 595, ../scss/index.scss */
+  .portfolio-item.otwm #shot-4 .initial-ideas p {
+    margin-top: 32px; }
+  /* line 601, ../scss/index.scss */
+  .portfolio-item.otwm #shot-4 .initial-ideas:nth-child(3) img {
+    max-height: none;
+    width: 100%;
+    max-width: 250px; }
+/* line 612, ../scss/index.scss */
+.portfolio-item.otwm #shot-5 .final-result {
+  margin-top: 96px; }
+  /* line 616, ../scss/index.scss */
+  .portfolio-item.otwm #shot-5 .final-result:nth-child(3) {
+    margin-top: 64px; }
+    /* line 620, ../scss/index.scss */
+    .portfolio-item.otwm #shot-5 .final-result:nth-child(3) img {
+      margin-top: 48px;
+      border: 1px solid #ccc;
+      max-width: 300px; }
+/* line 632, ../scss/index.scss */
+.portfolio-item.wikipedia .project-color {
+  color: #424242; }
+/* line 636, ../scss/index.scss */
+.portfolio-item.wikipedia .project-jumbotron {
+  background: -moz-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(66, 66, 66, 0.8)), color-stop(100%, rgba(66, 66, 66, 0.8))), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(66, 66, 66, 0.8) 0%, rgba(66, 66, 66, 0.8) 100%), url("/portfolio/wikipedia/wikipedia_preview.png") no-repeat 66% 0% fixed; }
+  /* line 639, ../scss/index.scss */
+  .portfolio-item.wikipedia .project-jumbotron .project-subtitle {
+    color: #424242; }
+/* line 647, ../scss/index.scss */
+.portfolio-item.wikipedia #shot-1 .grid .grid__col {
+  margin-bottom: 40px; }
+  /* line 650, ../scss/index.scss */
+  .portfolio-item.wikipedia #shot-1 .grid .grid__col img {
+    max-height: 110px;
+    width: auto;
+    margin-bottom: 10px; }
+/* line 658, ../scss/index.scss */
+.portfolio-item.wikipedia #shot-1 p {
+  margin: 56px; }
+/* line 665, ../scss/index.scss */
+.portfolio-item.wikipedia #shot-2 h2 {
+  margin-bottom: 16px; }
+/* line 669, ../scss/index.scss */
+.portfolio-item.wikipedia #shot-2 img {
+  max-height: 79px;
+  width: auto;
+  margin-bottom: 10px;
+  margin-top: 80px; }
+/* line 676, ../scss/index.scss */
+.portfolio-item.wikipedia #shot-2 ul {
+  margin-top: 32px; }
+/* line 680, ../scss/index.scss */
+.portfolio-item.wikipedia #shot-2 p {
+  margin-top: 96px; }
+/* line 686, ../scss/index.scss */
+.portfolio-item.wikipedia #shot-4 .initial-ideas {
+  margin-top: 96px; }
+  /* line 691, ../scss/index.scss */
+  .portfolio-item.wikipedia #shot-4 .initial-ideas:nth-child(3) .grid .grid__col:nth-child(2) {
+    margin-top: 56px; }
+  /* line 697, ../scss/index.scss */
+  .portfolio-item.wikipedia #shot-4 .initial-ideas p {
+    margin-top: 32px; }
+/* line 706, ../scss/index.scss */
+.portfolio-item.tethys-geologic .project-color {
+  color: #263238; }
+/* line 710, ../scss/index.scss */
+.portfolio-item.tethys-geologic .project-jumbotron {
+  background: -moz-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(38, 50, 56, 0.8)), color-stop(100%, rgba(38, 50, 56, 0.8))), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(38, 50, 56, 0.8) 0%, rgba(38, 50, 56, 0.8) 100%), url("/portfolio/tethys-geologic/tethys-geologic_preview.png") no-repeat 66% 0% fixed; }
+  /* line 713, ../scss/index.scss */
+  .portfolio-item.tethys-geologic .project-jumbotron .project-subtitle {
+    color: #263238; }
+/* line 720, ../scss/index.scss */
+.portfolio-item.tethys-geologic #shot-2 .grid .grid__col {
+  padding: 15px 16.5px;
+  -webkit-transition: all ease .25s;
+  -moz-transition: all ease .25s;
+  -o-transition: all ease .25s;
+  transition: all ease .25s; }
+/* line 732, ../scss/index.scss */
+.portfolio-item.tethys-geologic #shot-3 h2 {
+  margin-bottom: 16px; }
+/* line 736, ../scss/index.scss */
+.portfolio-item.tethys-geologic #shot-3 img {
+  max-height: 100px;
+  width: auto;
+  margin-bottom: 10px;
+  margin-top: 80px; }
+/* line 743, ../scss/index.scss */
+.portfolio-item.tethys-geologic #shot-3 ul {
+  margin-top: 32px; }
+/* line 747, ../scss/index.scss */
+.portfolio-item.tethys-geologic #shot-3 p {
+  margin-top: 96px; }
+/* line 753, ../scss/index.scss */
+.portfolio-item.tethys-geologic #shot-5 .initial-ideas {
+  margin-top: 96px; }
+  /* line 757, ../scss/index.scss */
+  .portfolio-item.tethys-geologic #shot-5 .initial-ideas img {
+    margin-bottom: 32px;
+    padding: 16px;
+    max-width: 250px; }
+  /* line 763, ../scss/index.scss */
+  .portfolio-item.tethys-geologic #shot-5 .initial-ideas #text-idea {
+    max-width: 450px; }
+/* line 771, ../scss/index.scss */
+.portfolio-item.tethys-geologic #shot-6 .final-result {
+  margin-top: 96px; }
+  /* line 777, ../scss/index.scss */
+  .portfolio-item.tethys-geologic #shot-6 .final-result:nth-child(3) img {
+    margin-top: 48px;
+    border: 1px solid #ccc; }
+/* line 788, ../scss/index.scss */
+.portfolio-item.line-icons .project-color {
+  color: #52b96e; }
+/* line 792, ../scss/index.scss */
+.portfolio-item.line-icons .project-jumbotron {
+  background: -moz-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(82, 185, 110, 0.8)), color-stop(100%, rgba(82, 185, 110, 0.8))), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(82, 185, 110, 0.8) 0%, rgba(82, 185, 110, 0.8) 100%), url("/portfolio/line-icons/line-icons_preview.png") no-repeat 66% 0% fixed; }
+  /* line 795, ../scss/index.scss */
+  .portfolio-item.line-icons .project-jumbotron .project-subtitle {
+    color: #52b96e; }
+/* line 801, ../scss/index.scss */
+.portfolio-item.line-icons #shot-2 img {
+  max-width: 480px;
+  padding: 64px 64px 16px;
+  margin-bottom: 10px; }
+/* line 807, ../scss/index.scss */
+.portfolio-item.line-icons #shot-2 p {
+  margin-top: 96px; }
+/* line 811, ../scss/index.scss */
+.portfolio-item.line-icons #shot-2 h2:nth-child(4) {
+  margin-top: 80px; }
+/* line 815, ../scss/index.scss */
+.portfolio-item.line-icons #shot-2 h2 {
+  margin-bottom: 48px; }
+/* line 820, ../scss/index.scss */
+.portfolio-item.line-icons .button-container {
+  text-align: center; }
+  /* line 824, ../scss/index.scss */
+  .portfolio-item.line-icons .button-container .button {
+    padding: 12px 15px;
+    background: #52b96e;
+    color: #fff; }
+/* line 833, ../scss/index.scss */
+.portfolio-item.closet-theory .project-color {
+  color: #757575; }
+/* line 837, ../scss/index.scss */
+.portfolio-item.closet-theory .project-jumbotron {
+  background: -moz-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(117, 117, 117, 0.8)), color-stop(100%, rgba(117, 117, 117, 0.8))), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(117, 117, 117, 0.8) 0%, rgba(117, 117, 117, 0.8) 100%), url("/portfolio/closet-theory/closet-theory_preview.png") no-repeat 66% 0% fixed; }
+  /* line 840, ../scss/index.scss */
+  .portfolio-item.closet-theory .project-jumbotron .project-subtitle {
+    color: #757575; }
+/* line 847, ../scss/index.scss */
+.portfolio-item.closet-theory #shot-2 .grid .grid__col:not(.paragraph), .portfolio-item.closet-theory #shot-3 .grid .grid__col:not(.paragraph) {
+  padding: 15px 16.5px;
+  -webkit-transition: all ease .25s;
+  -moz-transition: all ease .25s;
+  -o-transition: all ease .25s;
+  transition: all ease .25s; }
+/* line 858, ../scss/index.scss */
+.portfolio-item.closet-theory #shot-3 img {
+  border: 1px solid #eaeaea; }
+/* line 862, ../scss/index.scss */
+.portfolio-item.closet-theory #shot-3 p {
+  margin-top: 96px; }
+/* line 867, ../scss/index.scss */
+.portfolio-item.closet-theory #shot-3 ul li {
+  text-indent: 5px;
+  text-align: left; }
+  /* line 871, ../scss/index.scss */
+  .portfolio-item.closet-theory #shot-3 ul li:before {
+    content: "-";
     position: relative;
-    padding: 7px 10px;
-    top: 348.8px;
-    left: 4.16%;
-    margin-left: 15px;
-    letter-spacing: 6.5px;
-    font-weight: 500;
-    text-transform: uppercase; }
-/* line 939, ../scss/index.scss */
+    left: -5px; }
+/* line 880, ../scss/index.scss */
+.portfolio-item.closet-theory .button-container {
+  margin-top: 128px;
+  text-align: center; }
+  /* line 884, ../scss/index.scss */
+  .portfolio-item.closet-theory .button-container .button {
+    padding: 12px 15px;
+    background: #757575;
+    color: #fff; }
+/* line 893, ../scss/index.scss */
+.portfolio-item.basch .project-color {
+  color: #FFC107; }
+/* line 897, ../scss/index.scss */
+.portfolio-item.basch .project-jumbotron {
+  background: -moz-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 193, 7, 0.8)), color-stop(100%, rgba(255, 193, 7, 0.8))), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(255, 193, 7, 0.8) 0%, rgba(255, 193, 7, 0.8) 100%), url("/portfolio/basch/basch_preview.png") no-repeat 66% 0% fixed; }
+  /* line 900, ../scss/index.scss */
+  .portfolio-item.basch .project-jumbotron .project-subtitle {
+    color: #FFC107; }
+/* line 907, ../scss/index.scss */
+.portfolio-item.basch #shot-2 .grid .grid__col:not(.paragraph) {
+  padding: 15px 16.5px;
+  -webkit-transition: all ease .25s;
+  -moz-transition: all ease .25s;
+  -o-transition: all ease .25s;
+  transition: all ease .25s; }
+/* line 916, ../scss/index.scss */
+.portfolio-item.basch #shot-2 p {
+  margin-top: 96px; }
+/* line 922, ../scss/index.scss */
+.portfolio-item.basch #shot-4 .initial-ideas {
+  margin-top: 96px; }
+  /* line 926, ../scss/index.scss */
+  .portfolio-item.basch #shot-4 .initial-ideas img {
+    margin-bottom: 32px;
+    padding: 16px;
+    max-width: 650px; }
+  /* line 932, ../scss/index.scss */
+  .portfolio-item.basch #shot-4 .initial-ideas #text-idea {
+    max-width: 450px; }
+/* line 937, ../scss/index.scss */
+.portfolio-item.basch #shot-4 p {
+  margin-top: 80px; }
+/* line 944, ../scss/index.scss */
+.portfolio-item.basch #shot-5 .final-result {
+  margin-top: 96px; }
+  /* line 950, ../scss/index.scss */
+  .portfolio-item.basch #shot-5 .final-result:nth-child(3) img {
+    margin-top: 48px;
+    border: 1px solid #ccc; }
+/* line 960, ../scss/index.scss */
+.portfolio-item.pyrohead .project-color {
+  color: #FF3D00; }
+/* line 964, ../scss/index.scss */
+.portfolio-item.pyrohead .project-jumbotron {
+  background: -moz-linear-gradient(top, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 61, 0, 0.8)), color-stop(100%, rgba(255, 61, 0, 0.8))), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(255, 61, 0, 0.8) 0%, rgba(255, 61, 0, 0.8) 100%), url("/portfolio/pyrohead-gaming/pyrohead-gaming_preview.png") no-repeat 66% 0% fixed; }
+  /* line 967, ../scss/index.scss */
+  .portfolio-item.pyrohead .project-jumbotron .project-subtitle {
+    color: #FF3D00; }
+/* line 973, ../scss/index.scss */
 .portfolio-item .shots-container {
   margin-top: 0; }
-  /* line 942, ../scss/index.scss */
+  /* line 976, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper, .portfolio-item .shots-container .light-wrapper {
     width: 100%; }
-  /* line 946, ../scss/index.scss */
+  /* line 980, ../scss/index.scss */
   .portfolio-item .shots-container .dark-wrapper {
     background: #f8f8f8;
     -webkit-box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 5px 7px -6px rgba(0, 0, 0, 0.2), inset 0 -5px 7px -6px rgba(0, 0, 0, 0.2); }
-  /* line 955, ../scss/index.scss */
+  /* line 989, ../scss/index.scss */
   .portfolio-item .shots-container .shot > .content {
     max-width: 1200px;
     margin: 0px auto;
     padding: 97px 0; }
-  /* line 961, ../scss/index.scss */
+  /* line 995, ../scss/index.scss */
   .portfolio-item .shots-container .shot img {
     width: 100%;
     position: relative;
@@ -3043,7 +3048,7 @@ a#linkedin:hover {
 
 /* media queries */
 @media (min-width: 700px) {
-  /* line 982, ../scss/index.scss */
+  /* line 1016, ../scss/index.scss */
   .portfolio-item.tethys-geologic #shot-2 .grid .grid__col:hover {
     position: relative;
     z-index: 1000;
@@ -3053,7 +3058,7 @@ a#linkedin:hover {
     -moz-transform: scale(1.25);
     transform: scale(1.25); }
 
-  /* line 998, ../scss/index.scss */
+  /* line 1032, ../scss/index.scss */
   .portfolio-item.closet-theory #shot-2 .grid .grid__col:not(.paragraph):hover, .portfolio-item.closet-theory #shot-3 .grid .grid__col:not(.paragraph):hover {
     position: relative;
     z-index: 1000;
@@ -3063,7 +3068,7 @@ a#linkedin:hover {
     -moz-transform: scale(1.25);
     transform: scale(1.25); }
 
-  /* line 1014, ../scss/index.scss */
+  /* line 1048, ../scss/index.scss */
   .portfolio-item.basch #shot-2 .grid .grid__col:not(.paragraph):hover {
     position: relative;
     z-index: 1000;
@@ -3073,12 +3078,12 @@ a#linkedin:hover {
     -moz-transform: scale(1.25);
     transform: scale(1.25); } }
 @media (max-width: 700px) {
-  /* line 1029, ../scss/index.scss */
+  /* line 1063, ../scss/index.scss */
   p {
     padding-left: 10%;
     padding-right: 10%; }
 
-  /* line 1037, ../scss/index.scss */
+  /* line 1071, ../scss/index.scss */
   .portfolio-item.closet-theory #shot-3 .grid__col.paragraph ul {
     padding-left: 10%;
     padding-right: 10%; } }
