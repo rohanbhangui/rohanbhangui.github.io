@@ -2405,10 +2405,10 @@ h2 {
 p {
   width: 100%;
   font-family: "Roboto", 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 22.4px;
+  font-size: 20.8px;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.6);
-  line-height: 1.6;
+  line-height: 1.9;
   text-align: left; }
 
 /* line 171, ../scss/index.scss */
