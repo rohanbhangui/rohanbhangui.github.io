@@ -45,6 +45,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css);
 .grid {
   list-style: none;
   margin-left: 0px; }
@@ -1568,10 +1569,6 @@
   .grid .grid__col--am {
     vertical-align: middle; }
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("/font/FontAwesome/FontAwesome.eot");
-  src: url("/font/FontAwesome/FontAwesome.eot?#iefix") format("embedded-opentype"), url("/font/FontAwesome/FontAwesome.woff") format("woff"), url("/font/FontAwesome/FontAwesome.ttf") format("truetype"), url("/font/FontAwesome/FontAwesome.svg#FontAwesome") format("svg"); }
 /*Montserrat Font family */
 *:not(select) {
   margin: 0;
@@ -1843,6 +1840,8 @@ nav {
       -moz-transition: all ease .25s;
       -o-transition: all ease .25s;
       transition: all ease .25s; }
+      #contact-info .info-line .social-icons.contacts {
+        font-family: "Material-Design-Iconic-Font"; }
 
 a#dribbble:hover {
   color: #ea4c89; }
