@@ -1680,6 +1680,7 @@ nav {
       transition: color ease .25s; }
       nav .nav-title a svg {
         width: auto;
+        max-width: 50px;
         height: 40px; }
         nav .nav-title a svg #stroke {
           fill: rgba(0, 0, 0, 0.25);
@@ -1870,6 +1871,7 @@ a#linkedin:hover {
     height: 40px; }
   .portfolio-item .project-jumbotron nav .nav-title a svg {
     width: auto;
+    max-width: 50px;
     height: 40px; }
     .portfolio-item .project-jumbotron nav .nav-title a svg #stroke {
       fill: #ffffff;
