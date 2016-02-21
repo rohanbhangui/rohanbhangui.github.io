@@ -44,6 +44,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 .grid {
   list-style: none;
   margin-left: 0px; }
@@ -1572,28 +1573,10 @@
   src: url("/font/FontAwesome/FontAwesome.eot");
   src: url("/font/FontAwesome/FontAwesome.eot?#iefix") format("embedded-opentype"), url("/font/FontAwesome/FontAwesome.woff") format("woff"), url("/font/FontAwesome/FontAwesome.ttf") format("truetype"), url("/font/FontAwesome/FontAwesome.svg#FontAwesome") format("svg"); }
 /*Montserrat Font family */
-@font-face {
-  font-family: 'MontserratLocal';
-  src: url("/font/MontserratRegular/MontserratRegular.eot");
-  src: url("/font/MontserratRegular/MontserratRegular.eot?#iefix") format("embedded-opentype"), url("/font/MontserratRegular/MontserratRegular.woff") format("woff"), url("/font/MontserratRegular/MontserratRegular.ttf") format("truetype"), url("/font/MontserratRegular/MontserratRegular.svg#MontserratRegular") format("svg");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: 'MontserratLocal';
-  src: url("/font/MontserratBold/MontserratBold.eot");
-  src: url("/font/MontserratBold/MontserratBold.eot?#iefix") format("embedded-opentype"), url("/font/MontserratBold/MontserratBold.woff") format("woff"), url("/font/MontserratBold/MontserratBold.ttf") format("truetype"), url("/font/MontserratBold/MontserratBold.svg#MontserratBold") format("svg");
-  font-weight: 700;
-  font-style: normal; }
-@font-face {
-  font-family: 'MontserratLocal';
-  src: url("/font/MontserratLight/MontserratLight.eot");
-  src: url("/font/MontserratLight/MontserratLight.eot?#iefix") format("embedded-opentype"), url("/font/MontserratLight/MontserratLight.woff") format("woff"), url("/font/MontserratLight/MontserratLight.ttf") format("truetype"), url("/font/MontserratLight/MontserratLight.svg#MontserratLight") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 *:not(select) {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', 'MontserratLocal', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased; }
