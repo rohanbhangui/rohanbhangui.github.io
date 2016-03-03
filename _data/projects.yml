@@ -30,10 +30,6 @@
   type: project
   url: /portfolio/wikipedia/
 
-- name: Writhem Radio
-  type: project
-  url: /portfolio/writhem-radio/
-
 - name: About
   type: nav
   url: /about/
