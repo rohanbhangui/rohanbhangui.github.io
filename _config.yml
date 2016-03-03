@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Rohan Bhangui's Portfolio
+email: rohan@bhangui.com
+description: > # this means to ignore newlines until "baseurl:"
+  My name is Rohan Bhangui and I am a 20 year old UI Designer &amp; Developer from Toronto
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://rohan.bhangui.com" # the base hostname & protocol for your site
+twitter_username: rbhangui
+github_username:  rohanbhangui
+include: ['portfolio', 'contact', 'about']
+gems:
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown

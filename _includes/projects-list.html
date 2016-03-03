@@ -1,0 +1,9 @@
+<ul id="projects">
+	{% for item in site.data.projects %}
+		{% if item.type contains "project" %}
+			<li class="project">
+				<a href="{{item.url}}">{{item.name}}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
