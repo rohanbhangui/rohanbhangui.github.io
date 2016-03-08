@@ -783,6 +783,11 @@ a#linkedin:hover {
 
         p {
             font-size: 21px;
+
+            @media (max-width: 700px) {
+                padding-left: 0;
+                padding-right: 0;
+            }
         }
 
         .project-color {
@@ -790,7 +795,7 @@ a#linkedin:hover {
         }
 
         .project-jumbotron {
-            @include tinted-image($wikipedia-color, "/portfolio/writhem-radio/writhem-radio-background.png", 0.1);
+            @include tinted-image($wikipedia-color, "/portfolio/writhem-radio/writhem-radio-background.jpg", 0.1);
             @include vendor-prefix(background-size, cover);
             background-position: auto center;
             //background-attachment: scroll;
@@ -861,7 +866,7 @@ a#linkedin:hover {
         }
 
         #shot-3 {
-            @include tinted-image($writhem-radio-color, "/portfolio/writhem-radio/writhem-radio-shot3-background.png", 0.1);
+            @include tinted-image($writhem-radio-color, "/portfolio/writhem-radio/writhem-radio-shot3-background.jpg", 0.1);
             @include vendor-prefix(background-size, cover);
             background-position: auto center;
             background-attachment: scroll;
@@ -911,7 +916,7 @@ a#linkedin:hover {
         }
 
         #shot-5 {
-            @include tinted-image($writhem-radio-color, "/portfolio/writhem-radio/writhem-radio-end-background.png", 0.4);
+            @include tinted-image($writhem-radio-color, "/portfolio/writhem-radio/writhem-radio-end-background.jpg", 0.4);
             @include vendor-prefix(background-size, cover);
             background-position: center center;
             background-attachment: scroll;
