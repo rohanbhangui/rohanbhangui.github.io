@@ -28,6 +28,7 @@ $tethys-color: #263238;
 $line-icons-color: #52b96e;
 $closet-theory-color: #757575;
 $basch-color: #FFC107;
+$writhem-radio-color: #2D5193;
 
 @mixin nav-hero-color($color) {
 
@@ -81,13 +82,21 @@ $basch-color: #FFC107;
     }
 }
 
-@mixin tinted-image($color, $image) {
-    background: -moz-linear-gradient(top, rgba($color, 0.8) 0%, rgba($color, 0.8) 100%), url($image) no-repeat 66% 0% fixed;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba($color, 0.8)), color-stop(100%,rgba($color, 0.8))), url($image) no-repeat 66% 0% fixed;
-    background: -webkit-linear-gradient(top, rgba($color, 0.8) 0%,rgba($color, 0.8) 100%), url($image) no-repeat 66% 0% fixed;
-    background: -o-linear-gradient(top, rgba($color, 0.8) 0%,rgba($color, 0.8) 100%), url($image) no-repeat 66% 0% fixed;
-    background: -ms-linear-gradient(top, rgba($color, 0.8) 0%,rgba($color, 0.8) 100%), url($image) no-repeat 66% 0% ixed;
-    background: linear-gradient(to bottom, rgba($color, 0.8) 0%,rgba($color, 0.8) 100%), url($image) no-repeat 66% 0% fixed;
+@mixin tinted-image($color, $image, $opacity) {
+    background: -moz-linear-gradient(top, rgba($color, $opacity) 0%, rgba($color, $opacity) 100%), url($image) no-repeat 66% 0% fixed;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba($color, $opacity)), color-stop(100%,rgba($color, $opacity))), url($image) no-repeat 66% 0% fixed;
+    background: -webkit-linear-gradient(top, rgba($color, $opacity) 0%,rgba($color, $opacity) 100%), url($image) no-repeat 66% 0% fixed;
+    background: -o-linear-gradient(top, rgba($color, $opacity) 0%,rgba($color, $opacity) 100%), url($image) no-repeat 66% 0% fixed;
+    background: -ms-linear-gradient(top, rgba($color, $opacity) 0%,rgba($color, $opacity) 100%), url($image) no-repeat 66% 0% ixed;
+    background: linear-gradient(to bottom, rgba($color, $opacity) 0%,rgba($color, $opacity) 100%), url($image) no-repeat 66% 0% fixed;
+}
+
+@mixin vendor-prefix($name, $argument) {
+    -webkit-#{$name}: #{$argument};
+    -moz-#{$name}: #{$argument};
+    -ms-#{$name}: #{$argument};
+    -o-#{$name}: #{$argument};
+    #{$name}: #{$argument};
 }
 
 // @font-face {
@@ -603,7 +612,7 @@ a#linkedin:hover {
         }
 
         .project-jumbotron {
-            @include tinted-image($otwm-color, "/portfolio/offthewallmedia/offthewallmedia_preview.png");
+            @include tinted-image($otwm-color, "/portfolio/offthewallmedia/offthewallmedia_preview.png", 0.8);
 
             .project-subtitle {
                 color: $otwm-color;
@@ -698,7 +707,7 @@ a#linkedin:hover {
         }
 
         .project-jumbotron {
-            @include tinted-image($wikipedia-color, "/portfolio/wikipedia/wikipedia_preview.png");
+            @include tinted-image($wikipedia-color, "/portfolio/wikipedia/wikipedia_preview.png", 0.8);
 
             .project-subtitle {
                 color: $wikipedia-color;
@@ -765,6 +774,185 @@ a#linkedin:hover {
         }
     }
 
+    &.writhem-radio {
+
+        h2 {
+            color: rgba(0, 0, 0, 0.75);
+            margin-bottom: (2*$spacing-unit);
+        }
+
+        p {
+            font-size: 21px;
+        }
+
+        .project-color {
+            color: $writhem-radio-color;
+        }
+
+        .project-jumbotron {
+            @include tinted-image($wikipedia-color, "/portfolio/writhem-radio/writhem-radio-background.png", 0.1);
+            @include vendor-prefix(background-size, cover);
+            background-position: auto center;
+            //background-attachment: scroll;
+
+            .project-subtitle {
+                color: white;
+                background: none;
+                padding-left: 0;
+                padding-right: 0;
+                padding-bottom: 0;
+                padding-top: 15px;
+                text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+                opacity: 0;
+            }
+
+            .project-title {
+                text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+                opacity: 0;
+            }
+            
+
+            //menu override
+            nav .nav-links > li > a  {
+                text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        #shot-1 {
+
+            .grid {
+                .grid__col {
+                    margin-bottom: (2.5*$spacing-unit);
+
+                    img {
+                        max-height: 110px;
+                        width: auto;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            p {
+                //margin: (3.5*$spacing-unit);
+            }
+        }
+
+        #shot-2 {
+
+            h2 {
+                margin-bottom: $spacing-unit;
+            }
+
+            img {
+                max-width: 400px;
+                width: 100%;
+                hieght: auto;
+                margin-bottom: 10px;
+                margin-top: 5*$spacing-unit;
+            }
+
+            ul {
+                margin-top: (2*$spacing-unit);
+            }
+
+            p:first-child {
+                margin-top: (1*$spacing-unit);
+            }
+        }
+
+        #shot-3 {
+            @include tinted-image($writhem-radio-color, "/portfolio/writhem-radio/writhem-radio-shot3-background.png", 0.1);
+            @include vendor-prefix(background-size, cover);
+            background-position: auto center;
+            background-attachment: scroll;
+
+            .preview-app {
+                .row {
+
+                    > div {
+                        //padding: 0;
+                        margin-bottom: (2*$spacing-unit);
+
+                        img {
+                            max-width: 400px;
+                            width: 100%;
+                            height: auto;
+
+                            box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                }
+            }
+        }
+
+        #shot-4 {
+
+            h2 {
+                margin-bottom: (3*$spacing-unit);
+            }
+
+            img {
+                max-width: 300px;
+                width: 100%;
+                height: auto;
+            }
+
+            .container-fluid {
+                max-width: 960px;
+                width: 100%;
+            }
+
+            .views-display {
+                > div {
+                    margin-bottom: (4*$spacing-unit);
+                }
+            }
+        }
+
+        #shot-5 {
+            @include tinted-image($writhem-radio-color, "/portfolio/writhem-radio/writhem-radio-end-background.png", 0.4);
+            @include vendor-prefix(background-size, cover);
+            background-position: center center;
+            background-attachment: scroll;
+            text-align: center;
+
+
+            .content {
+                padding: 150px 0;
+            }
+
+
+            .dribbble-button {
+
+                display: inline-block;
+                padding: 15px 25px;
+                background: white;
+                @include vendor-prefix(border-radius, 3px);
+                text-align: center;
+                @include vendor-prefix(transition, all ease 0.3s);
+
+                > * {
+                    vertical-align: middle;
+                }
+
+                .zmdi-dribbble {
+                    font-size: 1.4em;
+                    color: #ea4c89;
+                }
+
+                &:hover {
+                    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.5);
+                }
+
+                &:active {
+                    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.5);
+                }
+
+
+            }
+        }
+    }
+
     &.tethys-geologic {
 
         .project-color {
@@ -772,7 +960,7 @@ a#linkedin:hover {
         }
 
         .project-jumbotron {
-            @include tinted-image($tethys-color, "/portfolio/tethys-geologic/tethys-geologic_preview.png");
+            @include tinted-image($tethys-color, "/portfolio/tethys-geologic/tethys-geologic_preview.png", 0.8);
 
             .project-subtitle {
                 color: $tethys-color;
@@ -854,7 +1042,7 @@ a#linkedin:hover {
         }
 
         .project-jumbotron {
-            @include tinted-image($line-icons-color, "/portfolio/line-icons/line-icons_preview.png");
+            @include tinted-image($line-icons-color, "/portfolio/line-icons/line-icons_preview.png", 0.8);
 
             .project-subtitle {
                 color: $line-icons-color;
@@ -899,7 +1087,7 @@ a#linkedin:hover {
         }
 
         .project-jumbotron {
-            @include tinted-image($closet-theory-color, "/portfolio/closet-theory/closet-theory_preview.png");
+            @include tinted-image($closet-theory-color, "/portfolio/closet-theory/closet-theory_preview.png", 0.8);
 
             .project-subtitle {
                 color: $closet-theory-color;
@@ -963,7 +1151,7 @@ a#linkedin:hover {
         }
 
         .project-jumbotron {
-            @include tinted-image($basch-color, "/portfolio/basch/basch_preview.png");
+            @include tinted-image($basch-color, "/portfolio/basch/basch_preview.png", 0.8);
 
             .project-subtitle {
                 color: $basch-color;
