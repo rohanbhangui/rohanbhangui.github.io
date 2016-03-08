@@ -861,7 +861,7 @@ a#linkedin:hover {
             @include vendor-prefix(background-size, cover);
             background-position: auto center;
             background-attachment: scroll;
-            padding-bottom: 120px;
+            padding-top: 50px;
 
             .preview-app {
                 .row {
@@ -878,6 +878,11 @@ a#linkedin:hover {
                             box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
                         }
                     }
+
+
+                    // .swipebox {
+                    //     opacity: 0;
+                    // }
                 }
             }
         }
