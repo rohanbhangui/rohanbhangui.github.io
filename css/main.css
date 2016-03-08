@@ -4650,15 +4650,19 @@ a#linkedin:hover {
   margin-bottom: 32px; }
 .portfolio-item.writhem-radio p {
   font-size: 21px; }
+  @media (max-width: 700px) {
+    .portfolio-item.writhem-radio p {
+      padding-left: 0;
+      padding-right: 0; } }
 .portfolio-item.writhem-radio .project-color {
   color: #2D5193; }
 .portfolio-item.writhem-radio .project-jumbotron {
-  background: -moz-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(66, 66, 66, 0.1)), color-stop(100%, rgba(66, 66, 66, 0.1))), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
+  background: -moz-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.jpg") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(66, 66, 66, 0.1)), color-stop(100%, rgba(66, 66, 66, 0.1))), url("/portfolio/writhem-radio/writhem-radio-background.jpg") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.jpg") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.jpg") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.jpg") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.jpg") no-repeat 66% 0% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -4698,12 +4702,12 @@ a#linkedin:hover {
 .portfolio-item.writhem-radio #shot-2 p:first-child {
   margin-top: 16px; }
 .portfolio-item.writhem-radio #shot-3 {
-  background: -moz-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(45, 81, 147, 0.1)), color-stop(100%, rgba(45, 81, 147, 0.1))), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
+  background: -moz-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.jpg") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(45, 81, 147, 0.1)), color-stop(100%, rgba(45, 81, 147, 0.1))), url("/portfolio/writhem-radio/writhem-radio-shot3-background.jpg") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.jpg") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.jpg") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.jpg") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.jpg") no-repeat 66% 0% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -4731,12 +4735,12 @@ a#linkedin:hover {
 .portfolio-item.writhem-radio #shot-4 .views-display > div {
   margin-bottom: 64px; }
 .portfolio-item.writhem-radio #shot-5 {
-  background: -moz-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(45, 81, 147, 0.4)), color-stop(100%, rgba(45, 81, 147, 0.4))), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
-  background: -webkit-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
-  background: -o-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
-  background: -ms-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% ixed;
-  background: linear-gradient(to bottom, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
+  background: -moz-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.jpg") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(45, 81, 147, 0.4)), color-stop(100%, rgba(45, 81, 147, 0.4))), url("/portfolio/writhem-radio/writhem-radio-end-background.jpg") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.jpg") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.jpg") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.jpg") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.jpg") no-repeat 66% 0% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
