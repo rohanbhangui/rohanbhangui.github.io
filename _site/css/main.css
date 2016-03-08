@@ -3159,8 +3159,8 @@ a#linkedin:hover {
       -o-transition: all ease 0.3s;
       transition: all ease 0.3s;
       box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
-    .portfolio-item.writhem-radio #shot-3 .preview-app .row > div:hover img:not(:hover) {
-      opacity: 0.5; }
+  .portfolio-item.writhem-radio #shot-3 .preview-app .row:hover > div:not(:hover) img {
+    opacity: 0.5; }
 .portfolio-item.writhem-radio #shot-4 h2 {
   margin-bottom: 48px; }
 .portfolio-item.writhem-radio #shot-4 img {

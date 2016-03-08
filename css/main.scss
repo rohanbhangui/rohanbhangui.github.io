@@ -887,17 +887,15 @@ a#linkedin:hover {
                             //     opacity: 0.5;
                             // }
                         }
+                    }
 
-                        &:hover {
+                    &:hover {
+                        > div:not(:hover) {
                             img {
-                                &:not(:hover) {
-                                    opacity: 0.5;
-                                }
+                                opacity: 0.5;
                             }
                         }
                     }
-
-
 
 
                     // .swipebox {
