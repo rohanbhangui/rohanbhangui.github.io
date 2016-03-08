@@ -835,6 +835,8 @@ a#linkedin:hover {
 
         #shot-2 {
 
+            margin-bottom: 100px;
+
             h2 {
                 margin-bottom: $spacing-unit;
             }
@@ -863,6 +865,10 @@ a#linkedin:hover {
             background-attachment: scroll;
             padding-top: 50px;
 
+            .row img {
+                opacity: 1;
+            }
+
             .preview-app {
                 .row {
 
@@ -874,10 +880,24 @@ a#linkedin:hover {
                             max-width: 400px;
                             width: 100%;
                             height: auto;
-
+                            @include vendor-prefix(transition, all ease 0.3s);
                             box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
+                            // &:not(:hover) {
+                            //     opacity: 0.5;
+                            // }
+                        }
+
+                        &:hover {
+                            img {
+                                &:not(:hover) {
+                                    opacity: 0.5;
+                                }
+                            }
                         }
                     }
+
+
 
 
                     // .swipebox {
