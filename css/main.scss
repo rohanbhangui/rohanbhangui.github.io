@@ -865,6 +865,7 @@ a#linkedin:hover {
             @include vendor-prefix(background-size, cover);
             background-position: auto center;
             background-attachment: scroll;
+            padding-bottom: 120px;
 
             .preview-app {
                 .row {
