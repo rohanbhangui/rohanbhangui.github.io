@@ -3110,12 +3110,6 @@ a#linkedin:hover {
     opacity: 0; }
   .portfolio-item.writhem-radio .project-jumbotron nav .nav-links > li > a {
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.5); }
-.portfolio-item.writhem-radio #shot-1 .grid .grid__col {
-  margin-bottom: 40px; }
-  .portfolio-item.writhem-radio #shot-1 .grid .grid__col img {
-    max-height: 110px;
-    width: auto;
-    margin-bottom: 10px; }
 .portfolio-item.writhem-radio #shot-2 {
   margin-bottom: 100px; }
   .portfolio-item.writhem-radio #shot-2 h2 {
@@ -3126,6 +3120,14 @@ a#linkedin:hover {
     hieght: auto;
     margin-bottom: 10px;
     margin-top: 80px; }
+  .portfolio-item.writhem-radio #shot-2 .row > div {
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s; }
+  .portfolio-item.writhem-radio #shot-2 .row:hover > div:not(:hover) {
+    opacity: 0.5; }
   .portfolio-item.writhem-radio #shot-2 ul {
     margin-top: 32px; }
   .portfolio-item.writhem-radio #shot-2 p:first-child {
