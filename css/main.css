@@ -4710,7 +4710,8 @@ a#linkedin:hover {
   -o-background-size: cover;
   background-size: cover;
   background-position: auto center;
-  background-attachment: scroll; }
+  background-attachment: scroll;
+  padding-bottom: 120px; }
   .portfolio-item.writhem-radio #shot-3 .preview-app .row > div {
     margin-bottom: 32px; }
     .portfolio-item.writhem-radio #shot-3 .preview-app .row > div img {
