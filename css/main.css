@@ -46,6 +46,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
@@ -2609,7 +2610,7 @@ html.swipebox-html.swipebox-touch {
 /* Skin 
 --------------------------*/
 #swipebox-overlay {
-  background: rgba(0, 0, 0, 0.5); }
+  background: rgba(0, 0, 0, 0.75); }
 
 #swipebox-bottom-bar,
 #swipebox-top-bar {
@@ -4644,6 +4645,131 @@ a#linkedin:hover {
     margin-top: 56px; }
   .portfolio-item.wikipedia #shot-4 .initial-ideas p {
     margin-top: 32px; }
+.portfolio-item.writhem-radio h2 {
+  color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 32px; }
+.portfolio-item.writhem-radio p {
+  font-size: 21px; }
+.portfolio-item.writhem-radio .project-color {
+  color: #2D5193; }
+.portfolio-item.writhem-radio .project-jumbotron {
+  background: -moz-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(66, 66, 66, 0.1)), color-stop(100%, rgba(66, 66, 66, 0.1))), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(66, 66, 66, 0.1) 0%, rgba(66, 66, 66, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-background.png") no-repeat 66% 0% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: auto center; }
+  .portfolio-item.writhem-radio .project-jumbotron .project-subtitle {
+    color: white;
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 15px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    opacity: 0; }
+  .portfolio-item.writhem-radio .project-jumbotron .project-title {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    opacity: 0; }
+  .portfolio-item.writhem-radio .project-jumbotron nav .nav-links > li > a {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5); }
+.portfolio-item.writhem-radio #shot-1 .grid .grid__col {
+  margin-bottom: 40px; }
+  .portfolio-item.writhem-radio #shot-1 .grid .grid__col img {
+    max-height: 110px;
+    width: auto;
+    margin-bottom: 10px; }
+.portfolio-item.writhem-radio #shot-2 h2 {
+  margin-bottom: 16px; }
+.portfolio-item.writhem-radio #shot-2 img {
+  max-width: 400px;
+  width: 100%;
+  hieght: auto;
+  margin-bottom: 10px;
+  margin-top: 80px; }
+.portfolio-item.writhem-radio #shot-2 ul {
+  margin-top: 32px; }
+.portfolio-item.writhem-radio #shot-2 p:first-child {
+  margin-top: 16px; }
+.portfolio-item.writhem-radio #shot-3 {
+  background: -moz-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(45, 81, 147, 0.1)), color-stop(100%, rgba(45, 81, 147, 0.1))), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(45, 81, 147, 0.1) 0%, rgba(45, 81, 147, 0.1) 100%), url("/portfolio/writhem-radio/writhem-radio-shot3-background.png") no-repeat 66% 0% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: auto center;
+  background-attachment: scroll; }
+  .portfolio-item.writhem-radio #shot-3 .preview-app .row > div {
+    margin-bottom: 32px; }
+    .portfolio-item.writhem-radio #shot-3 .preview-app .row > div img {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
+.portfolio-item.writhem-radio #shot-4 h2 {
+  margin-bottom: 48px; }
+.portfolio-item.writhem-radio #shot-4 img {
+  max-width: 300px;
+  width: 100%;
+  height: auto; }
+.portfolio-item.writhem-radio #shot-4 .container-fluid {
+  max-width: 960px;
+  width: 100%; }
+.portfolio-item.writhem-radio #shot-4 .views-display > div {
+  margin-bottom: 64px; }
+.portfolio-item.writhem-radio #shot-5 {
+  background: -moz-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(45, 81, 147, 0.4)), color-stop(100%, rgba(45, 81, 147, 0.4))), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
+  background: -webkit-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
+  background: -o-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
+  background: -ms-linear-gradient(top, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% ixed;
+  background: linear-gradient(to bottom, rgba(45, 81, 147, 0.4) 0%, rgba(45, 81, 147, 0.4) 100%), url("/portfolio/writhem-radio/writhem-radio-end-background.png") no-repeat 66% 0% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+  text-align: center; }
+  .portfolio-item.writhem-radio #shot-5 .content {
+    padding: 150px 0; }
+  .portfolio-item.writhem-radio #shot-5 .dribbble-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s; }
+    .portfolio-item.writhem-radio #shot-5 .dribbble-button > * {
+      vertical-align: middle; }
+    .portfolio-item.writhem-radio #shot-5 .dribbble-button .zmdi-dribbble {
+      font-size: 1.4em;
+      color: #ea4c89; }
+    .portfolio-item.writhem-radio #shot-5 .dribbble-button:hover {
+      box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.5); }
+    .portfolio-item.writhem-radio #shot-5 .dribbble-button:active {
+      box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.5); }
 .portfolio-item.tethys-geologic .project-color {
   color: #263238; }
 .portfolio-item.tethys-geologic .project-jumbotron {
