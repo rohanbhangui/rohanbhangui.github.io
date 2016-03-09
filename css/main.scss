@@ -788,7 +788,7 @@ a#linkedin:hover {
         .project-jumbotron {
             @include tinted-image($wikipedia-color, "/portfolio/writhem-radio/writhem-radio-background.jpg", 0.1);
             @include vendor-prefix(background-size, cover);
-            background-position: auto center;
+            background-position: center center;
             //background-attachment: scroll;
 
             .project-subtitle {
@@ -816,7 +816,7 @@ a#linkedin:hover {
 
         #shot-1 {
 
-            padding-top: 8 * $spacing-unit;
+            padding-top: 6 * $spacing-unit;
 
         }
 
@@ -937,7 +937,7 @@ a#linkedin:hover {
             }
 
             h2 {
-                margin-bottom: (10*$spacing-unit);
+                margin-bottom: (8*$spacing-unit);
             }
 
             img {
