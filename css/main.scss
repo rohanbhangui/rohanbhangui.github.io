@@ -816,6 +816,8 @@ a#linkedin:hover {
 
         #shot-1 {
 
+            padding-top: 8 * $spacing-unit;
+
         }
 
         #shot-2 {
@@ -923,14 +925,26 @@ a#linkedin:hover {
 
         #shot-4 {
 
+            padding-top: 5 * $spacing-unit;
+
+            h3 {
+                font-family: "Roboto", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 1.8em;
+                font-weight: 400;
+                color: rgba(0, 0, 0, 0.7);
+                text-align: left;
+
+            }
+
             h2 {
-                margin-bottom: (3*$spacing-unit);
+                margin-bottom: (10*$spacing-unit);
             }
 
             img {
                 max-width: 300px;
                 width: 100%;
                 height: auto;
+                margin-bottom: 2 * $spacing-unit;
             }
 
             .container-fluid {
@@ -939,9 +953,7 @@ a#linkedin:hover {
             }
 
             .views-display {
-                > div {
-                    margin-bottom: (4*$spacing-unit);
-                }
+                margin-bottom: (10*$spacing-unit);
             }
         }
 
