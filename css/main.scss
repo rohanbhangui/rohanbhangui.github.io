@@ -837,13 +837,27 @@ a#linkedin:hover {
 
             .row {
 
-                > div {
+                & > div {
                     @include vendor-prefix(transition, all ease 0.3s);
+
+                    img {
+                        @include vendor-prefix(transition, all ease 0.3s);
+
+                    }
                 }
 
                 &:hover {
-                    > div:not(:hover) {
-                        opacity: 0.5;
+                    & > div {
+                        &:not(:hover) {
+                            opacity: 0.35;
+                            @include vendor-prefix(transform, scale(0.9));
+                        }
+
+                        &:hover {
+                            img {
+                                box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+                            }
+                        }
                     }
                 }
             }
@@ -871,27 +885,30 @@ a#linkedin:hover {
             .preview-app {
                 .row {
 
-                    > div {
-                        //padding: 0;
+                    & > div {
                         margin-bottom: (2*$spacing-unit);
+                        @include vendor-prefix(transition, all ease 0.3s);
 
                         img {
+                            @include vendor-prefix(transition, all ease 0.3s);
                             max-width: 400px;
                             width: 100%;
                             height: auto;
-                            @include vendor-prefix(transition, all ease 0.3s);
                             box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-
-                            // &:not(:hover) {
-                            //     opacity: 0.5;
-                            // }
                         }
                     }
 
                     &:hover {
-                        > div:not(:hover) {
-                            img {
-                                opacity: 0.5;
+                        & > div {
+                            &:not(:hover) {
+                                opacity: 0.35;
+                                @include vendor-prefix(transform, scale(0.9));
+                            }
+
+                            &:hover {
+                                img {
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+                                }
                             }
                         }
                     }
