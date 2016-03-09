@@ -837,7 +837,7 @@ a#linkedin:hover {
             }
 
 
-            .row {
+            .row.sample-apps {
 
                 & > div {
                     @include vendor-prefix(transition, all ease 0.3s);
