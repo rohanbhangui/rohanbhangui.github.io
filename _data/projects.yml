@@ -2,13 +2,13 @@
   type: nav
   url: /portfolio/
 
+- name: Writhem Radio
+  type: project
+  url: /portfolio/writhem-radio/
+
 - name: Basche Interior Design
   type: project
   url: /portfolio/basch/
-
-- name: Get Highered
-  type: project
-  url: http://www.gethighered.ca/
 
 - name: Line Icons
   type: project
@@ -29,10 +29,6 @@
 - name: Wikipedia
   type: project
   url: /portfolio/wikipedia/
-
-- name: Writhem Radio
-  type: project
-  url: /portfolio/writhem-radio/
 
 - name: About
   type: nav
