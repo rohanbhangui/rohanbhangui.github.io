@@ -20,6 +20,7 @@ $line-icons-color: #52b96e;
 $closet-theory-color: #757575;
 $basch-color: #FFC107;
 $writhem-radio-color: #2D5193;
+$youtube-magazine-color: #D92632;
 
 @mixin nav-hero-color($color) {
 
@@ -1304,58 +1305,7 @@ a#linkedin:hover {
     }
 }
 
-
-// /* media queries */ 
-
-// @media (min-width: 700px) {
-//     .portfolio-item.tethys-geologic {
-//         #shot-2 {
-//             .grid {
-//                 .grid__col:hover {
-
-//                     z-index: 1000;
-//                     -ms-transform: scale(1.25);
-//                     -webkit-transform: scale(1.25);
-//                     -o-transform: scale(1.25);
-//                     -moz-transform: scale(1.25);
-//                     transform: scale(1.25); 
-//                 }
-//             }
-//         }
-//     }
-
-//     .portfolio-item.closet-theory {
-//         #shot-2, #shot-3 {
-//             .grid {
-//                 .grid__col:not(.paragraph):hover {
-//                     position: relative;
-//                     z-index: 1000;
-//                     -ms-transform: scale(1.25);
-//                     -webkit-transform: scale(1.25);
-//                     -o-transform: scale(1.25);
-//                     -moz-transform: scale(1.25);
-//                     transform: scale(1.25); 
-//                 }
-//             }
-//         }
-//     }
-
-//     .portfolio-item.basch {
-//         #shot-2 {
-//             .grid {
-//                 .grid__col:not(.paragraph):hover {
-//                     position: relative;
-//                     z-index: 1000;
-//                     -ms-transform: scale(1.25);
-//                     -webkit-transform: scale(1.25);
-//                     -o-transform: scale(1.25);
-//                     -moz-transform: scale(1.25);
-//                     transform: scale(1.25); 
-//                 }
-//             }
-//         }
-//     }
-// }
+@import 'youtube-magazine';
 
 @media (max-width: 700px) {
     p {
