@@ -15,8 +15,11 @@ url: "http://rohan.bhangui.com" # the base hostname & protocol for your site
 twitter_username: rbhangui
 github_username:  rohanbhangui
 include: ['portfolio', 'contact', 'about']
+exclude: [vendor]
 gems:
   - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
+
+
