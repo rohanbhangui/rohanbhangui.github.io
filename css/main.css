@@ -3408,6 +3408,23 @@ a#linkedin:hover {
     -o-transform: translateX(-50%);
     transform: translateX(-50%); }
 
+.youtube-magazine {
+  height: 20000px; }
+  .youtube-magazine .hero-section {
+    min-height: 800px;
+    background: #D92632;
+    position: relative; }
+    .youtube-magazine .hero-section img {
+      width: 256px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -o-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%); }
+
 @media (max-width: 700px) {
   p {
     padding-left: 10%;
