@@ -2,10 +2,6 @@
   type: nav
   url: /portfolio/
 
-- name: YouTube Magazine
-  type: project
-  url: /portfolio/youtube-magazine/
-
 - name: Writhem Radio
   type: project
   url: /portfolio/writhem-radio/
