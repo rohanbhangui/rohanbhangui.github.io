@@ -1328,7 +1328,8 @@ a#linkedin:hover {
 // for the new intro to site
 
 .intro-container {
-  min-height: 100vh;
+  border: 1px solid red;
+  min-height: calc(100vh - 4rem);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -1353,5 +1354,18 @@ a#linkedin:hover {
         text-decoration: underline;
       }
     }
+  }
+  
+  + .social {
+     height: 4rem;
+     text-align: center;
+     padding: 1.35rem 0;
+     
+     a {
+       display: inline-block;
+       color: black;
+       font-size: 1.3rem;
+       margin: 0 0.1rem;
+     }
   }
 }
