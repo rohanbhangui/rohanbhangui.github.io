@@ -1324,3 +1324,22 @@ a#linkedin:hover {
         }
     }
 }
+
+// for the new intro to site
+
+.intro {
+  font-family: 'Inter';
+  line-height: 1.35;
+  
+  strong, .strong {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
