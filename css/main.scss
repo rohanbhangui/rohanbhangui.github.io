@@ -100,6 +100,14 @@ $youtube-magazine-color: #D92632;
 //     url('/font/FontAwesome/FontAwesome.svg#FontAwesome') format('svg');
 // }
 
+@font-face {
+  font-family: "color-emoji";
+  src: local("Apple Color Emoji"),
+       local("Segoe UI Emoji"), 
+       local("Segoe UI Symbol"),
+       local("Noto Color Emoji");
+}
+
 /*Montserrat Font family */
 
 @font-face {
@@ -1347,6 +1355,10 @@ a#linkedin:hover {
       font-size: 1.8rem;
       color: black;
       line-height: 1.35;
+    }
+	  
+    .emoji {
+    	font-family: sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
     }
 
     strong, .strong {
