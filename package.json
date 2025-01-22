@@ -1,0 +1,17 @@
+{
+  "name": "rohan-bhangui-personal-site",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel && cp ./static ./dist/",
+    "build": "parcel build && cp ./static ./dist/"
+  },
+  "devDependencies": {
+    "@parcel/compressor-brotli": "^2.13.3",
+    "@parcel/compressor-gzip": "^2.13.3",
+    "@parcel/packager-raw-url": "2.13.3",
+    "@parcel/transformer-sass": "2.13.3",
+    "@parcel/transformer-webmanifest": "2.13.3",
+    "parcel": "^2.13.3"
+  }
+}
